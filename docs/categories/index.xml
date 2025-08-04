@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Adrians Hall</title>
-    <link>http://AdriansHall.github.io/categories/</link>
-    <description>Recent content in Categories on Adrians Hall</description>
+    <title>Categories on Adrian de Lima | Musician</title>
+    <link>http://AdriandeLima.github.io/categories/</link>
+    <description>Recent content in Categories on Adrian de Lima | Musician</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Aug 2025 13:29:30 +0000</lastBuildDate><atom:link href="http://AdriansHall.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Aug 2025 13:29:30 +0000</lastBuildDate><atom:link href="http://AdriandeLima.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>News</title>
-      <link>http://AdriansHall.github.io/categories/news/</link>
+      <link>http://AdriandeLima.github.io/categories/news/</link>
       <pubDate>Mon, 04 Aug 2025 13:29:30 +0000</pubDate>
       
-      <guid>http://AdriansHall.github.io/categories/news/</guid>
+      <guid>http://AdriandeLima.github.io/categories/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music Videos</title>
-      <link>http://AdriansHall.github.io/categories/music-videos/</link>
+      <link>http://AdriandeLima.github.io/categories/music-videos/</link>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://AdriansHall.github.io/categories/music-videos/</guid>
+      <guid>http://AdriandeLima.github.io/categories/music-videos/</guid>
       <description></description>
     </item>
     

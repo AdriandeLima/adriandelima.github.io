@@ -1,13 +1,13 @@
-baseURL = 'http://AdriansHall.github.io'
+baseURL = 'http://AdriandeLima.github.io'
 languageCode = 'en-gb'
-title = 'Adrians Hall'
+title = 'Adrian de Lima | Musician'
 theme = 'aafu'
 publishDir = 'docs'
 
 [params]
-    title = "Adrian's Hall"
+    title = "Adrian de Lima | Musician"
     author = "Adrian de Lima"
-    description = "Adrian's Hall"
+    description = "Adrian de Lima's music projects"
     copyright = "rights reserved"
 
     [params.theme]
