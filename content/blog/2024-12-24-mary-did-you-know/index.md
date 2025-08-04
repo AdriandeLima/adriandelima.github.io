@@ -6,9 +6,10 @@ preview: ""
 draft: false
 tags:
     - Kevin
-    - YouTube
     - Somerset
     - UK
+    - YouTube
+    - Christmas
 categories:
     - Music Videos
 ---
@@ -71,7 +72,9 @@ Is the great I am
 
 ## Featured comments
 
-> Many thanks to @kevindelima5713 for working on this project with me. Check out our other Christmas moosic (from the last couple of years) here https://youtube.com/playlist?list=PL_mdQGleTrdjFSLJPEGyckg5KZoqG1w_W&si=QLQx7VIPmmCkvUIy
+> Many thanks to [@kevindelima5713] for working on this project with me. Check out our other Christmas moosic (from the last couple of years) here https://youtube.com/playlist?list=PL_mdQGleTrdjFSLJPEGyckg5KZoqG1w_W&si=QLQx7VIPmmCkvUIy
 > 
 > Mery Christmas 2024 all!
 > \- Adrian de Lima, 24 Dec 2024, YouTube
+
+[@kevindelima5713]: https://www.youtube.com/@kevvocello/videos
