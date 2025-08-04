@@ -2,7 +2,7 @@
 title: Wylde Green Concert
 description: An evening of concert featuring Lalo & Bridge by Adrian de Lima and Toby Baker
 date: 2025-07-30
-preview: ""
+preview: Wylde Green Concert [biGn7NGZfX8].webp
 draft: false
 tags:
     - Adrian

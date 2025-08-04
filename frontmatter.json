@@ -58,15 +58,10 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "home",
-      "path": "[[workspace]]",
-      "previewPath": "/",
-      "trailingSlash": true
-    },
-    {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
-      "previewPath": "/blog/{{slug}}",
+      "previewPath": "/blog/{{slug}}", 
+      //"previewPath": "blog", // Prefixes all files with "/blog/" for the page preview
       "trailingSlash": true
     }
   ],
@@ -78,5 +73,4 @@
       "value": "{{slug}}"
     }
   ]
-
 }
