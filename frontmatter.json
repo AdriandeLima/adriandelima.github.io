@@ -3,7 +3,7 @@
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "pageBundle": false,
+      "pageBundle": true,
       "previewPath": null,
       "fields": [
         {
@@ -51,8 +51,8 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "content",
-      "path": "[[workspace]]/content"
+      "title": "blog",
+      "path": "[[workspace]]/content/blog"
     }
   ],
   "frontMatter.git.enabled": true
