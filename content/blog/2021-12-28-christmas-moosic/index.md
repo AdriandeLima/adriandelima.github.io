@@ -2,7 +2,7 @@
 title: Christmas Moosic
 description: Christmas 2021 concert
 date: 2021-12-28
-preview: ""
+preview: Christmas moosic [QRuYzWxLWAY].webp
 draft: false
 tags:
     - Kevin

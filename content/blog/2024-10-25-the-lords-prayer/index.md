@@ -1,9 +1,15 @@
 ---
-title: "The Lord's Prayer music video"
+title: The Lord's Prayer music video
 date: 2024-10-25
-tags: ["Neusymar", "YouTube", "Republished", "Somerset", "UK"]
-categories: ["Music Videos"]
-description: "A music video of The Lord's Prayer"
+tags:
+    - Neusymar
+    - YouTube
+    - Republished
+    - Somerset
+    - UK
+categories:
+    - Music Videos
+description: A music video of The Lord's Prayer
 draft: false
 ---
 

@@ -11,6 +11,13 @@
           "name": "title",
           "type": "string"
         },
+        /*{
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "editable": true,
+          "default": "{{slug}}"
+        },*/
         {
           "title": "Description",
           "name": "description",
@@ -64,11 +71,12 @@
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.taxonomy.slugTemplate": "{{date|yyyy-MM-dd}}-{{title}}",
+  "frontMatter.taxonomy.slugTemplate": "{{date|yyyy-MM-dd}}-{{seoTitle}}",
   "frontMatter.content.placeholders": [
     {
       "id": "slug",
       "value": "{{slug}}"
     }
   ]
+
 }
