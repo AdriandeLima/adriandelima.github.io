@@ -1,6 +1,6 @@
-# [AdriansHall.github.io](http://AdriansHall.github.io)
+# [AdriandeLima.github.io](http://adriandelima.github.io)
 
-A website for my portfolio of projects, musical and otherwise.
+Github Pages website for my musical profile. A website for my portfolio of projects, musical and otherwise.
 
 Powered by [Hugo v118.1] and [Aafu] (pre-TailwindCSS)
 
