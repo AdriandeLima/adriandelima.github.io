@@ -9,6 +9,9 @@ tags:
     - Somerset
     - UK
     - Christmas
+    - Republished
+    - Concerts
+    - Covid-19
 categories:
     - Music Videos
 ---

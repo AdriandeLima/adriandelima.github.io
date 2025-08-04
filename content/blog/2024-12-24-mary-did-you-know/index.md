@@ -10,6 +10,7 @@ tags:
     - UK
     - YouTube
     - Christmas
+    - Republished
 categories:
     - Music Videos
 ---

@@ -8,6 +8,10 @@ tags:
     - Christmas
     - Kevin
     - YouTube
+    - Republished
+    - Concerts
+    - Somerset
+    - UK
 categories:
     - Music Videos
 ---
