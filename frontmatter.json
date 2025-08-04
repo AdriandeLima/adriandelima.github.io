@@ -51,10 +51,24 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
+      "title": "home",
+      "path": "[[workspace]]",
+      "previewPath": "/",
+      "trailingSlash": true
+    },
+    {
       "title": "blog",
-      "path": "[[workspace]]/content/blog"
+      "path": "[[workspace]]/content/blog",
+      "previewPath": "/blog/{{slug}}",
+      "trailingSlash": true
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.preview.host": "http://localhost:1313/blog/"
+  "frontMatter.taxonomy.slugTemplate": "{{date|yyyy-MM-dd}}-{{title}}",
+  "frontMatter.content.placeholders": [
+    {
+      "id": "slug",
+      "value": "{{slug}}"
+    }
+  ]
 }
