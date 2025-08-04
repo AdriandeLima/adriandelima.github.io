@@ -55,5 +55,6 @@
       "path": "[[workspace]]/content/blog"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.preview.host": "http://localhost:1313/blog/"
 }
