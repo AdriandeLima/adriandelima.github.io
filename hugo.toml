@@ -3,6 +3,7 @@ languageCode = 'en-gb'
 title = 'Adrian de Lima | Musician'
 theme = 'aafu'
 publishDir = 'docs'
+paginate = 20
 
 [params]
     title = "Adrian de Lima | Musician"
@@ -20,12 +21,22 @@ publishDir = 'docs'
     [params.favicons]
         use = false
         metas = '''
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="icon" type="image/jpg" href="favicon.jpg" sizes="160x160" />
         <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ed3d3d">
         <link rel="shortcut icon" href="favicon.ico">
+        <meta name="application-name" content="Adrian\'s Music"/>
+        <meta name="msapplication-TileColor" content="#ed3d3d" />
+        <meta name="msapplication-square70x70logo" content="mstile-70x70.png" /> <!-- small -->
+        <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+        <meta name="msapplication-square150x150logo" content="mstile-150x150.png" /> <!-- medium -->
+        <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" /> <!-- wide -->
+        <meta name="msapplication-square310x310logo" content="mstile-310x310.png" /> <!-- large -->
+        <meta name="msapplication-config" content="none"/>
         '''
 
     # Profile section
@@ -53,6 +64,11 @@ publishDir = 'docs'
             icon = "fab fa-youtube"
             url = "https://www.youtube.com/@AdriandeLima/videos"
             title = "Youtube"
+            
+        [[params.social.list]]
+            icon = "fab fa-instagram"
+            url = "https://www.instagram.com/adriandelima.music"
+            title = "Instagram"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]

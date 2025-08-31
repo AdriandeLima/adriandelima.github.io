@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1 class="standard top-h1 mb-3 {{ if eq .Kind "term" }}font-italic{{ end }}">{{ if eq .Kind "term" }}#{{ end }}{{- .Title -}}</h1>
-{{ range $key, $val := (.Paginator 10).Pages }}
+{{ range $key, $val := (.Paginator ).Pages }}
 <h3 class="d-flex flex-row align-items-start accordion mb-2 {{ if eq $key 0 }}active{{ end }}">
   <span onclick="expandAccordion(this)" class="expand-metadata"></span>
   <a href="{{ .Permalink | relURL }}"> {{- .Title -}} </a>
