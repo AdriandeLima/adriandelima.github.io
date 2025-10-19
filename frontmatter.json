@@ -11,13 +11,6 @@
           "name": "title",
           "type": "string"
         },
-        /*{
-          "title": "Slug",
-          "name": "slug",
-          "type": "slug",
-          "editable": true,
-          "default": "{{slug}}"
-        },*/
         {
           "title": "Description",
           "name": "description",
@@ -60,8 +53,7 @@
     {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
-      "previewPath": "/blog/{{slug}}", 
-      //"previewPath": "blog", // Prefixes all files with "/blog/" for the page preview
+      "previewPath": "/blog/{{slug}}",
       "trailingSlash": true
     }
   ],
@@ -72,5 +64,6 @@
       "id": "slug",
       "value": "{{slug}}"
     }
-  ]
+  ],
+  "frontMatter.dashboard.openOnStart": true
 }
