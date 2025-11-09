@@ -2,7 +2,7 @@
 
 Github Pages website for my musical profile. A website for my portfolio of projects, musical and otherwise.
 
-Powered by [Hugo v118.1] and [Aafu] (pre-TailwindCSS)
+Powered by [Hugo v152.2] and [Blowfish] 
 
-[Hugo v118.1]: https://github.com/gohugoio/hugo/releases/tag/v0.118.1
-[Aafu]: https://github.com/darshanbaral/aafu/tree/9e832459980f519397d5bd498042c54b38fedc96
+[Hugo v152.2]: https://github.com/gohugoio/hugo/releases/tag/v0.152.2
+[Blowfish]: https://github.com/nunocoracao/blowfish/releases/tag/v2.92.0
