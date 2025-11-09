@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Piano on Adrian de Lima</title>
-    <link>http://localhost:1313/tags/piano/</link>
+    <link>https://adriandelima.github.io/tags/piano/</link>
     <description>Recent content in Piano on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2025</copyright>
-    <lastBuildDate>Mon, 16 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/piano/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://adriandelima.github.io/tags/piano/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Francis Poulenc: Novelette in C Major</title>
-      <link>http://localhost:1313/posts/2017-01-16-francis-poulenc/</link>
+      <link>https://adriandelima.github.io/posts/2017-01-16-francis-poulenc/</link>
       <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2017-01-16-francis-poulenc/</guid>
+      <guid>https://adriandelima.github.io/posts/2017-01-16-francis-poulenc/</guid>
       <description></description>
       
     </item>

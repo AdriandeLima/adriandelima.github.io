@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Adrian de Lima</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://adriandelima.github.io/categories/</link>
     <description>Recent content in Categories on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2025</copyright>
-    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://adriandelima.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Music Videos</title>
-      <link>http://localhost:1313/categories/music-videos/</link>
+      <link>https://adriandelima.github.io/categories/music-videos/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/categories/music-videos/</guid>
+      <guid>https://adriandelima.github.io/categories/music-videos/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>News</title>
-      <link>http://localhost:1313/categories/news/</link>
+      <link>https://adriandelima.github.io/categories/news/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/categories/news/</guid>
+      <guid>https://adriandelima.github.io/categories/news/</guid>
       <description></description>
       
     </item>

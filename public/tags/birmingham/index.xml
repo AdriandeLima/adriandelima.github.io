@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Birmingham on Adrian de Lima</title>
-    <link>http://localhost:1313/tags/birmingham/</link>
+    <link>https://adriandelima.github.io/tags/birmingham/</link>
     <description>Recent content in Birmingham on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2025</copyright>
-    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/birmingham/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://adriandelima.github.io/tags/birmingham/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Moon River</title>
-      <link>http://localhost:1313/posts/2025-08-29-moon-river/</link>
+      <link>https://adriandelima.github.io/posts/2025-08-29-moon-river/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2025-08-29-moon-river/</guid>
+      <guid>https://adriandelima.github.io/posts/2025-08-29-moon-river/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Wylde Green Concert</title>
-      <link>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</link>
+      <link>https://adriandelima.github.io/posts/2025-08-04-wylde-green-concert/</link>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</guid>
+      <guid>https://adriandelima.github.io/posts/2025-08-04-wylde-green-concert/</guid>
       <description></description>
       
     </item>
