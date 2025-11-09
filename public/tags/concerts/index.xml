@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concerts on Adrian de Lima</title>
+    <link>http://localhost:1313/tags/concerts/</link>
+    <description>Recent content in Concerts on Adrian de Lima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
+    <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
+    <copyright>&amp;copy; Adrian de Lima 2025</copyright>
+    <lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/concerts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Wylde Green Concert</title>
+      <link>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Christmas Moosic &#39;23</title>
+      <link>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Christmas Moosic</title>
+      <link>http://localhost:1313/posts/2021-12-28-christmas-moosic/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2021-12-28-christmas-moosic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jaime Jorge concert collaboration (2019)</title>
+      <link>http://localhost:1313/posts/2019-10-19-jaime-jorge/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-10-19-jaime-jorge/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>June 2019 Concert</title>
+      <link>http://localhost:1313/posts/2019-10-17-june-2019-concert/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-10-17-june-2019-concert/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>February 2019 Concert</title>
+      <link>http://localhost:1313/posts/2019-06-11-february-2019-concert/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-06-11-february-2019-concert/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

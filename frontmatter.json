@@ -3,7 +3,7 @@
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "pageBundle": true,
+      "pageBundle": false,
       "previewPath": null,
       "fields": [
         {
@@ -42,6 +42,61 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "replybyemail",
+          "name": "replybyemail",
+          "type": "boolean"
+        },
+        {
+          "title": "showRecent",
+          "name": "showRecent",
+          "type": "boolean"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "cardview",
+          "name": "cardview",
+          "type": "boolean"
+        },
+        {
+          "title": "showDate",
+          "name": "showDate",
+          "type": "boolean"
+        },
+        {
+          "title": "showAuthor",
+          "name": "showAuthor",
+          "type": "boolean"
+        },
+        {
+          "title": "showAuthorBottom",
+          "name": "showAuthorBottom",
+          "type": "boolean"
+        },
+        {
+          "title": "showHero",
+          "name": "showHero",
+          "type": "boolean"
+        },
+        {
+          "title": "heroStyle",
+          "name": "heroStyle",
+          "type": "string"
+        },
+        {
+          "title": "showReadingTime",
+          "name": "showReadingTime",
+          "type": "boolean"
+        },
+        {
+          "title": "showWordCount",
+          "name": "showWordCount",
+          "type": "boolean"
         }
       ]
     }
@@ -51,19 +106,86 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "blog",
-      "path": "[[workspace]]/content/blog",
-      "previewPath": "/blog/{{slug}}",
-      "trailingSlash": true
+      "title": "content",
+      "path": "[[workspace]]/content"
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.taxonomy.slugTemplate": "{{date|yyyy-MM-dd}}-{{seoTitle}}",
-  "frontMatter.content.placeholders": [
-    {
-      "id": "slug",
-      "value": "{{slug}}"
+  "frontMatter.content.snippets": {
+    "Button": {
+      "description": "A simple button",
+      "body": [
+        "{{< button href=[[URL]] target=\"_self\" >}}",
+        "{{< icon \"[[icon]]\" >}} [[text]]",
+        "{{< /button >}}"
+      ],
+      "fields": [
+        {
+          "name": "URL",
+          "title": "URL",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "text",
+          "title": "text",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Article List": {
+      "description": "A list of recent articles",
+      "body": "{{< list title=\"[[Title]]\" cardView=[[Display card]] limit=[[Limit of articles]] where=\"[[where]]\" value=\"[[value]]\" >}}",
+      "fields": [
+        {
+          "name": "Title",
+          "title": "Title",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "Display card",
+          "title": "Display card",
+          "type": "choice",
+          "default": "",
+          "choices": [
+            "true",
+            "false"
+          ]
+        },
+        {
+          "name": "Limit of articles",
+          "title": "Limit of articles",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "where",
+          "title": "where",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "value",
+          "title": "value",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
     }
-  ],
-  "frontMatter.dashboard.openOnStart": true
+  }
 }
