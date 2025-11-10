@@ -18,7 +18,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-04-wylde-green-concert/feature*.webp" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2019-10-20-practice-exam/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-20-practice-exam/feature*.webp" />
     </item>
     
     <item>
@@ -38,7 +38,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2019-10-19-jaime-jorge/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-19-jaime-jorge/feature*.webp" />
     </item>
     
     <item>
@@ -48,7 +48,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2019-10-17-june-2019-concert/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-17-june-2019-concert/feature*.webp" />
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2019-06-11-february-2019-concert/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-06-11-february-2019-concert/feature*.webp" />
     </item>
     
     <item>
@@ -68,7 +68,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2017-01-16-francis-poulenc/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2017-01-16-francis-poulenc/feature*.webp" />
     </item>
     
     <item>
