@@ -2,16 +2,17 @@
 title: "Francis Poulenc: Novelette in C Major"
 description: "Francis Poulenc: Novelette in C Major played by Adrian de Lima"
 date: 2017-01-16
-preview: "201701151815181 [U9TB1LlkQp0].webp"
+preview: 201701151815181 [U9TB1LlkQp0].webp
 draft: false
-tags: 
-    - Adrian
-    - Somerset
-    - UK
-    - Republished
-    - Piano
-categories: 
-    - Music Videos
+tags:
+  - Adrian
+  - Somerset
+  - UK
+  - Republished
+  - Piano
+categories:
+  - Music Videos
+  - Performances
 ---
 
 {{< youtube U9TB1LlkQp0 >}}

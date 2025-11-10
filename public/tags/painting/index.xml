@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Painting on Adrian de Lima</title>
-    <link>https://adriandelima.github.io/tags/painting/</link>
+    <link>http://localhost:1313/tags/painting/</link>
     <description>Recent content in Painting on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2025</copyright>
-    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://adriandelima.github.io/tags/painting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/painting/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Mother and Child by the Sea</title>
-      <link>https://adriandelima.github.io/posts/2024-11-14-a-mother-and-child-by-the-sea/</link>
+      <link>http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/</link>
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>https://adriandelima.github.io/posts/2024-11-14-a-mother-and-child-by-the-sea/</guid>
+      <guid>http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/</guid>
       <description></description>
       
     </item>

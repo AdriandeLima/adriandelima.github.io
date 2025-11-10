@@ -5,13 +5,14 @@ date: 2025-07-30
 preview: Wylde Green Concert [biGn7NGZfX8].webp
 draft: false
 tags:
-    - Adrian
-    - Birmingham
-    - UK
-    - Concerts
-    - Republished
+  - Adrian
+  - Birmingham
+  - UK
+  - Concerts
+  - Republished
 categories:
-    - Music Videos
+  - Music Videos
+  - Performances
 ---
 
 An evening of concert featuring Lalo & Bridge by Adrian de Lima and Toby Baker at [Wylde Green United Reformed Church].

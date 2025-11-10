@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Covid-19 on Adrian de Lima</title>
-    <link>https://adriandelima.github.io/tags/covid-19/</link>
+    <link>http://localhost:1313/tags/covid-19/</link>
     <description>Recent content in Covid-19 on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2025</copyright>
-    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adriandelima.github.io/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Christmas Moosic</title>
-      <link>https://adriandelima.github.io/posts/2021-12-28-christmas-moosic/</link>
+      <link>http://localhost:1313/posts/2021-12-28-christmas-moosic/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>https://adriandelima.github.io/posts/2021-12-28-christmas-moosic/</guid>
+      <guid>http://localhost:1313/posts/2021-12-28-christmas-moosic/</guid>
       <description></description>
       
     </item>

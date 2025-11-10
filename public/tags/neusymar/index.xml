@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neusymar on Adrian de Lima</title>
-    <link>https://adriandelima.github.io/tags/neusymar/</link>
+    <link>http://localhost:1313/tags/neusymar/</link>
     <description>Recent content in Neusymar on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2025</copyright>
-    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://adriandelima.github.io/tags/neusymar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/neusymar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Lord&#39;s Prayer music video</title>
-      <link>https://adriandelima.github.io/posts/2024-10-25-the-lords-prayer/</link>
+      <link>http://localhost:1313/posts/2024-10-25-the-lords-prayer/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>https://adriandelima.github.io/posts/2024-10-25-the-lords-prayer/</guid>
+      <guid>http://localhost:1313/posts/2024-10-25-the-lords-prayer/</guid>
       <description></description>
       
     </item>

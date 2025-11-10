@@ -1,6 +1,7 @@
 ---
 title: "Compositions blurb"
 description: "The text that will show on the compositions page"
+categories: ["Compositions"]
 ---
 Yo i've written some music here it is
 

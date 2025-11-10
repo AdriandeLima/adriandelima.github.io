@@ -1,19 +1,20 @@
 ---
 title: June 2019 Concert
-description: "Piano concert of 10 June 2019"
+description: Piano concert of 10 June 2019
 author: Darthagnon
 date: 2019-10-17
-preview: "20190610162650 [cYIje3nXbP4].webp"
+preview: 20190610162650 [cYIje3nXbP4].webp
 draft: false
-tags: 
-    - Adrian
-    - Somerset
-    - Concerts
-    - UK
-    - Republished
-    - Playlists
-categories: 
-    - Music Videos
+tags:
+  - Adrian
+  - Somerset
+  - Concerts
+  - UK
+  - Republished
+  - Playlists
+categories:
+  - Music Videos
+  - Performances
 ---
 {{< youtube cYIje3nXbP4 >}}
 > Track 1, JS Bach: Partita no.1 BWV 825, Praeludium and Gigue - 2019-06-10 16:26:50

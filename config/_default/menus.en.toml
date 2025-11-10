@@ -22,19 +22,22 @@
 [[main]]
   name = "Compositions"
   parent = "My Work"
-  pageRef = "compositions"
+  #pageRef = "compositions"
+  url = "/categories/compositions/"
 #  weight = 20
 
 [[main]]
   name = "Music Videos"
   parent = "My Work"
-  pageRef = "music videos"
+  #pageRef = "music videos"
+  url = "/categories/music-videos/"
 #  weight = 20
 
 [[main]]
   name = "Performances"
   parent = "My Work"
-  pageRef = "performances"
+  #pageRef = "performances"
+  url = "/categories/performances/"
 #  weight = 20
 
 [[main]]

@@ -1,19 +1,20 @@
 ---
 title: February 2019 Concert
-description: "School orchestra concert of 14 February 2019"
+description: School orchestra concert of 14 February 2019
 author: Darthagnon
 date: 2019-06-11
-preview: "20190214183151 [--9DxPj2MaI].webp"
+preview: 20190214183151 [--9DxPj2MaI].webp
 draft: false
-tags: 
-    - Adrian
-    - Somerset
-    - Concerts
-    - UK
-    - Republished
-    - Playlists
-categories: 
-    - Music Videos
+tags:
+  - Adrian
+  - Somerset
+  - Concerts
+  - UK
+  - Republished
+  - Playlists
+categories:
+  - Music Videos
+  - Performances
 ---
 {{< youtube --9DxPj2MaI >}}
 > Track 1, "Gopak" - Modeste Mussorgsky - 2019-02-14 18:31:51

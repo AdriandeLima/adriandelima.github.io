@@ -1,20 +1,21 @@
 ---
 title: Jaime Jorge concert collaboration (2019)
-description: "Jaime Jorge concert collaboration with Cheltenham SDA Church, 19 October 2019"
+description: Jaime Jorge concert collaboration with Cheltenham SDA Church, 19 October 2019
 author: Darthagnon
 date: 2019-10-19
-preview: "20191019172439 [ri-sdp-Vfas].webp"
+preview: 20191019172439 [ri-sdp-Vfas].webp
 draft: false
-tags: 
-    - Adrian
-    - Collaboration
-    - Concerts
-    - Church
-    - UK
-    - Republished
-    - Playlists
-categories: 
-    - Music Videos
+tags:
+  - Adrian
+  - Collaboration
+  - Concerts
+  - Church
+  - UK
+  - Republished
+  - Playlists
+categories:
+  - Music Videos
+  - Performances
 ---
 
 Towards the end of 2019, my little brother Adrian played in a concert starring [Jaime Jorge](https://www.jaimejorge.com/), a well-known [Adventist](https://adventist.org/) musician with a music ministry that takes him around the world. The concert was organised by Pastor James Shepley of Cheltenham Seventh-Day Adventist Church. 
