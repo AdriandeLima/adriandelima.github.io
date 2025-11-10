@@ -2,7 +2,7 @@
 title: A Mother and Child by the Sea
 description: My compositional response to Johan Christian Dahl’s painting Mother and Child by the Sea
 date: 2024-11-14
-preview: mother-and-child-by-the-sea-by-johan-christian-clausen-dahl-2.jpg
+preview: /content/posts/2024-11-14-a-mother-and-child-by-the-sea/feature*.jpg
 draft: false
 tags:
     - Dahl
