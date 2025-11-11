@@ -1,14 +1,14 @@
 ---
 title: Moon River
-description: "We performed Henry Mancini's Moon River to celebrate graduating from the University of Birmingham."
+description: We performed Henry Mancini's Moon River to celebrate graduating from the University of Birmingham.
 date: 2025-08-29
-preview: "Moon River [P2rTRdSIVNY].webp"
+preview: /content/posts/2025-08-29-moon-river/feature*.webp
 draft: false
-tags: 
+tags:
     - Adrian
     - Birmingham
     - UK
-categories: 
+categories:
     - Music Videos
 ---
 {{< youtube P2rTRdSIVNY >}}

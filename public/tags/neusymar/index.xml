@@ -18,7 +18,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2024-10-25-the-lords-prayer/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-25-the-lords-prayer/feature*.webp" />
     </item>
     
   </channel>

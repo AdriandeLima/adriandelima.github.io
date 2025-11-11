@@ -2,7 +2,7 @@
 title: Christmas Moosic '23
 description: Christmas 2023 concert
 date: 2023-12-25
-preview: Christmas moosic '23 [D3gf-Bxxgjw].webp
+preview: /content/posts/2023-12-25-christmas-moosic-23/feature*.webp
 draft: false
 tags:
     - Christmas

@@ -11,7 +11,7 @@ categories:
     - Music Videos
 description: A music video of The Lord's Prayer
 draft: false
-preview: The Lord's Prayer [NY3XLQo9Foo].webp
+preview: /content/posts/2024-10-25-the-lords-prayer/feature*.webp
 ---
 
 # Malotte's The Lord's Prayer

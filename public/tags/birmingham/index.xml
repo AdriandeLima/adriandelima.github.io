@@ -18,7 +18,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2025-08-29-moon-river/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-29-moon-river/feature*.webp" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-04-wylde-green-concert/feature*.webp" />
     </item>
     
   </channel>
