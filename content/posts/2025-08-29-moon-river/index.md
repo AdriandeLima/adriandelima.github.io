@@ -2,7 +2,7 @@
 title: Moon River
 description: We performed Henry Mancini's Moon River to celebrate graduating from the University of Birmingham.
 date: 2025-08-29
-preview: /content/posts/2025-08-29-moon-river/feature*.webp
+preview: "feature*.webp"
 draft: false
 tags:
     - Adrian

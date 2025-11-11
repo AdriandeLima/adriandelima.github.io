@@ -92,22 +92,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compositions/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/contact/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/music-videos/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/performances/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

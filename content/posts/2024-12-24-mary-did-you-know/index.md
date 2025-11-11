@@ -2,7 +2,7 @@
 title: Mary, Did You Know? Christmas 2024 music video
 description: A music video made for Christmas 2024 of the carol Mary, Did You Know?
 date: 2024-12-24
-preview: /content/posts/2024-12-24-mary-did-you-know/feature*.webp
+preview: "feature*.webp"
 draft: false
 tags:
     - Kevin

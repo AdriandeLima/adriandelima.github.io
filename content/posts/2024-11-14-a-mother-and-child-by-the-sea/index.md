@@ -2,7 +2,7 @@
 title: A Mother and Child by the Sea
 description: My compositional response to Johan Christian Dahl’s painting Mother and Child by the Sea
 date: 2024-11-14
-preview: /content/posts/2024-11-14-a-mother-and-child-by-the-sea/feature*.jpg
+preview: "feature*.jpg"
 draft: false
 tags:
     - Dahl
@@ -14,6 +14,8 @@ tags:
     - Republished
 categories:
     - Compositions
+showTableOfContents: false
+
 ---
 
 Living much of his life in Dresden, Dahl never forgot his Norwegian homeland, basing a lot of his landscape work off of his memories of the landscape and trips home (jonathan5485, 2011). His Mother and Child by the Sea was painted during a difficult time in his life, not long after the deaths of a lot of his family, and the same year that his great friend and inspiration Caspar Friedrich passed away. Some see the work as a homage to his friend, or as a reference to his own childhood, waiting for his father to return from his fishing trips (‘Johan Christian Dahl (1788–1857)’, 2012).

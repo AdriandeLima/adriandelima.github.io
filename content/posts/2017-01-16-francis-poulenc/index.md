@@ -2,7 +2,7 @@
 title: "Francis Poulenc: Novelette in C Major"
 description: "Francis Poulenc: Novelette in C Major played by Adrian de Lima"
 date: 2017-01-16
-preview: /content/posts/2017-01-16-francis-poulenc/feature*.webp
+preview: "feature*.webp"
 draft: false
 tags:
   - Adrian

@@ -3,7 +3,7 @@ title: June 2019 Concert
 description: Piano concert of 10 June 2019
 author: Darthagnon
 date: 2019-10-17
-preview: /content/posts/2019-10-17-june-2019-concert/feature*.webp
+preview: "feature*.webp"
 draft: false
 tags:
   - Adrian

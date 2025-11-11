@@ -17,6 +17,11 @@
           "type": "string"
         },
         {
+          "title": "Show Table of Contents",
+          "name": "showTableOfContents",
+          "type": "boolean"
+        },
+        {
           "title": "Publishing date",
           "name": "date",
           "type": "datetime",
@@ -187,5 +192,6 @@
         }
       ]
     }
-  }
+  },
+  "frontMatter.website.host": "https://adriandelima.github.io/"
 }
