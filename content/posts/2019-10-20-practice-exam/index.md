@@ -3,8 +3,8 @@ title: Practice violin exam, 2019
 description: Practice for violin exam, around 20 October 2019
 author: Darthagnon
 date: 2019-10-20
-preview: "feature*.webp"
-draft: false
+preview: feature*.webp
+draft: true
 tags:
   - Adrian
   - Exams

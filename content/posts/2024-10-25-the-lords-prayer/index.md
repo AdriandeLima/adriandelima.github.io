@@ -14,13 +14,13 @@ draft: false
 preview: "feature*.webp"
 ---
 
-# Malotte's The Lord's Prayer
+## Malotte's The Lord's Prayer
 
 {{< youtube NY3XLQo9Foo >}}
 
 Composed in 1935 by Albert Hay Malotte, The Lord's Prayer sets the classic prayer given by Christ in Matthew 6 to song. This rendition is sung by my father, with myself at the piano.
 
-## Lyrics:
+## Lyrics
 
 ```
 Our Father,
@@ -48,7 +48,17 @@ Forever,
 Amen.
 ```
 
-## Credits:
+<!-- FM:Snippet:Start data:{"id":"Socials plug","fields":[]} -->
+## Socials
+
+
+- {{< icon "Instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
+- {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
+- {{< icon "youtube" >}} [Matthew Abesamis](https://www.youtube.com/@crock223440)
+
+<!-- FM:Snippet:End -->
+
+## Credits
 
 **Pianist:** Adrian de Lima
 

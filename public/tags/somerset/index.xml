@@ -51,45 +51,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2021-12-28-christmas-moosic/feature*.webp" />
     </item>
     
-    <item>
-      <title>Practice violin exam, 2019</title>
-      <link>http://localhost:1313/posts/2019-10-20-practice-exam/</link>
-      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2019-10-20-practice-exam/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-20-practice-exam/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>June 2019 Concert</title>
-      <link>http://localhost:1313/posts/2019-10-17-june-2019-concert/</link>
-      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2019-10-17-june-2019-concert/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-17-june-2019-concert/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>February 2019 Concert</title>
-      <link>http://localhost:1313/posts/2019-06-11-february-2019-concert/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2019-06-11-february-2019-concert/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-06-11-february-2019-concert/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>Francis Poulenc: Novelette in C Major</title>
-      <link>http://localhost:1313/posts/2017-01-16-francis-poulenc/</link>
-      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2017-01-16-francis-poulenc/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2017-01-16-francis-poulenc/feature*.webp" />
-    </item>
-    
   </channel>
 </rss>

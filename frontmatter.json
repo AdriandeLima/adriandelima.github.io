@@ -191,6 +191,37 @@
           "default": ""
         }
       ]
+    },
+    "Icon": {
+      "description": "Add an icon",
+      "body": "{{< icon \"[[icon]]\" >}} [[text]]",
+      "fields": [
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "text",
+          "title": "text",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Socials plug": {
+      "description": "A list of my socials",
+      "body": [
+        "## Socials",
+        "",
+        "",
+        "- {{< icon \"Instagram\" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)",
+        "- {{< icon \"youtube\" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)"
+      ],
+      "fields": []
     }
   },
   "frontMatter.website.host": "https://adriandelima.github.io/"

@@ -3,8 +3,8 @@ title: Jaime Jorge concert collaboration (2019)
 description: Jaime Jorge concert collaboration with Cheltenham SDA Church, 19 October 2019
 author: Darthagnon
 date: 2019-10-19
-preview: "feature*.webp"
-draft: false
+preview: feature*.webp
+draft: true
 tags:
   - Adrian
   - Collaboration

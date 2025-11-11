@@ -14,7 +14,7 @@ tags:
 categories:
     - Music Videos
 ---
-
+## Mary did you know?
 {{< youtube 4pYwT9TBhp0 >}}
 
 An arrangement of the popular Christmas song "Mary did you know?" performed by myself and my brother Kevin.
@@ -79,3 +79,29 @@ Is the great I am
 > \- Adrian de Lima, 24 Dec 2024, YouTube
 
 [@kevindelima5713]: https://www.youtube.com/@kevvocello/videos
+
+## Socials
+
+
+- {{< icon "Instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
+- {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
+
+- {{< icon "youtube" >}} [@kevindelima5713](https://www.youtube.com/@kevvocello/videos)
+
+## Credits
+
+**Lyrics:** Mark Lowrey
+
+**Music:** Buddy Greene
+
+**Arrangement:** Ariyan Ashrafian & Adrian de Lima
+
+**Violin:** Adrian de Lima
+
+**Cello:** Kevin de Lima
+
+**Recording engineer:** Robin Clarke
+
+**Videography:** Adrian de Lima & Kevin de Lima
+
+**Editing:** Adrian de Lima

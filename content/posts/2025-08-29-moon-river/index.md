@@ -19,14 +19,14 @@ We performed this piece to celebrate graduating from the University of Birmingha
 
 I hope you enjoy!
 
-Socials:
-- [/adriandelima.music](https://www.instagram.com/adriandelima.music)
-- https://adriandelima.github.io/
-- [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
-- [@tobyb1506](https://www.youtube.com/@tobyb1506)
-- [@nicolegisbourne](https://www.youtube.com/@nicolegisbourne)
+## Socials
 
-Lyrics:
+- {{< icon "Instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
+- {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
+-  {{< icon "youtube" >}} [@tobyb1506](https://www.youtube.com/@tobyb1506)
+- {{< icon "youtube" >}} [@nicolegisbourne](https://www.youtube.com/@nicolegisbourne)
+
+## Lyrics
 
 ```
 Moon river, wider than a mile

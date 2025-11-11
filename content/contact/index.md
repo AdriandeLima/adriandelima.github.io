@@ -13,6 +13,7 @@ heroStyle: Background
 showReadingTime: false
 showWordCount: false
 draft: false
+showRelatedContent: false
 ---
 
 If you would like to get in touch with me, you can find me at the following socials:

@@ -3,8 +3,8 @@ title: February 2019 Concert
 description: School orchestra concert of 14 February 2019
 author: Darthagnon
 date: 2019-06-11
-preview: "feature*.webp"
-draft: false
+preview: feature*.webp
+draft: true
 tags:
   - Adrian
   - Somerset
