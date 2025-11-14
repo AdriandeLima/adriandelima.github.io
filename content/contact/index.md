@@ -26,7 +26,7 @@ If you would like to get in touch with me, you can find me at the following soci
 {{< icon "linkedin" >}} LinkedIn
 {{< /button >}}
 
-My content can be found on the following platforms:
+My music can be found on the following platforms:
 
 {{< button href="https://www.youtube.com/@AdriandelimaMusic" target="_self" >}}
 {{< icon "youtube" >}} Youtube
@@ -45,4 +45,7 @@ Or for business/booking enquiries, email me below:
 {{< button href="mailto:adriandelima.musician@gmail.com" target="_self" >}}
 {{< icon "envelope" >}} Email me
 {{< /button >}}
+
+
+Add a cool background image, a picture of me, and an email form
 

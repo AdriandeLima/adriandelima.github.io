@@ -73,6 +73,17 @@
           "name": "showDate",
           "type": "boolean"
         },
+
+        {
+          "title": "Only show category (don't use with taxonomies)",
+          "name": "showCategoryOnly",
+          "type": "boolean"
+        },
+        {
+          "title": "Only  taxonomy (don't use with categories)",
+          "name": "showTaxonomies",
+          "type": "boolean"
+        },
         {
           "title": "showAuthor",
           "name": "showAuthor",
@@ -102,7 +113,96 @@
           "title": "showWordCount",
           "name": "showWordCount",
           "type": "boolean"
+        },
+
+
+        {
+          "title": "Show view count",
+          "name": "showViews",
+          "type": "boolean"
+        },
+        {
+          "title": "Show like count",
+          "name": "showLikes",
+          "type": "boolean"
+        },
+        {
+          "title": "Show date only inside article",
+          "name": "showDateOnlyInArticle",
+          "type": "boolean"
+        },
+        {
+          "title": "Show updated date",
+          "name": "showDateUpdated",
+          "type": "boolean"
+        },
+
+        {
+          "title": "Blur layout background (for background hero types)",
+          "name": "layoutBackgroundBlur",
+          "type": "boolean"
+        },
+        {
+          "title": "Add header space (for background hero types)",
+          "name": "layoutBackgroundHeaderSpace",
+          "type": "boolean"
+        },
+        {
+          "title": "Show breadcrumbs",
+          "name": "showBreadcrumbs",
+          "type": "boolean"
+        },
+
+        {
+          "title": "Expand series list by default",
+          "name": "seriesOpened",
+          "type": "boolean"
+        },
+        {
+          "title": "Show heading anchors",
+          "name": "showHeadingAnchors",
+          "type": "boolean"
+        },
+        {
+          "title": "Show pagination controls",
+          "name": "showPagination",
+          "type": "boolean"
+        },
+        {
+          "title": "Invert pagination direction",
+          "name": "invertPagination",
+          "type": "boolean"
+        },
+
+        {
+          "title": "Show related content",
+          "name": "showRelatedContent",
+          "type": "boolean"
+        },
+        {
+          "title": "Number of related posts to show",
+          "name": "relatedContentLimit",
+          "type": "number"
+        },
+
+        {
+          "title": "Show author badges",
+          "name": "showAuthorsBadges",
+          "type": "boolean"
+        },
+
+        {
+          "title": "Social sharing links",
+          "name": "sharingLinks",
+          "type": "string"
+        },
+        {
+          "title": "Enable Zen mode",
+          "name": "showZenMode",
+          "type": "boolean"
         }
+
+
       ]
     }
   ],

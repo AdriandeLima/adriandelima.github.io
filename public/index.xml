@@ -12,6 +12,16 @@
     <lastBuildDate>Tue, 11 Nov 2025 03:56:20 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Youtube Playlists</title>
+      <link>http://localhost:1313/youtube-playlists/</link>
+      <pubDate>Tue, 11 Nov 2025 03:56:20 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/youtube-playlists/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Moon River</title>
       <link>http://localhost:1313/posts/2025-08-29-moon-river/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
