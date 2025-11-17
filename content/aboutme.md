@@ -22,7 +22,16 @@ heroStyle: basic
 
 Hello I'm me - write this. Also add an image of me, and a carousel
 
-{{< carousel images="{assets/aboutme_gallery/DSC04868.jpg}">}}
+## {{< carousel images="{gallery/*}">}}
+
+
+
+{{< carousel items="1" height="500" unit="px" duration="7000" >}}
+- ![](content/gremio_got_talent_bw.jpg)
+- ![](content/gremio_got_talent.jpg)
+
+
+
 
 
 
