@@ -8,12 +8,12 @@ cardview: true
 showDate: false
 showAuthor: false
 showAuthorBottom: true
-showHero: true
+showHero: false
 heroStyle: Background
 showReadingTime: false
 showWordCount: false
 draft: false
-showRelatedContent: false
+showRelatedContent: true
 preview: /content/contact/envelope.webp
 ---
 
@@ -48,5 +48,5 @@ Or for business/booking enquiries, email me below:
 {{< /button >}}
 
 
-Add a cool background image, a picture of me, and an email form
+<!-- Add a cool background image, a picture of me, and an email form --!>
 

@@ -39,6 +39,11 @@
           "type": "draft"
         },
         {
+          "title": "Exclude from search",
+          "name": "excludeFromSearch",
+          "type": "boolean"
+        },
+        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
@@ -73,7 +78,6 @@
           "name": "showDate",
           "type": "boolean"
         },
-
         {
           "title": "Only show category (don't use with taxonomies)",
           "name": "showCategoryOnly",
@@ -114,8 +118,6 @@
           "name": "showWordCount",
           "type": "boolean"
         },
-
-
         {
           "title": "Show view count",
           "name": "showViews",
@@ -136,7 +138,6 @@
           "name": "showDateUpdated",
           "type": "boolean"
         },
-
         {
           "title": "Blur layout background (for background hero types)",
           "name": "layoutBackgroundBlur",
@@ -152,7 +153,6 @@
           "name": "showBreadcrumbs",
           "type": "boolean"
         },
-
         {
           "title": "Expand series list by default",
           "name": "seriesOpened",
@@ -173,7 +173,6 @@
           "name": "invertPagination",
           "type": "boolean"
         },
-
         {
           "title": "Show related content",
           "name": "showRelatedContent",
@@ -184,13 +183,11 @@
           "name": "relatedContentLimit",
           "type": "number"
         },
-
         {
           "title": "Show author badges",
           "name": "showAuthorsBadges",
           "type": "boolean"
         },
-
         {
           "title": "Social sharing links",
           "name": "sharingLinks",
@@ -201,8 +198,6 @@
           "name": "showZenMode",
           "type": "boolean"
         }
-
-
       ]
     }
   ],
@@ -322,7 +317,21 @@
         "- {{< icon \"youtube\" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)"
       ],
       "fields": []
+    },
+    "Image": {
+      "description": "Add an image",
+      "body": [
+        "{{< figure",
+        "    src=\"image_source.jpg\"",
+        "    alt=\"Alt text\"",
+        "    caption=\"Photo by [Jr Korpa](https://unsplash.com/@jrkorpa) on [Unsplash](https://unsplash.com/)\"",
+        "    >}}",
+        "",
+        ""
+      ],
+      "fields": []
     }
   },
-  "frontMatter.website.host": "https://adriandelima.github.io/"
+  "frontMatter.website.host": "https://adriandelima.github.io/",
+  "frontMatter.dashboard.openOnStart": true
 }

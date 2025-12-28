@@ -3,7 +3,34 @@ title: "Home page blurb"
 description: "The text that will show on the home page of the website"
 preview: /assets/house.webp
 ---
-Music has been a big part of my life for as long as I can remember. I was fortunate enough to have parents brave enough to sacrifice their time, money (and ears) in order for me to be heavily involved in music making throughout my childhood, and this naturally blossomed into a pursuit of my passion at UoB. My journey into music technology began during a stint as a performing arts technician. I quickly learned that there’s more to a microphone than just plugging it in, and that sparked an ongoing fascination with sound design and recording. Since then, I’ve been mixing, composing, and experimenting with tech to bring my ideas to life. What really drives me, though, is sharing my music with others, and providing the means for music to inspire them. There's something incredibly rewarding about supporting others in pursuing their passions, whether it's through collaboration, mentorship, or just sharing knowledge along the way.
+
+{{< lead >}}
+
+Adrian de Lima is a UK-based violinist and composer, specializing in classical performance, electronic composition, and sound design.
+
+{{< /lead >}}
+<!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":"/categories/mywork"},{"name":"icon","value":""},{"name":"text","value":"My work"}]} -->
+{{< button href="/categories/" target="_self" >}}
+ My work
+{{< /button >}}
+<!-- FM:Snippet:End -->
+
+{{< list limit=3 >}}
+
+<!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":""},{"name":"icon","value":"mail"},{"name":"text","value":"Contact"}]} -->
+{{< button href="/contact/" target="_self" >}}
+{{< icon "email" >}} Contact
+{{< /button >}}
+<!-- FM:Snippet:End -->
 
 
-cool background image, image of me, carousel.
+<!-- TODO:
+        make author profile image bigger
+        fix lack of footer, fix recents not displaying, fix show more not showing
+        Rewrite home page
+        picture carousel
+        Rewrite articles
+        Logo icon
+        Playlists link
+        background image
+        tagline>

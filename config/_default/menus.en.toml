@@ -17,7 +17,9 @@
 
 [[main]]
   name = "My Work"
+  url = "/categories/"
   weight = 20
+  
 
 [[main]]
   name = "Compositions"
@@ -46,8 +48,8 @@
 #  weight = 20
 
 [[main]]
-  name = "Articles"
-#  parent = "My Work"
+  name = "All Articles"
+ parent = "My Work"
   pageRef = "posts"
 #  weight = 20
 
