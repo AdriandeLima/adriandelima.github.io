@@ -123,6 +123,36 @@ html {
 
 只需更改此值，您网站上的所有字体大小都将调整为此新大小。因此，要增加使用的整体字体大小，请将该值设置为大于 `12pt` 。同样，要减小字体大小，请将值设置为小于 `12pt` 。
 
+### 更换语法高亮主题
+
+要更换语法高亮主题，请创建 `assets/css/custom.css`，然后添加以下内容：
+
+```css
+.chroma,
+.chroma *,
+.chroma:is(.dark *),
+.chroma:is(.dark *) * {
+  color: unset;
+  font-weight: unset;
+  font-style: unset;
+}
+```
+
+这会清除预设的 Chroma 样式，下一步我们使用 `hugo gen chromastyles` 指令将 Chroma 样式加入到您的 css 档案中：
+
+```sh
+# Mac/Linux
+(echo 'html:not(.dark) {'; hugo gen chromastyles --style=emacs; echo '}') >> assets/css/custom.css
+(echo 'html.dark {'; hugo gen chromastyles --style=evergarden; echo '}') >> assets/css/custom.css
+
+# Windows PowerShell
+# 此命令不能在 CMD 中运行，必须在 PowerShell 中运行
+@("html:not(.dark) {"; (hugo gen chromastyles --style=emacs); "}") | Add-Content -Path "assets/css/custom.css"
+@("html.dark {"; (hugo gen chromastyles --style=evergarden); "}") | Add-Content -Path "assets/css/custom.css"
+```
+
+在 [Hugo 文档](https://gohugo.io/quick-reference/syntax-highlighting-styles/#styles)中查看所有可用的样式。
+
 ## 从源代码构建主题 CSS
 
 如果您想进行大量更改，您可以利用 Tailwind CSS 的 JIT 编译器并从头开始重建整个主题 CSS。尤其是您想要调整 Tailwind 配置或向主样式表添加额外的 Tailwind 类的时候，这种方法将非常有用。

@@ -168,12 +168,13 @@ Blowfish 提供了大量控制主题功能的配置参数，下面的表格中�
 
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
-| `colorScheme` | `"blowfish"` | 主题使用的颜色方案。合法的值有： `blowfish` （默认）、`avocado`、`fire`、`ocean`、`forest`、`princess`、`neon`、`bloody`、`terminal`、`marvel`、`noir`、`autumn`、`congo` 和 `slate`。 具体参考[颜色方案]({{< ref "getting-started#colour-schemes" >}})以获取更多信息。 |
+| `colorScheme` | `"blowfish"` | 主题使用的颜色方案。合法的值有： `blowfish` （默认）、`avocado`、`fire`、`ocean`、`forest`、`princess`、`neon`、`bloody`、`terminal`、`marvel`、`noir`、`autumn`、`congo`、`slate`、`github` 和 `one-light`。 具体参考[颜色方案]({{< ref "getting-started#colour-schemes" >}})以获取更多信息。 |
 | `defaultAppearance` | `"light"` | 默认的主题外观，可以是 `light` 或者 `dark`。 |
 | `autoSwitchAppearance` | `true` | 主题外观是否根据访问者操作系统的偏好自动切换。设置为 `false` 会强制网站始终使用 `defaultAppearance`。 |
 | `enableA11y`                   | `false`      | 是否启用无障碍切换按钮。 |
 | `enableSearch` | `false` | 是否开启网站的搜索功能，设为 `true` 即为启用。注意，搜索功能依赖于[站点设置](#网站配置)中的 `outputs.home` 设置，请确保此值配置正确。 |
 | `enableCodeCopy` | `false` | 是否可以将`<code>`代码块复制到剪贴板。想要使用代码复制功能，需要将 `highlight.noClasses` 参数设置为 `false`。 阅读 [其他配置文件](#其他配置文件) 以获取更多信息。 |
+| `enableStructuredBreadcrumbs` | `false` | 是否为 SEO 添加 [BreadcrumbList](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb)。如果内容路径与 URL 不一致例如复杂的 [URL 设置](https://gohugo.io/content-management/urls/) 则不要启用。 |
 | `replyByEmail` | `false` | 是否在发布后启用“通过邮件回复”的链接。如果使用，则必须设置 `config/_default/languages.en.toml` 中的 `params.author.email` 参数。 |
 | `forgejoDefaultServer` | _Not set_ | 短代码 `forgejo` 的默认 `server` 参数。 |
 | `giteaDefaultServer` | _Not set_ | 短代码 `gitea` 的默认 `server` 参数。 |
@@ -239,7 +240,7 @@ Blowfish 提供了大量控制主题功能的配置参数，下面的表格中�
 | `article.showAuthor` | `true` | 是否在文章底部显示作者框。 |
 | `article.showAuthorBottom` | `false` | 作者框显示在每页的底部而不是顶部。 |
 | `article.showHero` | `false` | 缩略图是否会在每个页面中作为 hero 图像显示。 |
-| `article.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有：`basic`、`big`、`background`、`thumbAndBackground`。 |
+| `article.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有：`basic`、`big`、`background`、`thumbAndBackground`。仅在 `article.showHero = true` 时生效。 |
 | `article.layoutBackgroundBlur` | `true` | 向下滚动文章页时，是否模糊背景图。 |
 | `article.layoutBackgroundHeaderSpace` | `true` | 在标题和正文之间添加空白区域间隔。 |
 | `article.showBreadcrumbs` | `false` | 是否在标题栏显示面包屑导航。 |
@@ -267,7 +268,7 @@ Blowfish 提供了大量控制主题功能的配置参数，下面的表格中�
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
 | `list.showHero` | `false` | 缩略图是否会在每个页面中作为 hero 图像显示。 |
-| `list.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有：`basic`、`big`、`background`、`thumbAndBackground`。 |
+| `list.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有：`basic`、`big`、`background`、`thumbAndBackground`。仅在 `list.showHero = true` 时生效。 |
 | `list.showBreadcrumbs` | `false` | 是否在标题栏显示面包屑导航。 |
 | `list.layoutBackgroundBlur` | `true` | 向下滚动列表页时，是否模糊背景图。 |
 | `list.layoutBackgroundHeaderSpace` | `true` | 在标题和正文之间添加空白区域间隔。 |
@@ -295,7 +296,7 @@ Blowfish 提供了大量控制主题功能的配置参数，下面的表格中�
 | --- | --- | --- |
 | `taxonomy.showTermCount` | `true` | 是否在分类列表总显示对应的数量。 |
 | `taxonomy.showHero` | `false` | 缩略图是否会在每个页面中作为 hero 图像显示。 |
-| `taxonomy.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有：`basic`、`big`、`background`、`thumbAndBackground`。 |
+| `taxonomy.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有：`basic`、`big`、`background`、`thumbAndBackground`。仅在 `taxonomy.showHero = true` 时生效。 |
 | `taxonomy.showBreadcrumbs` | `false` | 是否在标题栏显示面包屑导航。 |
 | `taxonomy.showViews` | `false` | 是否显示文章阅读量。这需要集成 firebase ，具体可以看下面。 |
 | `taxonomy.showLikes` | `false` | 是否显示文章点赞量。这需要集成 firebase ，具体可以看下面。 |
@@ -307,7 +308,7 @@ Blowfish 提供了大量控制主题功能的配置参数，下面的表格中�
 | 名称 | 默认值 | 描述 |
 | --- | --- | --- |
 | `term.showHero` | `false` | 缩略图是否会在每个页面中作为 hero 图像显示。 |
-| `term.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有： `basic`、`big`、`background`、`thumbAndBackground`。 |
+| `term.heroStyle` | 无 | hero 图像的展示样式，可选的参数值有： `basic`、`big`、`background`、`thumbAndBackground`。仅在 `term.showHero = true` 时生效。 |
 | `term.showBreadcrumbs` | `false` | 是否在标题栏显示面包屑导航。 |
 | `term.showViews`           | `false` | 是否显示文章阅读量。这需要集成 firebase ，具体可以看下面。                                 |
 | `term.showLikes`           | `false` | 是否显示文章点赞量。这需要集成 firebase ，具体可以看下面。                                 |

@@ -125,6 +125,36 @@ html {
 
 この1つの値を変更するだけで、ウェブサイトのすべてのフォントサイズがこの新しいサイズに合わせて調整されます。なので、使用されるフォントサイズ全体を大きくするには、値を `12pt` より大きくすれば良いです。同様に、フォントサイズを小さくするには、値を `12pt` より小さくすれば良いです。
 
+### シンタックスハイライトテーマの変更
+
+構文ハイライトテーマを変更するには、`assets/css/custom.css` を作成し、次の内容を追加してください：
+
+```css
+.chroma,
+.chroma *,
+.chroma:is(.dark *),
+.chroma:is(.dark *) * {
+  color: unset;
+  font-weight: unset;
+  font-style: unset;
+}
+```
+
+これによりデフォルトの Chroma スタイルがクリアされます。次に `hugo gen chromastyles` コマンドで CSS ファイルに Chroma スタイルを組み込みます:
+
+```sh
+# Mac/Linux
+(echo 'html:not(.dark) {'; hugo gen chromastyles --style=emacs; echo '}') >> assets/css/custom.css
+(echo 'html.dark {'; hugo gen chromastyles --style=evergarden; echo '}') >> assets/css/custom.css
+
+# Windows PowerShell
+# このコマンドは CMD では実行できず PowerShell で実行する必要がある
+@("html:not(.dark) {"; (hugo gen chromastyles --style=emacs); "}") | Add-Content -Path "assets/css/custom.css"
+@("html.dark {"; (hugo gen chromastyles --style=evergarden); "}") | Add-Content -Path "assets/css/custom.css"
+```
+
+すべての利用可能なスタイルは、[Hugo のドキュメント](https://gohugo.io/quick-reference/syntax-highlighting-styles/#styles)で確認できます。
+
 ## ソースからテーマ CSS をビルドする
 
 大幅な変更を加えたい場合は、Tailwind CSS の JIT コンパイラを利用して、テーマ CSS 全体を最初から再構築できます。これは、Tailwind 設定を調整したり、メインスタイルシートに追加の Tailwind クラスを追加したりする場合に便利です。
