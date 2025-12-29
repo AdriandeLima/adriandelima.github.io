@@ -28,7 +28,7 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
         make author profile image bigger
         fix lack of footer, fix recents not displaying, fix show more not showing
         Rewrite home page
-        picture carousel
+      
         Rewrite articles
         Logo icon
         Playlists link

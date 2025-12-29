@@ -7,8 +7,13 @@
 {{ $disableImageOptimization := site.Store.Get "disableImageOptimization" }}
 
 {{/* Accept either direct context or a dict */}}
-{{ $page := .page | default .Page }}
-{{ $hideCategories := .hideCategories | default false }}
+{{ $page := . }}
+{{ $hideCategories := false }}
+{{ if reflect.IsMap . }}
+  {{ with .page }}{{ $page = . }}{{ end }}
+  {{ with $hideCategories }}{{ $hideCategories = . }}{{ end }}
+{{ end }}
+
 {{ $featured := "" }}
 {{ $featuredURL := "" }}
 {{ if not .Params.hideFeatureImage }}
@@ -57,7 +62,7 @@
 {{ end }}
 
 <!-- debug code for hiding the categories tags in the categories pages
-{{ if .hideCategories }}
+{{ if $hideCategories }}
   <p style="color:red;">hideCategories = true</p>
 {{ else }}
   <p style="color:green;">hideCategories = false</p>

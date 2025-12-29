@@ -9,9 +9,9 @@ title = "Adrian de Lima"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-   logo = "logo high res.webp"
-  # secondaryLogo = "img/secondary-logo.png"
-   description = "My awesome website"
+   logo = "watermark.png"
+   # secondaryLogo = "watermark.png"
+   description = "A website detailing my portfolio of work"
    copyright = "&copy; Adrian de Lima { year }"
 
 [params.author]
@@ -19,7 +19,7 @@ title = "Adrian de Lima"
    email = "adriandelima.musician@gmail.com"
    image = "aedl_got_talent.jpg"
    imageQuality = 96
-   headline = "I make music for your earholes 👂👂."
+   headline = "Making music that inspires"
    bio = "Musician specializing in performance, composition and music technology."
    links = [
      { email = "mailto:adriandelima.musician@gmail.com" },

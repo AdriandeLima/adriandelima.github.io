@@ -15,7 +15,7 @@ tags:
     - Pianist
     - Violinist
     - Composer
-layout: split
+layout: background
 showHero: false
 heroStyle: big
 layoutBackgroundHeaderSpace: false
@@ -32,6 +32,7 @@ showPagination: false
 
 <!-- FM:Snippet:End -->
 
+{{< carousel images="gallery/*" aspectRatio="12-9" interval="2000" >}}
 
 Music has been a big part of my life for as long as I can remember. I was fortunate enough to have parents brave enough to sacrifice their time, money (and ears) for me to be heavily involved in music making throughout my childhood, taking violin and piano lessons at a local music school in Mallorca, Spain where we were living at the time. Upon moving to the UK, I continued my studies of music at secondary school, leading pursuit of my passion at the University of Birmingham where I graduated with my bachelor’s in music in 2025, specializing in performance and electronic composition. 
 
