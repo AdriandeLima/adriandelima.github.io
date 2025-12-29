@@ -27,7 +27,7 @@ We performed this piece to celebrate graduating from the University of Birmingha
 
 ## Socials
 
-- {{< icon "Instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
+- {{< icon "instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
 - {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
 -  {{< icon "youtube" >}} [@tobyb1506](https://www.youtube.com/@tobyb1506)
 - {{< icon "youtube" >}} [@nicolegisbourne](https://www.youtube.com/@nicolegisbourne)
