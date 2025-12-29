@@ -43,8 +43,8 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
         fix favicons not showing
       
       
-        Rewrite articles?
-        My work page
+
+
         Aboutme layout (card)
         
         Logo icon
