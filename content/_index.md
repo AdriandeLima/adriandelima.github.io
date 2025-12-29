@@ -1,7 +1,8 @@
 ---
-title: "Home page blurb"
-description: "The text that will show on the home page of the website"
+title: Home page blurb
+description: The text that will show on the home page of the website
 preview: /assets/house.webp
+showHero: false
 ---
 
 {{< lead >}}
@@ -21,8 +22,7 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
 
 <!-- Recent articles list -->
 {{< list limit=3 >}}
-
-
+---
 
 <div class="flex gap-4 justify-center">
 
@@ -36,17 +36,11 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
 
 
 <!-- TODO:
-       
-        fix lack of footer, 
-        fix recents not displaying, 
-        fix show more not showing, 
         fix favicons not showing
-      
-      
-
-
         Aboutme layout (card)
         
         Logo icon
+        favicon
         background image
        
+-->

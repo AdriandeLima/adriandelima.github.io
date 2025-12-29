@@ -1,6 +1,7 @@
 ---
-title: "Music Videos"
-description: "A page for all my music videos"
+title: Music Videos
+description: A page for all my music videos
+showReadingTime: false
 ---
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":"content/youtube-playlists"},{"name":"icon","value":"youtube"},{"name":"text","value":"Playlists"}]} -->

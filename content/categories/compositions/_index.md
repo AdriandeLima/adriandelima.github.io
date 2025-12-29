@@ -1,4 +1,5 @@
 ---
-title: "Compositions"
-description: "A page for all my compositions"
+title: Compositions
+description: A page for all my compositions
+showReadingTime: false
 ---
