@@ -23,7 +23,12 @@ categories:
 
 An arrangement of the popular Christmas song "Mary did you know?" performed by myself and my brother Kevin.
 
-Merry Crimble everyone!
+
+{{< lead >}}
+
+Every year Kevin and I do a Christmas video for the family. This year we decided to step things up a bit from our previous videos. The video is recorded in on a hill overlooking the picturesque South Horrington estate.
+
+{{< /lead >}}
 
 ## Lyrics 
 
@@ -91,6 +96,7 @@ Is the great I am
 - {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
 
 - {{< icon "youtube" >}} [@kevindelima5713](https://www.youtube.com/@kevvocello/videos)
+- {{< icon "Instagram" >}} [ThreeHourAverage](https://www.instagram.com/threehouraverage/)
 
 ## Credits
 
