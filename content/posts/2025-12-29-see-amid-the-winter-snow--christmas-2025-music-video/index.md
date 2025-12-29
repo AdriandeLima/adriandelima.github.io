@@ -1,11 +1,16 @@
 ---
-title: See Amid the Winter Snow.
+title: See Amid the Winter Snow
 description: Christmas 2025 music video
 showTableOfContents: true
 date: 2025-12-29T18:56:25.026Z
-preview: /content/posts/2025-12-29-see-amid-the-winter-snow--christmas-2025-music-video/feature_see_amid.png
+preview: "feature_see_amid.png"
 draft: false
-tags: []
+tags: 
+    - Kevin
+    - Italy
+    - Brazil
+    - YouTube
+    - Christmas
 categories:
     - Music Videos
 
@@ -28,7 +33,7 @@ Many thanks to my brother Kevin for helping put this together, despite being on 
 I had a blast arranging this carol for string quartet. Shoutout to our digital twins for helping fill it out.
 
 ## Lyrics
-'''
+```
 1. See, amid the winter's snow,
 born for us on earth below,
 see the tender Lamb appears,
@@ -63,12 +68,15 @@ down to such a world as this! [Refrain]
 by Thy face so meek and mild,
 teach us to resemble Thee,
 in Thy sweet humility! [Refrain]
-'''
+```
 
 ## Credits/socials
 
-Violin/arrangement/editing -  Adrian de Lima [{{< icon "youtube">}}] (https://www.youtube.com/@AdriandelimaMusic) [{{< icon "instagram" >}}] (https://www.instagram.com/adriandelima.music/)
-Cello -  Kevin de Lima  [{{< icon "youtube">}}] (https://www.youtube.com/@kevvocello) [{{< icon "instagram" >}}] (https://www.instagram.com/threehouraverage/) 
-Original composition - Edward Caswell
-Videography - Sabrina Sanchez Moreira, Gabriela Vieira
+**Violin/arrangement/editing** -  Adrian de Lima [{{< icon "youtube">}}](https://www.youtube.com/@AdriandelimaMusic) [{{< icon "instagram" >}}](https://www.instagram.com/adriandelima.music/)
+
+**Cello** -  Kevin de Lima  [{{< icon "youtube">}}](https://www.youtube.com/@kevvocello) [{{< icon "instagram" >}}](https://www.instagram.com/threehouraverage/) 
+
+**Original composition** - Edward Caswell
+
+**Videography** - Sabrina Sanchez Moreira, Gabriela Vieira
 
