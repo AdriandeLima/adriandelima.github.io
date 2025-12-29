@@ -275,7 +275,7 @@
     "keywords": ["Dahl","Johan Christian Dahl","Mother and Child by the Sea","Music","Painting","Sound","Republished"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "318"
+    "wordCount": "898"
   }]
   </script>
 
@@ -813,7 +813,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-11-14T00:00:00&#43;00:00">14 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2024-11-14T00:00:00&#43;00:00">14 November 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
     
 
     
@@ -854,38 +854,255 @@
       
       
       
+        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+          <div class="toc ps-5 print:hidden lg:sticky lg:top-10">
+            
+              <details
+  open
+  id="TOCView"
+  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#mother-and-child-by-the-sea">Mother and Child by the Sea</a></li>
+    <li><a href="#the-painting">The painting</a></li>
+    <li><a href="#programme-notes">Programme Notes</a></li>
+    <li><a href="#compositional-notes">Compositional Notes</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#mother-and-child-by-the-sea">Mother and Child by the Sea</a></li>
+    <li><a href="#the-painting">The painting</a></li>
+    <li><a href="#programme-notes">Programme Notes</a></li>
+    <li><a href="#compositional-notes">Compositional Notes</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+<script>
+  (function () {
+    'use strict'
+
+    const SCROLL_OFFSET_RATIO = 0.33
+    const TOC_SELECTOR = '#TableOfContents'
+    const ANCHOR_SELECTOR = '.anchor'
+    const TOC_LINK_SELECTOR = 'a[href^="#"]'
+    const NESTED_LIST_SELECTOR = 'li ul'
+    const ACTIVE_CLASS = 'active'
+    let isJumpingToAnchor = false
+
+    function getActiveAnchorId(anchors, offsetRatio) {
+      const threshold = window.scrollY + window.innerHeight * offsetRatio
+      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
+      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
+
+      if (isJumpingToAnchor) {
+        for (let i = 0; i < anchors.length; i++) {
+          const anchor = anchors[i]
+          if (!tocIds.has(anchor.id)) continue
+          const top = anchor.getBoundingClientRect().top + window.scrollY
+          if (Math.abs(window.scrollY - top) < 100) {
+            return anchor.id
+          }
+        }
+      }
+
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        const top = anchors[i].getBoundingClientRect().top + window.scrollY
+        if (top <= threshold && tocIds.has(anchors[i].id)) {
+          return anchors[i].id
+        }
+      }
+      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
+    }
+
+    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
+      const activeId = getActiveAnchorId(anchors, scrollOffset)
+      if (!activeId) return
+
+      links.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${activeId}`
+        link.classList.toggle(ACTIVE_CLASS, isActive)
+
+        if (collapseInactive) {
+          const ul = link.closest('li')?.querySelector('ul')
+          if (ul) ul.style.display = isActive ? '' : 'none'
+        }
+      })
+
+      if (collapseInactive) {
+        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
+        let el = activeLink
+        while (el && el !== toc) {
+          if (el.tagName === 'UL') el.style.display = ''
+          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
+          el = el.parentElement
+        }
+      }
+    }
+
+    function initTOC() {
+      const toc = document.querySelector(TOC_SELECTOR)
+      if (!toc) return
+
+      const collapseInactive = false
+      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
+      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
+
+      if (collapseInactive) {
+        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
+      }
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          isJumpingToAnchor = true
+        })
+      })
+
+      const config = {
+        toc,
+        anchors,
+        links,
+        scrollOffset: SCROLL_OFFSET_RATIO,
+        collapseInactive
+      }
+
+      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
+      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
+
+      updateTOC(config)
+    }
+
+    document.readyState === 'loading'
+      ? document.addEventListener('DOMContentLoaded', initTOC)
+      : initTOC()
+  })()
+</script>
+
+
+            
+          </div>
+        </div>
+      
 
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
 
         <div class="article-content max-w-prose mb-20">
-          <p>Living much of his life in Dresden, Dahl never forgot his Norwegian homeland, basing a lot of his landscape work off of his memories of the landscape and trips home (jonathan5485, 2011). His Mother and Child by the Sea was painted during a difficult time in his life, not long after the deaths of a lot of his family, and the same year that his great friend and inspiration Caspar Friedrich passed away. Some see the work as a homage to his friend, or as a reference to his own childhood, waiting for his father to return from his fishing trips (‘Johan Christian Dahl (1788–1857)’, 2012).</p>
-<figure><img
-    class="my-0 rounded-md"
-    loading="lazy"
-    decoding="async"
-    fetchpriority="low"
-    alt="Dahl, Johan Christian Clausen; Mother and Child by the Sea; The Barber Institute of Fine Arts"
-    src="mother-and-child-by-the-sea-by-johan-christian-clausen-dahl-2.jpg"
-    ></figure>
-<p>Dahl, Johan Christian Clausen; Mother and Child by the Sea; The Barber Institute of Fine Arts; <a href="http://www.artuk.org/artworks/mother-and-child-by-the-sea-33070"  target="_blank">http://www.artuk.org/artworks/mother-and-child-by-the-sea-33070</a></p>
-<p>The painting is on a small canvas, in a way inviting the viewer in for a closer, more intimate viewing experience. It depicts the silhouettes a woman and child waiting for a fishing boat to return. I really love the contrast between the cold moonlight and the shadowy landscape, as it leaves a lot of the details of the scene up to one’s imagination. The child appears to be excited, but we can’t tell what the mother’s attitude is and there’s no way of knowing whether the trip has been successful or not.</p>
-<p>In my own compositional response to the painting I want to create an impression of a natural landscape from sampled sounds, and then, similarly to how Dahl uses light to obscure details and ignite the imagination, abstract the sonic landscape with further processing.</p>
-<p><a href="https://soundcloud.com/adrian-de-lima-664572410"  target="_blank">Adrian de Lima</a>  · <a href="https://soundcloud.com/adrian-de-lima-664572410/blog-post-audio/s-9bQTl2l3j00"  target="_blank">Some source sounds</a></p>
+          <!-- FM:Snippet:Start data:{"id":"Invisible heading","fields":[]} -->
+<div class="toc-only">
 
-<h2 class="relative group">Sources
-    <div id="sources" class="anchor"></div>
+<h2 class="relative group">Mother and Child by the Sea
+    <div id="mother-and-child-by-the-sea" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sources" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#mother-and-child-by-the-sea" aria-label="Anchor">#</a>
     </span>
     
 </h2>
-<p>jonathan5485, A. (2011) ‘Mother and Child by the Sea by Johan Christian Dahl’, My Daily Art Display, 5 July. Available at: <a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank">https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/</a> (Accessed: 12 November 2024).</p>
-<p>‘Johan Christian Dahl (1788–1857)’ (2012) The Barber Institute of Fine Arts, 30 August. Available at: <a href="https://barber.org.uk/johan-christian-dahl/"  target="_blank">https://barber.org.uk/johan-christian-dahl/</a> (Accessed: 12 November 2024).</p>
-<p>Republished from <a href="https://soundingimages.wordpress.com/author/axd119/"  target="_blank">here</a> (<a href="https://web.archive.org/web/20241114163202/http://soundingimages.wordpress.com/2024/11/14/a-mother-and-child-by-the-sea/"  target="_blank">Archive.org</a>)</p>
+</div>
+<!-- FM:Snippet:End -->
+
+<iframe width="100%" 
+height="166" 
+scrolling="no" 
+frameborder="no" 
+allow="autoplay" 
+src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2003435779&color=%231c1511&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+></iframe>
+<p>Living much of his life in Dresden, Dahl never forgot his Norwegian homeland, basing a lot of his landscape work off of his memories of the landscape and trips home <sup><a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank">1</a></sup>. His &lsquo;Mother and Child by the Sea&rsquo; was painted during a difficult time in his life, not long after the deaths of a lot of his family, and the same year that his great friend and inspiration Caspar Friedrich passed away. Some see the work as a homage to his friend, or as a reference to his own childhood, waiting for his father to return from his fishing trips <sup> <a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank">2</a></sup>.</p>
+<!-- FM:Snippet:Start data:{"id":"Invisible heading","fields":[]} -->
+<div class="toc-only">
+
+<h2 class="relative group">The painting
+    <div id="the-painting" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-painting" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+</div>
+<!-- FM:Snippet:End -->
+<!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
+
+<figure>
+      <img class="my-0 rounded-md" src="mother-and-child-by-the-sea-by-johan-christian-clausen-dahl-2.jpg" alt="Image of the painting" />
+  
+  <figcaption>Dahl, Johan Christian Clausen; Mother and Child by the Sea; <a href="http://www.artuk.org/artworks/mother-and-child-by-the-sea-33070"  target="_blank">The Barber Institute of Fine Arts</a></figcaption>
+  </figure>
+<!-- FM:Snippet:End -->
+<p>The painting is on a small canvas, in a way inviting the viewer in for a closer, more intimate viewing experience. It depicts the silhouettes a woman and child waiting for a fishing boat to return. I love the contrast between the cold moonlight and the shadowy landscape, as it leaves a lot of the details of the scene up to one’s imagination. The child appears to be excited, but we can’t tell what the mother’s attitude is and there’s no way of knowing whether the trip has been successful or not.</p>
+<p>In my own compositional response to the painting I wanted to create an impression of a natural landscape from sampled sounds, and then, similarly to how Dahl uses light to obscure details and ignite the imagination, abstract the sonic landscape with further processing.</p>
+
+<h2 class="relative group">Programme Notes
+    <div id="programme-notes" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#programme-notes" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The small painting invites the viewer closer for a more intimate look. As one views the scene, the sound of waves appears. Shades of darkness and light envelope both the visual and sonic world, as sound recalls the memories of a childhood spent in the outdoors.</p>
+<p>My compositional response to Johan Christian Dahl’s painting Mother and Child by the Sea, created using sampled audio and electroacoustic processing techniques, explores the ideas of memory and nostalgia within the painting. It takes the listener on a journey from the recognisable shoreline, to an abstract sonic world via electronic processing, combined with hints, or memories, of a natural scene.</p>
+<!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
+
+<figure>
+        <img
+          class="my-0 rounded-md"
+          loading="lazy"
+          decoding="async"
+          fetchpriority="auto"
+          alt="Photo of the painting"
+          width="3072"
+          height="4080"
+          src="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_f622eec3d975f5d2.jpg"
+          srcset="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_f622eec3d975f5d2.jpg 800w,/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_aea9f941273ea0b6.jpg 1280w"
+          sizes="(min-width: 768px) 50vw, 65vw"
+          data-zoom-src="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic.jpg"
+        />
+  
+  <figcaption>A photo of the painting in the Barber Institute of Arts</figcaption>
+  </figure>
+<!-- FM:Snippet:End -->
+
+<h2 class="relative group">Compositional Notes
+    <div id="compositional-notes" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#compositional-notes" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Dahl painted the Mother and Child by the Sea while living abroad in Germany, not long after the deaths of his wife and three children, and the same year his good friend C.D. Friedrich passed. I’ve always seen this painting as quite a forlorn work, with its eery moonlight peaking from behind dark storm clouds on a strangely still ocean. While I was composing for the piece, however, I came to look at it under the light of nostalgia rather than forlornness.</p>
+<p>The painting depicts a scene where a mother and her child watch a fishing boat, presumably piloted by the father, come up to the shoreline, with the child excitedly pointing towards the boat. As I researched the work I considered two main interpretations of the scene. My first idea, based on the context the work was painted around, was that the painting might represent a journey into the afterlife with his own wife and child watching, or perhaps waiting for someone like Dahl himself arriving in the boat. My second interpretation, and ultimately the one I settled on for my compositional response, is that of Dahl and his mother excitedly waiting for his father to return home from a fishing trip, a nostalgic view of his past, and his homeland in Norway.</p>
+<p>I began my composition with a quite literal sonic representation of the painting, a crafted seascape, created from sampled audio. I used a variety of samples from a water bottle, some rocks, a rain stick and a saltshaker, combined with processing effects, such as freezing and stretching to abstract the sounds from their source. I used this processing to create long textural sounds which I layered and shaped into waves and shoal via EQ automation.</p>
+<p>The advantage I found from synthesizing my seascape instead of doing a field recording of the sea, was that I could easily transition my various elements and layers into a more processed sound world over the course of the piece, slowly increasing the amount of processing on the various layers.</p>
+<p>The piece follows a journey, beginning with the listener observing the shoreline, and hearing the mother’s laboured footsteps approach, quickly followed by the excited child rushing through the gravelly beach. The listener’s viewpoint is then taken under the water, where one begins to hear a more alien sound world. I associated the deep bass groanings with the sound of the boat, from an underwater viewpoint. This middle section is much more heavily processed, dipping between the abstract and the less abstract in such a way as to mimic that lucid state when one is half awake, or perhaps, drowning. In the middle section I introduce the idea of memory, harking back to Dahl’s nostalgia for his homeland, with the inclusion of faint birdsong, like one might hear in a forest glade or mountain valley, in contrast to the seagulls heard at the beginning. The piece ends as it began, returning to the surface, to the shoreline, and to the recognisable world.</p>
+<p><a href="https://soundcloud.com/adrian-de-lima-664572410"  target="_blank"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z"/></svg></span> Adrian de Lima</a>  · <a href="https://soundcloud.com/adrian-de-lima-664572410/blog-post-audio/s-9bQTl2l3j00"  target="_blank">Some source sounds</a></p>
+<p>Republished from <a href="https://soundingimages.wordpress.com/portfolio/a-mother-and-child-visit-the-seaside/"  target="_blank">here</a> and <a href="https://soundingimages.wordpress.com/author/axd119/"  target="_blank">here</a> (<a href="https://web.archive.org/web/20241114163202/http://soundingimages.wordpress.com/2024/11/14/a-mother-and-child-by-the-sea/"  target="_blank">Archive.org</a>).</p>
 
           
           
@@ -1240,302 +1457,6 @@
     
     
       <time datetime="2024-10-25T00:00:00&#43;00:00">25 October 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-
-
-  
-
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        <a class="relative mt-[0.5rem] me-2" href="/categories/music-videos/">
-          <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Music Videos
-  </span>
-</span>
-
-        </a>
-      
-    </div>
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-    
-      
-    
-      
-    
-      
-    
-  
-
-  
-  
-
-  
-  
-    
-      
-      
-        
-      
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="/posts/2023-12-25-christmas-moosic-23/feature*_hu_3cd4bdac4debee89.webp"
-        role="presentation"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="p-4">
-    <header>
-      <a
-        
-          href="/posts/2023-12-25-christmas-moosic-23/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Christmas Moosic '23
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2023-12-25T00:00:00&#43;00:00">25 December 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-    
-
-    
-    
-  </div>
-
-  
-
-
-  
-
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        <a class="relative mt-[0.5rem] me-2" href="/categories/music-videos/">
-          <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Music Videos
-  </span>
-</span>
-
-        </a>
-      
-    </div>
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-    
-      
-    
-      
-    
-      
-    
-  
-
-  
-  
-
-  
-  
-    
-      
-      
-        
-      
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="/posts/2021-12-28-christmas-moosic/feature*_hu_ad2fdbaa911aa387.webp"
-        role="presentation"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="p-4">
-    <header>
-      <a
-        
-          href="/posts/2021-12-28-christmas-moosic/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Christmas Moosic
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2021-12-28T00:00:00&#43;00:00">28 December 2021</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     

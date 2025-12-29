@@ -21,25 +21,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-12-24-mary-did-you-know/feature*.webp" />
     </item>
     
-    <item>
-      <title>Christmas Moosic &#39;23</title>
-      <link>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</link>
-      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2023-12-25-christmas-moosic-23/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>Christmas Moosic</title>
-      <link>http://localhost:1313/posts/2021-12-28-christmas-moosic/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2021-12-28-christmas-moosic/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2021-12-28-christmas-moosic/feature*.webp" />
-    </item>
-    
   </channel>
 </rss>

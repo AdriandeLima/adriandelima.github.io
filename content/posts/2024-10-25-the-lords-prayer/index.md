@@ -13,12 +13,25 @@ description: A music video of The Lord's Prayer
 draft: false
 preview: "feature*.webp"
 ---
+<!-- FM:Snippet:Start data:{"id":"Invisible heading","fields":[]} -->
+<div class="toc-only">
 
 ## Malotte's The Lord's Prayer
+
+</div>
+<!-- FM:Snippet:End -->
+
 
 {{< youtube NY3XLQo9Foo >}}
 
 Composed in 1935 by Albert Hay Malotte, The Lord's Prayer sets the classic prayer given by Christ in Matthew 6 to song. This rendition is sung by my father, with myself at the piano.
+
+{{< lead >}}
+
+This song has a lot of history in my family. My father orginally learned it to perform with my mother at the piano. Then my brother took over, before I myself learned the piece (safe to say, Dad's been performing this song a long time).
+I'd always wanted to do a project with him, and finally convinced him to give this a go. This project also served to wet my feet in video editing.
+
+{{</lead>}}
 
 ## Lyrics
 

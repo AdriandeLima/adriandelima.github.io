@@ -3,7 +3,7 @@ title: Christmas Moosic '23
 description: Christmas 2023 concert
 date: 2023-12-25
 preview: "feature*.webp"
-draft: false
+draft: true
 tags:
     - Christmas
     - Kevin
@@ -18,7 +18,11 @@ categories:
 
 {{< youtube D3gf-Bxxgjw >}}
 
-Merry Chrimble
+Oops, we missed a year 😭
+
+This year's Christmas video features the songs Joy to the World, There's a Song in the Air, Silent Night
+
+Merry Christmas 2023!
 
 Published on YouTube by [Kevin de Lima].
 
