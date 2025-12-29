@@ -92,11 +92,11 @@ Is the great I am
 ## Socials
 
 
-- {{< icon "Instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
+- {{< icon "instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
 - {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
 
 - {{< icon "youtube" >}} [@kevindelima5713](https://www.youtube.com/@kevvocello/videos)
-- {{< icon "Instagram" >}} [ThreeHourAverage](https://www.instagram.com/threehouraverage/)
+- {{< icon "instagram" >}} [ThreeHourAverage](https://www.instagram.com/threehouraverage/)
 
 ## Credits
 

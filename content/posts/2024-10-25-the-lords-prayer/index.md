@@ -65,7 +65,7 @@ Amen.
 ## Socials
 
 
-- {{< icon "Instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
+- {{< icon "instagram" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)
 - {{< icon "youtube" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)
 - {{< icon "youtube" >}} [Matthew Abesamis](https://www.youtube.com/@crock223440)
 
