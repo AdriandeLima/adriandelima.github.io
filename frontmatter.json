@@ -335,6 +335,17 @@
       "description": "image carousel. Gallery should be inside article folder",
       "body": "{{< carousel images=\"gallery/*\" aspectRatio=\"12-9\" interval=\"2000\" >}}",
       "fields": []
+    },
+    "Invisible heading": {
+      "description": "create an invisible heading, just for the table of contents",
+      "body": [
+        "<div class=\"toc-only\">",
+        "",
+        "## Heading name here",
+        "",
+        "</div>"
+      ],
+      "fields": []
     }
   },
   "frontMatter.website.host": "https://adriandelima.github.io/",

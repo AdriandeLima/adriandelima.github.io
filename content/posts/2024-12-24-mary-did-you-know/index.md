@@ -14,7 +14,11 @@ tags:
 categories:
     - Music Videos
 ---
+<div class="toc-only">
+
 ## Mary did you know?
+
+</div>
 {{< youtube 4pYwT9TBhp0 >}}
 
 An arrangement of the popular Christmas song "Mary did you know?" performed by myself and my brother Kevin.

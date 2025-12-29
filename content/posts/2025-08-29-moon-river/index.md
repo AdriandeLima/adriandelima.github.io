@@ -11,13 +11,19 @@ tags:
 categories:
     - Music Videos
 ---
+<div class="toc-only">
+
+## Moon River
+
+</div>
+
 {{< youtube P2rTRdSIVNY >}}
 
 Moon River composed by Henry Mancini with lyrics by Johnny Mercer, here arranged by Denny Wang and performed by Adrian de Lima and Toby Baker.
-
+{{< lead >}}
 We performed this piece to celebrate graduating from the University of Birmingham. Given the difficulty of filming at night, it features the university's iconic clock tower Old Joe playing the role of the moon.
 
-
+{{< /lead >}}
 
 ## Socials
 
@@ -50,7 +56,17 @@ Chasin' after our ends
 Life's just around the bend, my friend
 Moon river and me
 ```
-## Featured Comments
-> Many thanks to all those who helped me put this one together, Toby, Nicole, Tevin, Noa. I hope you all enjoy!
-> 
-> -- @AdriandelimaMusic, 29/08/2025
+
+<!-- FM:Snippet:Start data:{"id":"Invisible heading","fields":[]} -->
+<div class="toc-only">
+
+## The ducks
+
+</div>
+<!-- FM:Snippet:End -->
+The best part was when some ducks came to listen as we were recording, felt like a Disney princess 😂
+
+{{<youtube 4YQ4b3VUT_M >}}
+
+ Many thanks to all those who helped me put this one together, Toby, Nicole, Tevin, Noa! 
+
