@@ -24,7 +24,7 @@ showPagination: false
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
-    src="/gallery/unasp_camerata_concert3.jpg"
+    src="/gallery/gremio_got_talent.jpg"
     alt="Picture of me"
     
     >}} 
@@ -42,20 +42,9 @@ What really drives me is sharing my music with others and providing the means fo
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":"/categories/"},{"name":"icon","value":""},{"name":"text","value":"Check out my work here"}]} -->
 {{< button href="/categories/" target="_self" >}}
- Check out my work here
+ {{< icon "search" >}} Check out my work here
 {{< /button >}}
 <!-- FM:Snippet:End -->
-
-{{< carousel images="{gallery/mab_recording.png,mab_recording2.png}" aspectRatio="21-9">}}
-
-<!-- fix the pagination arrows, and the spacing between buttons>
-
-
-
-
-
-
-
 
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":"content/contact"},{"name":"icon","value":"mail"},{"name":"text","value":"Contact Me"}]} -->

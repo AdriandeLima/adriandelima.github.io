@@ -330,6 +330,11 @@
         ""
       ],
       "fields": []
+    },
+    "Carousel": {
+      "description": "image carousel. Gallery should be inside article folder",
+      "body": "{{< carousel images=\"gallery/*\" aspectRatio=\"12-9\" interval=\"2000\" >}}",
+      "fields": []
     }
   },
   "frontMatter.website.host": "https://adriandelima.github.io/",

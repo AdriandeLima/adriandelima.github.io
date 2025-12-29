@@ -25,12 +25,14 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
 
 
 <!-- TODO:
-        make author profile image bigger
-        fix lack of footer, fix recents not displaying, fix show more not showing
-        Rewrite home page
+       
+        fix lack of footer, fix recents not displaying, fix show more not showing, fix favicons not showing
+      
       
         Rewrite articles
+        My work page
+        Aboutme layout (card)
+        larger buttons?
         Logo icon
-        Playlists link
         background image
-        tagline>
+       
