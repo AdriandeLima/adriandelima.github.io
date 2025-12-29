@@ -11,20 +11,17 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
 
 {{< /lead >}}
 
-<div class="flex gap-4 justify-center">
+<div class="flex flex-wrap justify-center gap-4">
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":"/categories/mywork"},{"name":"icon","value":""},{"name":"text","value":"My work"}]} -->
 {{< button href="/categories/" target="_self" >}}
- My work
+ {{< icon "search" >}} My work
 {{< /button >}}
 <!-- FM:Snippet:End -->
 
-</div>
 
-<!-- Recent articles list -->
-{{< list limit=3 >}}
----
 
-<div class="flex gap-4 justify-center">
+
+
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":""},{"name":"icon","value":"mail"},{"name":"text","value":"Contact"}]} -->
 {{< button href="/contact/" target="_self" >}}

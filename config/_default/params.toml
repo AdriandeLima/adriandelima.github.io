@@ -51,9 +51,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = true  #why is this not displaying, why no footer?
-  showRecentItems = 5
-  showMoreLink = true  #why is this not displaying
+  showRecent = true  
+  showRecentItems = 4
+  showMoreLink = true  
   showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false
