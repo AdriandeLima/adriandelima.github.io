@@ -49,7 +49,7 @@
 
 [[main]]
   name = "All Articles"
- parent = "My Work"
+  parent = "My Work"
   pageRef = "posts"
 #  weight = 20
 

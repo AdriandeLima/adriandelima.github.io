@@ -8,7 +8,7 @@ cardview: true
 showDate: false
 showAuthor: false
 showAuthorBottom: true
-showHero: false
+showHero: true
 heroStyle: Background
 showReadingTime: false
 showWordCount: false
@@ -19,6 +19,8 @@ preview: /content/contact/envelope.webp
 
 If you would like to get in touch with me, you can find me at the following socials:
 
+<div class="flex flex-wrap justify-start gap-4">
+
 {{< button href="https://www.instagram.com/adriandelima.music" target="_self" >}}
 {{< icon "instagram" >}} Instagram
 {{< /button >}}
@@ -27,7 +29,11 @@ If you would like to get in touch with me, you can find me at the following soci
 {{< icon "linkedin" >}} LinkedIn
 {{< /button >}}
 
+</div>
+
 My music can be found on the following platforms:
+
+<div class="flex flex-wrap justify-start gap-4">
 
 {{< button href="https://www.youtube.com/@AdriandelimaMusic" target="_self" >}}
 {{< icon "youtube" >}} Youtube
@@ -41,12 +47,16 @@ My music can be found on the following platforms:
 {{< icon "spotify" >}} Spotify
 {{< /button >}}
 
+</div>
+
 Or for business/booking enquiries, email me below:
+
+<div class="flex flex-wrap justify-start gap-4">
 
 {{< button href="mailto:adriandelima.musician@gmail.com" target="_self" >}}
 {{< icon "envelope" >}} Email me
 {{< /button >}}
 
-
+</div>
 <!-- Add a cool background image, a picture of me, and an email form --!>
 

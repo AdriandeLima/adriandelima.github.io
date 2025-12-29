@@ -40,6 +40,9 @@ My journey into music technology began during a period working as a performing a
 
 What really drives me is sharing my music with others and providing the means for music to inspire them. I believe in everyone should have the opportunity to follow their dream and think there’s something incredibly rewarding about supporting others in pursuing their passions, whether it's through collaboration, mentorship, or just sharing knowledge along the way.	
 
+
+<div class="flex flex-wrap justify-start gap-4">
+
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":"/categories/"},{"name":"icon","value":""},{"name":"text","value":"Check out my work here"}]} -->
 {{< button href="/categories/" target="_self" >}}
  {{< icon "search" >}} Check out my work here
@@ -52,3 +55,5 @@ What really drives me is sharing my music with others and providing the means fo
 {{< icon "email" >}} Contact Me
 {{< /button >}}
 <!-- FM:Snippet:End -->
+
+</div>
