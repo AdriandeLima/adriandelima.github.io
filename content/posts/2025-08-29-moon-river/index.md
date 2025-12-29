@@ -15,9 +15,9 @@ categories:
 
 Moon River composed by Henry Mancini with lyrics by Johnny Mercer, here arranged by Denny Wang and performed by Adrian de Lima and Toby Baker.
 
-We performed this piece to celebrate graduating from the University of Birmingham, featuring the university's iconic clock tower Old Joe playing the role of the moon.
+We performed this piece to celebrate graduating from the University of Birmingham. Given the difficulty of filming at night, it features the university's iconic clock tower Old Joe playing the role of the moon.
 
-I hope you enjoy!
+
 
 ## Socials
 

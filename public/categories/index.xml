@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Work on Adrian de Lima</title>
+    <title>My work on Adrian de Lima</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in My Work on Adrian de Lima</description>
+    <description>Recent content in My work on Adrian de Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>

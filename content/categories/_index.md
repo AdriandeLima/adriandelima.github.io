@@ -1,18 +1,12 @@
 ---
-title: My Work
+title: My work
 showTitle: false
 description: A landing page for my categories of work
-showRelatedContent: false
-showDate: false
-showReadingTime: false
-showWordCount: false
-replybyemail: false
 preview: /content/contact/feature*.jpg
-layout: card
+layout: list
 cardview: true
-showHero: true
-heroStyle: basic
+groupByYear: false
 
 ---
 
-<!-- why is my work displaying 2x, and why can't i change the page layou? I want the categories to display with thumbnails>
+
