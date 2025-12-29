@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home page blurb on Adrian de Lima</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home page blurb on Adrian de Lima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
+    <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
+    <copyright>&amp;copy; Adrian de Lima 2025</copyright>
+    <lastBuildDate>Mon, 29 Dec 2025 18:56:25 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>See Amid the Winter Snow</title>
+      <link>http://localhost:1313/posts/2025-12-29-see-amid-the-winter-snow--christmas-2025-music-video/</link>
+      <pubDate>Mon, 29 Dec 2025 18:56:25 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-29-see-amid-the-winter-snow--christmas-2025-music-video/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-12-29-see-amid-the-winter-snow--christmas-2025-music-video/feature_see_amid.png" />
+    </item>
+    
+    <item>
+      <title>Moon River</title>
+      <link>http://localhost:1313/posts/2025-08-29-moon-river/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-08-29-moon-river/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-29-moon-river/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Wylde Green Concert</title>
+      <link>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-08-04-wylde-green-concert/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-04-wylde-green-concert/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Mary, Did You Know? Christmas 2024 music video</title>
+      <link>http://localhost:1313/posts/2024-12-24-mary-did-you-know/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2024-12-24-mary-did-you-know/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-12-24-mary-did-you-know/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>A Mother and Child by the Sea</title>
+      <link>http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/feature*.jpg" />
+    </item>
+    
+    <item>
+      <title>The Lord&#39;s Prayer music video</title>
+      <link>http://localhost:1313/posts/2024-10-25-the-lords-prayer/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2024-10-25-the-lords-prayer/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-25-the-lords-prayer/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/aboutme/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/aboutme/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Contact page</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/contact/feature*.jpg" />
+    </item>
+    
+  </channel>
+</rss>

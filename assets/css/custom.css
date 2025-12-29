@@ -1,0 +1,8 @@
+.prose .toc-only h2,
+.prose .toc-only h3,
+.prose .toc-only h4 {
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}

@@ -3,7 +3,7 @@
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "pageBundle": true,
+      "pageBundle": false,
       "previewPath": null,
       "fields": [
         {
@@ -15,6 +15,11 @@
           "title": "Description",
           "name": "description",
           "type": "string"
+        },
+        {
+          "title": "Show Table of Contents",
+          "name": "showTableOfContents",
+          "type": "boolean"
         },
         {
           "title": "Publishing date",
@@ -34,6 +39,11 @@
           "type": "draft"
         },
         {
+          "title": "Exclude from search",
+          "name": "excludeFromSearch",
+          "type": "boolean"
+        },
+        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
@@ -42,6 +52,151 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "replybyemail",
+          "name": "replybyemail",
+          "type": "boolean"
+        },
+        {
+          "title": "showRecent",
+          "name": "showRecent",
+          "type": "boolean"
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "cardview",
+          "name": "cardview",
+          "type": "boolean"
+        },
+        {
+          "title": "showDate",
+          "name": "showDate",
+          "type": "boolean"
+        },
+        {
+          "title": "Only show category (don't use with taxonomies)",
+          "name": "showCategoryOnly",
+          "type": "boolean"
+        },
+        {
+          "title": "Only  taxonomy (don't use with categories)",
+          "name": "showTaxonomies",
+          "type": "boolean"
+        },
+        {
+          "title": "showAuthor",
+          "name": "showAuthor",
+          "type": "boolean"
+        },
+        {
+          "title": "showAuthorBottom",
+          "name": "showAuthorBottom",
+          "type": "boolean"
+        },
+        {
+          "title": "showHero",
+          "name": "showHero",
+          "type": "boolean"
+        },
+        {
+          "title": "heroStyle",
+          "name": "heroStyle",
+          "type": "string"
+        },
+        {
+          "title": "showReadingTime",
+          "name": "showReadingTime",
+          "type": "boolean"
+        },
+        {
+          "title": "showWordCount",
+          "name": "showWordCount",
+          "type": "boolean"
+        },
+        {
+          "title": "Show view count",
+          "name": "showViews",
+          "type": "boolean"
+        },
+        {
+          "title": "Show like count",
+          "name": "showLikes",
+          "type": "boolean"
+        },
+        {
+          "title": "Show date only inside article",
+          "name": "showDateOnlyInArticle",
+          "type": "boolean"
+        },
+        {
+          "title": "Show updated date",
+          "name": "showDateUpdated",
+          "type": "boolean"
+        },
+        {
+          "title": "Blur layout background (for background hero types)",
+          "name": "layoutBackgroundBlur",
+          "type": "boolean"
+        },
+        {
+          "title": "Add header space (for background hero types)",
+          "name": "layoutBackgroundHeaderSpace",
+          "type": "boolean"
+        },
+        {
+          "title": "Show breadcrumbs",
+          "name": "showBreadcrumbs",
+          "type": "boolean"
+        },
+        {
+          "title": "Expand series list by default",
+          "name": "seriesOpened",
+          "type": "boolean"
+        },
+        {
+          "title": "Show heading anchors",
+          "name": "showHeadingAnchors",
+          "type": "boolean"
+        },
+        {
+          "title": "Show pagination controls",
+          "name": "showPagination",
+          "type": "boolean"
+        },
+        {
+          "title": "Invert pagination direction",
+          "name": "invertPagination",
+          "type": "boolean"
+        },
+        {
+          "title": "Show related content",
+          "name": "showRelatedContent",
+          "type": "boolean"
+        },
+        {
+          "title": "Number of related posts to show",
+          "name": "relatedContentLimit",
+          "type": "number"
+        },
+        {
+          "title": "Show author badges",
+          "name": "showAuthorsBadges",
+          "type": "boolean"
+        },
+        {
+          "title": "Social sharing links",
+          "name": "sharingLinks",
+          "type": "string"
+        },
+        {
+          "title": "Enable Zen mode",
+          "name": "showZenMode",
+          "type": "boolean"
         }
       ]
     }
@@ -51,19 +206,148 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "blog",
-      "path": "[[workspace]]/content/blog",
-      "previewPath": "/blog/{{slug}}",
-      "trailingSlash": true
+      "title": "content",
+      "path": "[[workspace]]/content"
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.taxonomy.slugTemplate": "{{date|yyyy-MM-dd}}-{{seoTitle}}",
-  "frontMatter.content.placeholders": [
-    {
-      "id": "slug",
-      "value": "{{slug}}"
+  "frontMatter.content.snippets": {
+    "Button": {
+      "description": "A simple button",
+      "body": [
+        "{{< button href=[[URL]] target=\"_self\" >}}",
+        "{{< icon \"[[icon]]\" >}} [[text]]",
+        "{{< /button >}}"
+      ],
+      "fields": [
+        {
+          "name": "URL",
+          "title": "URL",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "text",
+          "title": "text",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Article List": {
+      "description": "A list of recent articles",
+      "body": "{{< list title=\"[[Title]]\" cardView=[[Display card]] limit=[[Limit of articles]] where=\"[[where]]\" value=\"[[value]]\" >}}",
+      "fields": [
+        {
+          "name": "Title",
+          "title": "Title",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "Display card",
+          "title": "Display card",
+          "type": "choice",
+          "default": "",
+          "choices": [
+            "true",
+            "false"
+          ]
+        },
+        {
+          "name": "Limit of articles",
+          "title": "Limit of articles",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "where",
+          "title": "where",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "value",
+          "title": "value",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Icon": {
+      "description": "Add an icon",
+      "body": "{{< icon \"[[icon]]\" >}} [[text]]",
+      "fields": [
+        {
+          "name": "icon",
+          "title": "icon",
+          "type": "string",
+          "single": true,
+          "default": ""
+        },
+        {
+          "name": "text",
+          "title": "text",
+          "type": "string",
+          "single": true,
+          "default": ""
+        }
+      ]
+    },
+    "Socials plug": {
+      "description": "A list of my socials",
+      "body": [
+        "## Socials",
+        "",
+        "",
+        "- {{< icon \"Instagram\" >}} [adriandelima.music](https://www.instagram.com/adriandelima.music)",
+        "- {{< icon \"youtube\" >}} [@AdriandelimaMusic](https://www.youtube.com/@AdriandelimaMusic)"
+      ],
+      "fields": []
+    },
+    "Image": {
+      "description": "Add an image",
+      "body": [
+        "{{< figure",
+        "    src=\"image_source.jpg\"",
+        "    alt=\"Alt text\"",
+        "    caption=\"Photo by [Jr Korpa](https://unsplash.com/@jrkorpa) on [Unsplash](https://unsplash.com/)\"",
+        "    >}}",
+        "",
+        ""
+      ],
+      "fields": []
+    },
+    "Carousel": {
+      "description": "image carousel. Gallery should be inside article folder",
+      "body": "{{< carousel images=\"gallery/*\" aspectRatio=\"12-9\" interval=\"2000\" >}}",
+      "fields": []
+    },
+    "Invisible heading": {
+      "description": "create an invisible heading, just for the table of contents",
+      "body": [
+        "<div class=\"toc-only\">",
+        "",
+        "## Heading name here",
+        "",
+        "</div>"
+      ],
+      "fields": []
     }
-  ],
+  },
+  "frontMatter.website.host": "https://adriandelima.github.io/",
   "frontMatter.dashboard.openOnStart": true
 }
