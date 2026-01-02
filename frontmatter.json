@@ -3,7 +3,7 @@
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
-      "pageBundle": false,
+      "pageBundle": true,
       "previewPath": null,
       "fields": [
         {
@@ -15,11 +15,6 @@
           "title": "Description",
           "name": "description",
           "type": "string"
-        },
-        {
-          "title": "Show Table of Contents",
-          "name": "showTableOfContents",
-          "type": "boolean"
         },
         {
           "title": "Publishing date",
@@ -39,8 +34,8 @@
           "type": "draft"
         },
         {
-          "title": "Exclude from search",
-          "name": "excludeFromSearch",
+          "title": "Show Table of Contents",
+          "name": "showTableOfContents",
           "type": "boolean"
         },
         {
@@ -54,24 +49,19 @@
           "type": "categories"
         },
         {
-          "title": "replybyemail",
-          "name": "replybyemail",
-          "type": "boolean"
-        },
-        {
-          "title": "showRecent",
+          "title": "show recent content",
           "name": "showRecent",
           "type": "boolean"
         },
         {
-          "title": "layout",
-          "name": "layout",
-          "type": "string"
+          "title": "Show related content",
+          "name": "showRelatedContent",
+          "type": "boolean"
         },
         {
-          "title": "cardview",
-          "name": "cardview",
-          "type": "boolean"
+          "title": "Number of related posts to show",
+          "name": "relatedContentLimit",
+          "type": "number"
         },
         {
           "title": "showDate",
@@ -79,42 +69,52 @@
           "type": "boolean"
         },
         {
-          "title": "Only show category (don't use with taxonomies)",
+          "title": "Only show category tag (don't use with taxonomies)",
           "name": "showCategoryOnly",
           "type": "boolean"
         },
         {
-          "title": "Only  taxonomy (don't use with categories)",
+          "title": "Only show taxonomy tag (don't use with categories)",
           "name": "showTaxonomies",
           "type": "boolean"
         },
         {
-          "title": "showAuthor",
-          "name": "showAuthor",
-          "type": "boolean"
-        },
-        {
-          "title": "showAuthorBottom",
-          "name": "showAuthorBottom",
-          "type": "boolean"
-        },
-        {
-          "title": "showHero",
+          "title": "Show hero image",
           "name": "showHero",
           "type": "boolean"
         },
         {
-          "title": "heroStyle",
+          "title": "Hero style",
           "name": "heroStyle",
           "type": "string"
         },
         {
-          "title": "showReadingTime",
+          "title": "Page layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "Card view (only valid if page layout = card)",
+          "name": "cardview",
+          "type": "boolean"
+        },
+        {
+          "title": "Blur layout background (for background hero types)",
+          "name": "layoutBackgroundBlur",
+          "type": "boolean"
+        },
+        {
+          "title": "Add header space (for background hero types)",
+          "name": "layoutBackgroundHeaderSpace",
+          "type": "boolean"
+        },
+        {
+          "title": "Show reading time",
           "name": "showReadingTime",
           "type": "boolean"
         },
         {
-          "title": "showWordCount",
+          "title": "Show word count",
           "name": "showWordCount",
           "type": "boolean"
         },
@@ -134,18 +134,8 @@
           "type": "boolean"
         },
         {
-          "title": "Show updated date",
+          "title": "Show date updated",
           "name": "showDateUpdated",
-          "type": "boolean"
-        },
-        {
-          "title": "Blur layout background (for background hero types)",
-          "name": "layoutBackgroundBlur",
-          "type": "boolean"
-        },
-        {
-          "title": "Add header space (for background hero types)",
-          "name": "layoutBackgroundHeaderSpace",
           "type": "boolean"
         },
         {
@@ -164,34 +154,45 @@
           "type": "boolean"
         },
         {
-          "title": "Show pagination controls",
+          "title": "Show pagination arrows",
           "name": "showPagination",
           "type": "boolean"
         },
         {
-          "title": "Invert pagination direction",
+          "title": "Invert pagination arrow direction",
           "name": "invertPagination",
           "type": "boolean"
         },
-        {
-          "title": "Show related content",
-          "name": "showRelatedContent",
-          "type": "boolean"
-        },
-        {
-          "title": "Number of related posts to show",
-          "name": "relatedContentLimit",
-          "type": "number"
-        },
+
         {
           "title": "Show author badges",
           "name": "showAuthorsBadges",
           "type": "boolean"
         },
         {
+          "title": "Show author",
+          "name": "showAuthor",
+          "type": "boolean"
+        },
+        {
+          "title": "Show author at the bottom",
+          "name": "showAuthorBottom",
+          "type": "boolean"
+        },
+        {
+          "title": "Exclude article from search",
+          "name": "excludeFromSearch",
+          "type": "boolean"
+        },
+        {
           "title": "Social sharing links",
           "name": "sharingLinks",
           "type": "string"
+        },
+        {
+          "title": "Reply by email button",
+          "name": "replybyemail",
+          "type": "boolean"
         },
         {
           "title": "Enable Zen mode",
@@ -208,6 +209,10 @@
     {
       "title": "content",
       "path": "[[workspace]]/content"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts"
     }
   ],
   "frontMatter.git.enabled": true,
