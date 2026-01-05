@@ -21,15 +21,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-12-29-oppenheimer-trailer-rescored/featuredoppenheimer.png" />
     </item>
     
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/aboutme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/aboutme/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/aboutme/featured.jpg" />
-    </item>
-    
   </channel>
 </rss>

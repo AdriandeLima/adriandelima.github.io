@@ -241,45 +241,5 @@
       
     </item>
     
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/tags/about-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/tags/about-me/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Musician</title>
-      <link>http://localhost:1313/tags/musician/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/tags/musician/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Pianist</title>
-      <link>http://localhost:1313/tags/pianist/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/tags/pianist/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Violinist</title>
-      <link>http://localhost:1313/tags/violinist/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/tags/violinist/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>

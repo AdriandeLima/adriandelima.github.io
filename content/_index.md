@@ -1,6 +1,6 @@
 ---
-title: Home page blurb
-description: The text that will show on the home page of the website
+title: Home
+description: Adrian de Lima is a UK-based violinist and composer, specializing in classical performance, electronic composition, and sound design.
 preview: /assets/house.webp
 showHero: false
 ---
@@ -35,7 +35,7 @@ Adrian de Lima is a UK-based violinist and composer, specializing in classical p
 <!-- TODO:
         fix favicons not showing
         Aboutme layout (card)
-        
+
         Logo icon
         favicon
         background image

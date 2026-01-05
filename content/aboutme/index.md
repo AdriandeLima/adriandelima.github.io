@@ -1,20 +1,12 @@
 ---
 title: About me
-description: A page for info about me, my history, and what I do/I've done
+description: About Adrian de Lima
 showRelatedContent: false
 showDate: false
 showReadingTime: false
 showWordCount: false
 replybyemail: false
 preview: /content/contact/feature*.jpg
-tags:
-    - About me
-    - Adrian
-    - Adrian de Lima
-    - Musician
-    - Pianist
-    - Violinist
-    - Composer
 layout: background
 showHero: true
 heroStyle: background
