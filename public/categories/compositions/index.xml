@@ -9,27 +9,7 @@
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2026</copyright>
-    <lastBuildDate>Tue, 30 Dec 2025 00:02:52 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/compositions/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Aliens of Antiquity</title>
-      <link>http://localhost:1313/posts/2025-12-30-aliens-of-antiquity/</link>
-      <pubDate>Tue, 30 Dec 2025 00:02:52 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2025-12-30-aliens-of-antiquity/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Ripples of Sunshine</title>
-      <link>http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/</link>
-      <pubDate>Tue, 30 Dec 2025 00:01:52 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Mon, 29 Dec 2025 23:29:33 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/compositions/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Oppenheimer Trailer Rescored</title>
@@ -49,6 +29,26 @@
       <guid>http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/feature*.jpg" />
+    </item>
+    
+    <item>
+      <title>The Musings of a Guitarist</title>
+      <link>http://localhost:1313/posts/2025-12-29-the-musings-of-a-guitarist/</link>
+      <pubDate>Wed, 29 May 2024 23:49:46 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-29-the-musings-of-a-guitarist/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-12-29-the-musings-of-a-guitarist/feature*.png" />
+    </item>
+    
+    <item>
+      <title>Ripples of Sunshine</title>
+      <link>http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/Ripples%20of%20Sunshine-cover%2A.jpg" />
     </item>
     
   </channel>

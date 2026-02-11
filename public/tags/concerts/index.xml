@@ -21,55 +21,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-04-wylde-green-concert/feature*.webp" />
     </item>
     
-    <item>
-      <title>Christmas Moosic &#39;23</title>
-      <link>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</link>
-      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2023-12-25-christmas-moosic-23/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>Christmas Moosic</title>
-      <link>http://localhost:1313/posts/2021-12-28-christmas-moosic/</link>
-      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2021-12-28-christmas-moosic/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2021-12-28-christmas-moosic/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>Jaime Jorge concert collaboration (2019)</title>
-      <link>http://localhost:1313/posts/2019-10-19-jaime-jorge/</link>
-      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2019-10-19-jaime-jorge/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-19-jaime-jorge/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>June 2019 Concert</title>
-      <link>http://localhost:1313/posts/2019-10-17-june-2019-concert/</link>
-      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2019-10-17-june-2019-concert/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-17-june-2019-concert/feature*.webp" />
-    </item>
-    
-    <item>
-      <title>February 2019 Concert</title>
-      <link>http://localhost:1313/posts/2019-06-11-february-2019-concert/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/posts/2019-06-11-february-2019-concert/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-06-11-february-2019-concert/feature*.webp" />
-    </item>
-    
   </channel>
 </rss>
