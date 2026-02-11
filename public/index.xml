@@ -9,7 +9,37 @@
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2026</copyright>
-    <lastBuildDate>Mon, 29 Dec 2025 23:29:33 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Dec 2025 00:02:52 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Aliens of Antiquity</title>
+      <link>http://localhost:1313/posts/2025-12-30-aliens-of-antiquity/</link>
+      <pubDate>Tue, 30 Dec 2025 00:02:52 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-30-aliens-of-antiquity/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Musings of a Guitarist</title>
+      <link>http://localhost:1313/posts/2025-12-29-the-musings-of-a-guitarist/</link>
+      <pubDate>Mon, 29 Dec 2025 23:49:46 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-29-the-musings-of-a-guitarist/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Concrete Music</title>
+      <link>http://localhost:1313/posts/2025-12-29-concrete-music/</link>
+      <pubDate>Mon, 29 Dec 2025 23:45:04 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-29-concrete-music/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Oppenheimer Trailer Rescored</title>
@@ -79,6 +109,86 @@
       <guid>http://localhost:1313/posts/2024-10-25-the-lords-prayer/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-25-the-lords-prayer/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Christmas Moosic &#39;23</title>
+      <link>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2023-12-25-christmas-moosic-23/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Ripples of Sunshine</title>
+      <link>http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-12-30-ripples-of-sunshine/Ripples%20of%20Sunshine-cover%2A.jpg" />
+    </item>
+    
+    <item>
+      <title>Christmas Moosic</title>
+      <link>http://localhost:1313/posts/2021-12-28-christmas-moosic/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2021-12-28-christmas-moosic/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2021-12-28-christmas-moosic/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Practice violin exam, 2019</title>
+      <link>http://localhost:1313/posts/2019-10-20-practice-exam/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-10-20-practice-exam/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-20-practice-exam/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Jaime Jorge concert collaboration (2019)</title>
+      <link>http://localhost:1313/posts/2019-10-19-jaime-jorge/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-10-19-jaime-jorge/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-19-jaime-jorge/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>June 2019 Concert</title>
+      <link>http://localhost:1313/posts/2019-10-17-june-2019-concert/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-10-17-june-2019-concert/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-10-17-june-2019-concert/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>February 2019 Concert</title>
+      <link>http://localhost:1313/posts/2019-06-11-february-2019-concert/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2019-06-11-february-2019-concert/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2019-06-11-february-2019-concert/feature*.webp" />
+    </item>
+    
+    <item>
+      <title>Francis Poulenc: Novelette in C Major</title>
+      <link>http://localhost:1313/posts/2017-01-16-francis-poulenc/</link>
+      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2017-01-16-francis-poulenc/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2017-01-16-francis-poulenc/feature*.webp" />
     </item>
     
     <item>

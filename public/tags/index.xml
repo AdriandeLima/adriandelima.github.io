@@ -241,5 +241,65 @@
       
     </item>
     
+    <item>
+      <title>Covid-19</title>
+      <link>http://localhost:1313/tags/covid-19/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/tags/covid-19/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Exams</title>
+      <link>http://localhost:1313/tags/exams/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/tags/exams/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Playlists</title>
+      <link>http://localhost:1313/tags/playlists/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/tags/playlists/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Church</title>
+      <link>http://localhost:1313/tags/church/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/tags/church/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>http://localhost:1313/tags/collaboration/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/tags/collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Piano</title>
+      <link>http://localhost:1313/tags/piano/</link>
+      <pubDate>Mon, 16 Jan 2017 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/tags/piano/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -142,6 +142,8 @@
   
   
   
+    
+  
   
     
   
@@ -149,8 +151,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.142b3712f190133e5550fca4b95dbea5e59e2d0e7f324f2c3cde855857f8e28adf140e354d0fd5c308dec0b6b0f5b63c8c765b750ed3212bb1fced833ab36b5b.css"
-    integrity="sha512-FCs3EvGQEz5VUPykuV2&#43;peWeLQ5/Mk8sPN6FWFf44orfFA41TQ/VwwjewLaw9bY8jHZbdQ7TISux/O2DOrNrWw==">
+    href="/css/main.bundle.min.be83764f4a27bda9ef2f0d343511ea470f34c94894198b414f16802c1cc65a7bceaef5b89bee7dc6126f7e0729f5df58e3f305ea6ef1e56086657b3fd12f39cf.css"
+    integrity="sha512-voN2T0onvanvLw00NRHqRw80yUiUGYtBTxaALBzGWnvOrvW4m&#43;59xhJvfgcp9d9Y4/MF6m7x5WCGZXs/0S85zw==">
 
   
   
@@ -182,13 +184,14 @@
   
   
   
+  
     
     <script
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.9df4fc14d50efcc9aa4cfc2b6f348e365f421f5ad491278f8f48c0360cf2f93f08882fda6da162d7ace8e5add57c2df4ac46bd3861306b1d4c452cd31f448d64.js"
-      integrity="sha512-nfT8FNUO/MmqTPwrbzSONl9CH1rUkSePj0jANgzy&#43;T8IiC/abaFi16zo5a3VfC30rEa9OGEwax1MRSzTH0SNZA=="
+      src="/js/main.bundle.min.f9f1b392b5ec57bc56a94efc71307ca4bcc638b86098a8dbd0588f73c9199295101dc0a5c69dfe3c22749eb36604dc02e5224e08bad474cb41809f7b4a7508ef.js"
+      integrity="sha512-&#43;fGzkrXsV7xWqU78cTB8pLzGOLhgmKjb0FiPc8kZkpUQHcClxp3&#43;PCJ0nrNmBNwC5SJOCLrUdMtBgJ97SnUI7w=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -237,6 +240,9 @@
 
 
 
+
+
+
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -250,13 +256,12 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Posts",
+    "articleSection": "All articles",
     "name": "June 2019 Concert",
     "headline": "June 2019 Concert",
     "description": "Piano concert of 10 June 2019",
-    
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/posts\/2019-10-17-june-2019-concert\/",
+    "url" : "http://localhost:1313/posts/2019-10-17-june-2019-concert/",
     "author" : {
       "@type": "Person",
       "name": "Adrian de Lima"
@@ -351,9 +356,9 @@
           <span class="sr-only">Adrian de Lima</span>
           
             <img
-              src="/logo%20high%20res.webp"
-              width="1579"
-              height="1595"
+              src="/watermark.png"
+              width="837"
+              height="866"
               class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
               alt="">
           
@@ -428,6 +433,17 @@
       <div class="flex flex-col space-y-3">
         
           <a
+            href="/posts/"
+            
+            aria-label="All Articles"
+            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+            
+            <p class="text-sm font-sm" title="All articles">
+              All Articles
+            </p>
+          </a>
+        
+          <a
             href="/categories/compositions/"
             
             aria-label="Compositions"
@@ -464,24 +480,6 @@
     </div>
   </div>
 </div>
-
-
-
-      
-        
-  <a
-  href="/posts/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="Articles"
-  title="Posts">
-  
-  
-    <p class="text-base font-medium">
-      Articles
-    </p>
-  
-</a>
 
 
 
@@ -619,6 +617,19 @@
 
   <li class="mt-1">
     <a
+      href="/posts/"
+      
+      aria-label="All Articles"
+      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+      
+      <p class="text-sm font-small" title="All articles">
+        All Articles
+      </p>
+    </a>
+  </li>
+
+  <li class="mt-1">
+    <a
       href="/categories/compositions/"
       
       aria-label="Compositions"
@@ -657,26 +668,6 @@
   </li>
 
 <li class="mb-2"></li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/posts/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="Articles"
-    title="Posts">
-    
-    
-      <p class="text-bg font-bg">
-        Articles
-      </p>
-    
-  </a>
-</li>
 
 
 
@@ -746,14 +737,14 @@
   
   <li class="hidden">
     <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/"
-      >Home page blurb</a
+      >Home</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
   
   <li class="inline">
     <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href="/posts/"
-      >Posts</a
+      >All articles</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -891,37 +882,14 @@
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cYIje3nXbP4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
-<blockquote>
-<p>Track 1, JS Bach: Partita no.1 BWV 825, Praeludium and Gigue - 2019-06-10 16:26:50</p>
-</blockquote>
-<p>Adrian played a piano concert on the afternoon of 10 June 2019. The videos were filmed by family, and originally uploaded 17 October 2019 to the alt account <a
-  href="https://www.youtube.com/@neusymardelima6509/videos"
-    target="_blank"
-  >@neusymardelima6509</a> (<a
-  href="https://preservetube.com/channel/UClOpietGe0DZj33-MwAB60Q"
-    target="_blank"
-  >Archive on PreserveTube</a>).</p>
-<p>Please enjoy the <strong><a
-  href="https://www.youtube.com/watch?v=cYIje3nXbP4&amp;list=PL7lYAPBtsb3wVOwqcoLIwMnfiahSBDNM_"
-    target="_blank"
-  >full playlist</a></strong> of songs:</p>
+<blockquote ><p>Track 1, JS Bach: Partita no.1 BWV 825, Praeludium and Gigue - 2019-06-10 16:26:50</p>
+</blockquote><p>Adrian played a piano concert on the afternoon of 10 June 2019. The videos were filmed by family, and originally uploaded 17 October 2019 to the alt account <a href="https://www.youtube.com/@neusymardelima6509/videos"  target="_blank">@neusymardelima6509</a> (<a href="https://preservetube.com/channel/UClOpietGe0DZj33-MwAB60Q"  target="_blank">Archive on PreserveTube</a>).</p>
+<p>Please enjoy the <strong><a href="https://www.youtube.com/watch?v=cYIje3nXbP4&amp;list=PL7lYAPBtsb3wVOwqcoLIwMnfiahSBDNM_"  target="_blank">full playlist</a></strong> of songs:</p>
 <ol>
-<li><a
-  href="https://www.youtube.com/watch?v=cYIje3nXbP4"
-    target="_blank"
-  >JS Bach: Partita no.1 BWV 825, Praeludium and Gigue - 2019-06-10 16:26:50</a></li>
-<li><a
-  href="https://www.youtube.com/watch?v=a-L-ixMh06o"
-    target="_blank"
-  >L van Beethoven: Sonata in G major Op 14 no.2, Allegro and Andante - 2019-06-10 16:31:53</a></li>
-<li><a
-  href="https://www.youtube.com/watch?v=K3DcYfOzbjQ"
-    target="_blank"
-  >J Brahms:  Rhapsody no. 2 Op 791 - 2019-06-10 16:46:29</a></li>
-<li><a
-  href="https://www.youtube.com/watch?v=9LVbmvW_SYw"
-    target="_blank"
-  >M Ravel:  Pavane pour une Infante defunte - 2019-06-10 16:51:43</a></li>
+<li><a href="https://www.youtube.com/watch?v=cYIje3nXbP4"  target="_blank">JS Bach: Partita no.1 BWV 825, Praeludium and Gigue - 2019-06-10 16:26:50</a></li>
+<li><a href="https://www.youtube.com/watch?v=a-L-ixMh06o"  target="_blank">L van Beethoven: Sonata in G major Op 14 no.2, Allegro and Andante - 2019-06-10 16:31:53</a></li>
+<li><a href="https://www.youtube.com/watch?v=K3DcYfOzbjQ"  target="_blank">J Brahms:  Rhapsody no. 2 Op 791 - 2019-06-10 16:46:29</a></li>
+<li><a href="https://www.youtube.com/watch?v=9LVbmvW_SYw"  target="_blank">M Ravel:  Pavane pour une Infante defunte - 2019-06-10 16:51:43</a></li>
 </ol>
 
           
@@ -960,6 +928,9 @@
     
       
       
+      
+        
+        
         
       
       <img
@@ -967,8 +938,8 @@
         width="96"
         height="96"
         alt="Adrian de Lima"
-        src="/aedl_got_talent_hu_5d8a9980eca025af.jpg"
-        data-zoom-src="/aedl_got_talent.jpg">
+        src="/aedl_vln_hu_695372fffdba09aa.jpg"
+        data-zoom-src="/aedl_vln_hu_1cee41724fd3ec76.jpg">
     
   
   <div class="place-self-center">
@@ -1200,12 +1171,12 @@
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
         src="/posts/2019-06-11-february-2019-concert/feature*_hu_b6a9ba584051f9f5.webp"
-        alt="February 2019 Concert"
+        role="presentation"
         loading="lazy"
         decoding="async"
         fetchpriority="low"
@@ -1223,7 +1194,7 @@
 
     </span>
   
-  <div class="px-6 py-4">
+  <div class="p-4">
     <header>
       <a
         
@@ -1368,12 +1339,12 @@
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
+  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
         src="/posts/2017-01-16-francis-poulenc/feature*_hu_67b4e55fa2e8bc8e.webp"
-        alt="Francis Poulenc: Novelette in C Major"
+        role="presentation"
         loading="lazy"
         decoding="async"
         fetchpriority="low"
@@ -1391,7 +1362,7 @@
 
     </span>
   
-  <div class="px-6 py-4">
+  <div class="p-4">
     <header>
       <a
         
@@ -1485,126 +1456,6 @@
 </span>
 
         </a>
-      
-    </div>
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-    
-      
-    
-      
-    
-      
-    
-  
-
-  
-  
-    
-    
-  
-
-  
-  
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
-  
-  
-  <div class="px-6 py-4">
-    <header>
-      <a
-        
-          href="/aboutme/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          About me
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-
-    
-    
-  </div>
-
-  
-
-
-  
-
-  
-    <div class="flex flex-row flex-wrap items-center">
       
     </div>
   
@@ -1748,7 +1599,7 @@
     
     
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          © Adrian de Lima 2025
+          © Adrian de Lima 2026
       </p>
     
 

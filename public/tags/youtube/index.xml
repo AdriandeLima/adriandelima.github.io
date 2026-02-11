@@ -41,5 +41,15 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-25-the-lords-prayer/feature*.webp" />
     </item>
     
+    <item>
+      <title>Christmas Moosic &#39;23</title>
+      <link>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2023-12-25-christmas-moosic-23/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2023-12-25-christmas-moosic-23/feature*.webp" />
+    </item>
+    
   </channel>
 </rss>
