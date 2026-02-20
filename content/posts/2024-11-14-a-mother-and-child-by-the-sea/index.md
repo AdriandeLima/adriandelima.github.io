@@ -24,7 +24,9 @@ showTableOfContents: true
 
 </div>
 <!-- FM:Snippet:End -->
-{{< soundcloud-track 2003435779 >}}
+<!-- {{< soundcloud-track 2003435779 >}} -->
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2003435779&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adrian-de-lima-664572410" title="Adrian de Lima" target="_blank" style="color: #cccccc; text-decoration: none;">Adrian de Lima</a> · <a href="https://soundcloud.com/adrian-de-lima-664572410/a-mother-and-child-visit-the-seaside" title="A Mother and Child visit the seaside" target="_blank" style="color: #cccccc; text-decoration: none;">A Mother and Child visit the seaside</a></div>
 
 Living much of his life in Dresden, Dahl never forgot his Norwegian homeland, basing a lot of his landscape work off of his memories of the landscape and trips home <sup>[1](https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/ )</sup>. His 'Mother and Child by the Sea' was painted during a difficult time in his life, not long after the deaths of a lot of his family, and the same year that his great friend and inspiration Caspar Friedrich passed away. Some see the work as a homage to his friend, or as a reference to his own childhood, waiting for his father to return from his fishing trips <sup> [2](https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/)</sup>.
 
