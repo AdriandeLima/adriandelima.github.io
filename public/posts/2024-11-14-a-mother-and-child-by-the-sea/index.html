@@ -151,8 +151,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.be83764f4a27bda9ef2f0d343511ea470f34c94894198b414f16802c1cc65a7bceaef5b89bee7dc6126f7e0729f5df58e3f305ea6ef1e56086657b3fd12f39cf.css"
-    integrity="sha512-voN2T0onvanvLw00NRHqRw80yUiUGYtBTxaALBzGWnvOrvW4m&#43;59xhJvfgcp9d9Y4/MF6m7x5WCGZXs/0S85zw==">
+    href="/css/main.bundle.min.f661d883f84c8024c266ae879f529d7c414a4860df13366c64b8c56f10363290a8065368ed52ffec0133bd1cd0c17681a9af30872ac9805f1f30200c8a1dc8ef.css"
+    integrity="sha512-9mHYg/hMgCTCZq6Hn1KdfEFKSGDfEzZsZLjFbxA2MpCoBlNo7VL/7AEzvRzQwXaBqa8whyrJgF8fMCAMih3I7w==">
 
   
   
@@ -184,14 +184,13 @@
   
   
   
-  
     
     <script
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.f9f1b392b5ec57bc56a94efc71307ca4bcc638b86098a8dbd0588f73c9199295101dc0a5c69dfe3c22749eb36604dc02e5224e08bad474cb41809f7b4a7508ef.js"
-      integrity="sha512-&#43;fGzkrXsV7xWqU78cTB8pLzGOLhgmKjb0FiPc8kZkpUQHcClxp3&#43;PCJ0nrNmBNwC5SJOCLrUdMtBgJ97SnUI7w=="
+      src="/js/main.bundle.min.c41769a6d0a0f3c9fae21f229a8ff36dbf91ab46022c5e71ec6600b9be681f5f41e6148129be6881788a258ce35a23cb28fb4b739843d8ffc1efec4081c51313.js"
+      integrity="sha512-xBdpptCg88n64h8imo/zbb&#43;Rq0YCLF5x7GYAub5oH19B5hSBKb5ogXiKJYzjWiPLKPtLc5hD2P/B7&#43;xAgcUTEw=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -199,10 +198,6 @@
   
   
 
-<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
-
-
-
 
 
 
@@ -235,6 +230,11 @@
   
 
   
+
+
+
+
+
 
 
 
@@ -292,9 +292,6 @@
 
   
   
-
-  
-  
 </head>
 
 
@@ -331,23 +328,7 @@
     </div>
     
     
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div
-  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
-  
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
     
     
@@ -359,61 +340,59 @@
               src="/watermark_with_background_white.png"
               width="837"
               height="866"
-              class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
+              class="logo max-h-20 max-w-20 object-scale-down object-left nozoom"
               alt="">
           
         </a>
       </div>
     
-
-  <div class="flex flex-1 items-center justify-between">
-    <nav class="flex space-x-3">
-      
-        <a href="/" class="text-base font-medium">
-          Adrian de Lima
-        </a>
-      
-    </nav>
-    
-  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
-    
-      
-        
-  <a
-  href="/aboutme/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="About me"
-  title="About me">
   
   
-    <p class="text-base font-medium">
-      About me
-    </p>
-  
-</a>
-
-
-
-      
-        
-  <div>
-  <div class="cursor-pointer flex items-center nested-menu">
-    
-    <a
-      
-        href="/categories/"
-        
-      
-      aria-label="My Work"
-      class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400"
-      title="">
-      <p>
-        My Work
-      </p>
+    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
+      Adrian de Lima
     </a>
-    <span>
-      <span class="relative block icon"><svg
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/aboutme/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="About me"
+      title="About me">
+      
+      
+        <span class="text-base font-medium break-normal">
+          About me
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <div class="nested-menu">
+      <div class="cursor-pointer flex items-center">
+        <a
+          
+            href="/categories/"
+            
+          
+          aria-label="My Work"
+          class="flex items-center text-base font-medium bf-icon-color-hover"
+          title="">
+          
+          <span class="text-bg font-bg break-normal" title="">
+            My Work
+          </span>
+          <span>
+            <span class="relative block icon"><svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 20 20"
   fill="currentColor"
@@ -426,280 +405,286 @@
   />
 </svg>
 </span>
-    </span>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-          <a
-            href="/posts/"
+          </span>
+        </a>
+      </div>
+      <div class="menuhide">
+        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
+          <div class="flex flex-col space-y-3">
             
-            aria-label="All Articles"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+              <a
+                href="/posts/"
+                
+                aria-label="All Articles"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="All articles">
+                  All Articles
+                </span>
+              </a>
             
-            <p class="text-sm font-sm" title="All articles">
-              All Articles
-            </p>
-          </a>
-        
-          <a
-            href="/categories/compositions/"
+              <a
+                href="/categories/compositions/"
+                
+                aria-label="Compositions"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="">
+                  Compositions
+                </span>
+              </a>
             
-            aria-label="Compositions"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+              <a
+                href="/categories/music-videos/"
+                
+                aria-label="Music Videos"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="">
+                  Music Videos
+                </span>
+              </a>
             
-            <p class="text-sm font-sm" title="">
-              Compositions
-            </p>
-          </a>
-        
-          <a
-            href="/categories/music-videos/"
+              <a
+                href="/categories/performances/"
+                
+                aria-label="Performances"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="">
+                  Performances
+                </span>
+              </a>
             
-            aria-label="Music Videos"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              Music Videos
-            </p>
-          </a>
-        
-          <a
-            href="/categories/performances/"
-            
-            aria-label="Performances"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              Performances
-            </p>
-          </a>
-        
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  
+
+    
+      
+  
+    <a
+      href="/contact/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Contact"
+      title="Contact page">
+      
+      
+        <span class="text-base font-medium break-normal">
+          Contact
+        </span>
+      
+    </a>
+  
+
+    
+  
+
+  
+
+  
+
+  
+    <button
+      id="search-button"
+      aria-label="Search"
+      class="text-base bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+</nav>
+
+
+
+    </div>
+    <div class="flex md:hidden">
+      <div class="flex items-center h-14 gap-4">
+  
+    <button
+      id="search-button-mobile"
+      aria-label="Search"
+      class="flex items-center justify-center bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+
+  
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      role="dialog"
+      aria-modal="true"
+      style="scrollbar-gutter: stable;"
+      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <a
+        href="/aboutme/"
+        aria-label="About me"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="About me" class="text-2xl font-bold tracking-tight">
+          About me
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/categories/"
+        aria-label="My Work"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="" class="text-2xl font-bold tracking-tight">
+          My Work
+        </span>
+        
+          <label
+            for="fullscreen-submenu-my-work"
+            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
+            <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+          </label>
+        
+      </a>
+
+      
+        <input checked type="checkbox" id="fullscreen-submenu-my-work" autocomplete="off" class="hidden peer/full">
+
+        <div
+          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
+          <div class="overflow-hidden">
+            <div class="ms-7 mt-4">
+              
+                <a
+                  href="/posts/"
+                  aria-label="All Articles"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="All articles" class="text-lg">
+                    All Articles
+                  </span>
+                </a>
+              
+                <a
+                  href="/categories/compositions/"
+                  aria-label="Compositions"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="" class="text-lg">
+                    Compositions
+                  </span>
+                </a>
+              
+                <a
+                  href="/categories/music-videos/"
+                  aria-label="Music Videos"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="" class="text-lg">
+                    Music Videos
+                  </span>
+                </a>
+              
+                <a
+                  href="/categories/performances/"
+                  aria-label="Performances"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="" class="text-lg">
+                    Performances
+                  </span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/contact/"
+        aria-label="Contact"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Contact page" class="text-2xl font-bold tracking-tight">
+          Contact
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+
+        
+  
+
+        
+  
+
+      </nav>
+    </div>
+  
 </div>
 
 
 
-      
-        
-  <a
-  href="/contact/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="Contact"
-  title="Contact page">
-  
-  
-    <p class="text-base font-medium">
-      Contact
-    </p>
-  
-</a>
 
 
 
-      
-    
 
-    
-
-    
-
-    
-      <button
-        id="search-button"
-        aria-label="Search"
-        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-        title="Search (/)">
-        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-      </button>
-    
-
-    
-  </nav>
-
-    
-  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
-    <span></span>
-
-    
-
-    
-
-    
-      <button
-        id="search-button-mobile"
-        aria-label="Search"
-        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-        title="Search (/)">
-        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-      </button>
-    
-
-    
-  </div>
-
-  </div>
-  
-  <div class="-my-2 md:hidden">
-    <div id="menu-button" class="block">
-      
-        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-        </div>
-        <div
-          id="menu-wrapper"
-          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
-          <ul
-            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
-            <li id="menu-close-button">
-              <span
-                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
-                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-              </span>
-            </li>
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/aboutme/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="About me"
-    title="About me">
-    
-    
-      <p class="text-bg font-bg">
-        About me
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/categories/"
-    aria-label="My Work"
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="">
-      My Work
-    </p>
-    <span>
-      <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-    </span>
-  </a>
-</li>
-
-  <li class="mt-1">
-    <a
-      href="/posts/"
-      
-      aria-label="All Articles"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="All articles">
-        All Articles
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/categories/compositions/"
-      
-      aria-label="Compositions"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        Compositions
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/categories/music-videos/"
-      
-      aria-label="Music Videos"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        Music Videos
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/categories/performances/"
-      
-      aria-label="Performances"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        Performances
-      </p>
-    </a>
-  </li>
-
-<li class="mb-2"></li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/contact/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="Contact"
-    title="Contact page">
-    
-    
-      <p class="text-bg font-bg">
-        Contact
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
-
-          </ul>
-          
-        </div>
-      
     </div>
   </div>
-
 </div>
 
 
@@ -707,10 +692,17 @@
 
   <script>
     (function () {
-      var $mainmenu = $(".main-menu");
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
       var path = window.location.pathname;
-      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-        $(e).children("p").addClass("active");
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
       });
     })();
   </script>
@@ -854,13 +846,12 @@
       
       
       
-        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
+        <div class="order-first lg:ms-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
           <div class="toc ps-5 print:hidden lg:sticky lg:top-10">
-            
-              <details
+            <details
   open
   id="TOCView"
-  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
+  class="toc-right mt-0 overflow-y-auto overscroll-contain bf-scrollbar rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
@@ -997,7 +988,6 @@
 </script>
 
 
-            
           </div>
         </div>
       
@@ -1030,7 +1020,7 @@ allow="autoplay"
 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2003435779&color=%231c1511&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
 ></iframe> -->
 <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2003435779&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adrian-de-lima-664572410" title="Adrian de Lima" target="_blank" style="color: #cccccc; text-decoration: none;">Adrian de Lima</a> · <a href="https://soundcloud.com/adrian-de-lima-664572410/a-mother-and-child-visit-the-seaside" title="A Mother and Child visit the seaside" target="_blank" style="color: #cccccc; text-decoration: none;">A Mother and Child visit the seaside</a></div>
-<p>Living much of his life in Dresden, Dahl never forgot his Norwegian homeland, basing a lot of his landscape work off of his memories of the landscape and trips home <sup><a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank">1</a></sup>. His &lsquo;Mother and Child by the Sea&rsquo; was painted during a difficult time in his life, not long after the deaths of a lot of his family, and the same year that his great friend and inspiration Caspar Friedrich passed away. Some see the work as a homage to his friend, or as a reference to his own childhood, waiting for his father to return from his fishing trips <sup> <a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank">2</a></sup>.</p>
+<p>Living much of his life in Dresden, Dahl never forgot his Norwegian homeland, basing a lot of his landscape work off of his memories of the landscape and trips home <sup><a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank" rel="noreferrer">1</a></sup>. His &lsquo;Mother and Child by the Sea&rsquo; was painted during a difficult time in his life, not long after the deaths of a lot of his family, and the same year that his great friend and inspiration Caspar Friedrich passed away. Some see the work as a homage to his friend, or as a reference to his own childhood, waiting for his father to return from his fishing trips <sup> <a href="https://mydailyartdisplay.uk/2011/07/05/mother-and-child-by-the-sea-by-johan-christian-dahl/"  target="_blank" rel="noreferrer">2</a></sup>.</p>
 <!-- FM:Snippet:Start data:{"id":"Invisible heading","fields":[]} -->
 <div class="toc-only">
 
@@ -1050,7 +1040,7 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
 <figure>
       <img class="my-0 rounded-md" src="mother-and-child-by-the-sea-by-johan-christian-clausen-dahl-2.jpg" alt="Image of the painting" />
   
-  <figcaption>Dahl, Johan Christian Clausen; Mother and Child by the Sea; <a href="http://www.artuk.org/artworks/mother-and-child-by-the-sea-33070"  target="_blank">The Barber Institute of Fine Arts</a></figcaption>
+  <figcaption>Dahl, Johan Christian Clausen; Mother and Child by the Sea; <a href="http://www.artuk.org/artworks/mother-and-child-by-the-sea-33070"  target="_blank" rel="noreferrer">The Barber Institute of Fine Arts</a></figcaption>
   </figure>
 <!-- FM:Snippet:End -->
 <p>The painting is on a small canvas, in a way inviting the viewer in for a closer, more intimate viewing experience. It depicts the silhouettes a woman and child waiting for a fishing boat to return. I love the contrast between the cold moonlight and the shadowy landscape, as it leaves a lot of the details of the scene up to one’s imagination. The child appears to be excited, but we can’t tell what the mother’s attitude is and there’s no way of knowing whether the trip has been successful or not.</p>
@@ -1078,8 +1068,8 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
           alt="Photo of the painting"
           width="3072"
           height="4080"
-          src="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_f622eec3d975f5d2.jpg"
-          srcset="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_f622eec3d975f5d2.jpg 800w,/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_aea9f941273ea0b6.jpg 1280w"
+          src="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_18461bd37f7b560f.jpg"
+          srcset="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_18461bd37f7b560f.jpg 800w,/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic_hu_475a606d8b289b03.jpg 1280w"
           sizes="(min-width: 768px) 50vw, 65vw"
           data-zoom-src="/posts/2024-11-14-a-mother-and-child-by-the-sea/macbts_pic.jpg"
         />
@@ -1102,19 +1092,26 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
 <p>I began my composition with a quite literal sonic representation of the painting, a crafted seascape, created from sampled audio. I used a variety of samples from a water bottle, some rocks, a rain stick and a saltshaker, combined with processing effects, such as freezing and stretching to abstract the sounds from their source. I used this processing to create long textural sounds which I layered and shaped into waves and shoal via EQ automation.</p>
 <p>The advantage I found from synthesizing my seascape instead of doing a field recording of the sea, was that I could easily transition my various elements and layers into a more processed sound world over the course of the piece, slowly increasing the amount of processing on the various layers. The majority of my processing is done with realtime automation, so as to allow tweaking to the sound right up until I render the final file.</p>
 <p>The piece follows a journey, beginning with the listener observing the shoreline, and hearing the mother’s laboured footsteps approach, quickly followed by the excited child rushing through the gravelly beach. The listener’s viewpoint is then taken under the water, where one begins to hear a more alien sound world. I associated the deep bass groanings with the sound of the boat, from an underwater viewpoint. This middle section is much more heavily processed, dipping between the abstract and the less abstract in such a way as to mimic that lucid state when one is half awake, or perhaps, drowning. In the middle section I introduce the idea of memory, harking back to Dahl’s nostalgia for his homeland, with the inclusion of faint birdsong, like one might hear in a forest glade or mountain valley, in contrast to the seagulls heard at the beginning. The piece ends as it began, returning to the surface, to the shoreline, and to the recognisable world.</p>
-<p><a href="https://soundcloud.com/adrian-de-lima-664572410"  target="_blank"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z"/></svg></span> Adrian de Lima</a>  · <a href="https://soundcloud.com/adrian-de-lima-664572410/blog-post-audio/s-9bQTl2l3j00"  target="_blank">Some source sounds</a></p>
-<p>Republished from <a href="https://soundingimages.wordpress.com/portfolio/a-mother-and-child-visit-the-seaside/"  target="_blank">here</a> and <a href="https://soundingimages.wordpress.com/author/axd119/"  target="_blank">here</a> (<a href="https://web.archive.org/web/20241114163202/http://soundingimages.wordpress.com/2024/11/14/a-mother-and-child-by-the-sea/"  target="_blank">Archive.org</a>).</p>
+<p><a href="https://soundcloud.com/adrian-de-lima-664572410"  target="_blank" rel="noreferrer"><span class="relative inline-block align-text-bottom icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z"/></svg></span> Adrian de Lima</a>  · <a href="https://soundcloud.com/adrian-de-lima-664572410/blog-post-audio/s-9bQTl2l3j00"  target="_blank" rel="noreferrer">Some source sounds</a></p>
+<p>Republished from <a href="https://soundingimages.wordpress.com/portfolio/a-mother-and-child-visit-the-seaside/"  target="_blank" rel="noreferrer">here</a> and <a href="https://soundingimages.wordpress.com/author/axd119/"  target="_blank" rel="noreferrer">here</a> (<a href="https://web.archive.org/web/20241114163202/http://soundingimages.wordpress.com/2024/11/14/a-mother-and-child-by-the-sea/"  target="_blank" rel="noreferrer">Archive.org</a>).</p>
 
           
           
           
             <strong class="block mt-8">
               <a
-                target="_blank"
-                class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-                href="mailto:adriandelima.musician@gmail.com?subject=Reply%20to%20A%20Mother%20and%20Child%20by%20the%20Sea">
+                class="email-link m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+                href="#"
+                data-email="YWRyaWFuZGVsaW1hLm11c2ljaWFuQGdtYWlsLmNvbQ=="
+                data-subject="Reply to A Mother and Child by the Sea">
                 Reply by Email
               </a>
+              <noscript>
+                <span
+                  class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 dark:bg-neutral-700 dark:text-neutral-300">
+                  Reply by Email (require JavaScript)
+                </span>
+              </noscript>
             </strong>
           
         </div>
@@ -1151,8 +1148,8 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
         width="96"
         height="96"
         alt="Adrian de Lima"
-        src="/aedl_vln_hu_695372fffdba09aa.jpg"
-        data-zoom-src="/aedl_vln_hu_1cee41724fd3ec76.jpg">
+        src="/aedl_vln_hu_7ff1eb9109cb011.jpg"
+        data-zoom-src="/aedl_vln_hu_70fc60e035cb5f9d.jpg">
     
   
   <div class="place-self-center">
@@ -1168,12 +1165,16 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       <div class="text-sm text-neutral-700 dark:text-neutral-400">Musician specializing in performance, composition and music technology.</div>
     
     <div class="text-2xl sm:text-lg">
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500 space-x-2">
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="mailto:adriandelima.musician@gmail.com"
+          class="email-link hover:text-primary-700 dark:hover:text-primary-400"
+          href="#"
+          
+            data-email="bWFpbHRvOmFkcmlhbmRlbGltYS5tdXNpY2lhbkBnbWFpbC5jb20="
+          
           target="_blank"
           aria-label="Email"
           title="Email"
@@ -1183,9 +1184,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://instagram.com/adriandelima.music"
+          
           target="_blank"
           aria-label="Instagram"
           title="Instagram"
@@ -1196,9 +1199,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://www.linkedin.com/in/adrian-de-lima"
+          
           target="_blank"
           aria-label="Linkedin"
           title="Linkedin"
@@ -1209,9 +1214,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://soundcloud.com/adrian-de-lima-664572410"
+          
           target="_blank"
           aria-label="Soundcloud"
           title="Soundcloud"
@@ -1222,9 +1229,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://open.spotify.com/user/mylymi5f0ui2dne76683hftib"
+          
           target="_blank"
           aria-label="Spotify"
           title="Spotify"
@@ -1234,9 +1243,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          class=" hover:text-primary-700 dark:hover:text-primary-400"
           href="https://www.youtube.com/@AdriandelimaMusic"
+          
           target="_blank"
           aria-label="Youtube"
           title="Youtube"
@@ -1268,10 +1279,12 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
   <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
     
       
+        
         <a
+          class=" m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           target="_blank"
-          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/&amp;title=A%20Mother%20and%20Child%20by%20the%20Sea"
+          
           title="Share on LinkedIn"
           aria-label="Share on LinkedIn">
           <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
@@ -1280,10 +1293,12 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
+          class=" m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           target="_blank"
-          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://twitter.com/intent/tweet/?url=http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/&amp;text=A%20Mother%20and%20Child%20by%20the%20Sea"
+          
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter">
           <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></span>
@@ -1291,10 +1306,12 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
+          class=" m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           target="_blank"
-          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://bsky.app/intent/compose?text=A%20Mother%20and%20Child%20by%20the%20Sea&#43;http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/"
+          
           title="Post on Bluesky"
           aria-label="Post on Bluesky">
           <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,232.562c-21.183,-41.196 -78.868,-117.97 -132.503,-155.834c-51.378,-36.272 -70.978,-29.987 -83.828,-24.181c-14.872,6.72 -17.577,29.554 -17.577,42.988c0,13.433 7.365,110.138 12.169,126.281c15.873,53.336 72.376,71.358 124.413,65.574c2.66,-0.395 5.357,-0.759 8.089,-1.097c-2.68,0.429 -5.379,0.796 -8.089,1.097c-76.259,11.294 -143.984,39.085 -55.158,137.972c97.708,101.165 133.908,-21.692 152.484,-83.983c18.576,62.291 39.972,180.718 150.734,83.983c83.174,-83.983 22.851,-126.674 -53.408,-137.969c-2.71,-0.302 -5.409,-0.667 -8.089,-1.096c2.732,0.337 5.429,0.702 8.089,1.096c52.037,5.785 108.54,-12.239 124.413,-65.574c4.804,-16.142 12.169,-112.847 12.169,-126.281c-0,-13.434 -2.705,-36.267 -17.577,-42.988c-12.85,-5.806 -32.45,-12.09 -83.829,24.181c-53.634,37.864 -111.319,114.635 -132.502,155.831Z"/></svg></span>
@@ -1302,10 +1319,12 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
+          class=" m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           target="_blank"
-          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://reddit.com/submit/?url=http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/&amp;resubmit=true&amp;title=A%20Mother%20and%20Child%20by%20the%20Sea"
+          
           title="Submit to Reddit"
           aria-label="Submit to Reddit">
           <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
@@ -1314,10 +1333,12 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
+          class=" m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           target="_blank"
-          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/&amp;quote=A%20Mother%20and%20Child%20by%20the%20Sea"
+          
           title="Share on Facebook"
           aria-label="Share on Facebook">
           <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
@@ -1326,10 +1347,12 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       
     
       
+        
         <a
+          class=" m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           target="_blank"
-          class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://api.whatsapp.com/send?text=http://localhost:1313/posts/2024-11-14-a-mother-and-child-by-the-sea/&amp;resubmit=true&amp;title=A%20Mother%20and%20Child%20by%20the%20Sea"
+          
           title="Share via WhatsApp"
           aria-label="Share via WhatsApp">
           <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
@@ -1384,11 +1407,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
-        src="/posts/2025-12-29-the-musings-of-a-guitarist/feature*_hu_9dbc84d8e28eee44.png"
+        src="/posts/2025-12-29-the-musings-of-a-guitarist/feature*_hu_72c13ac7379d505f.png"
         role="presentation"
         loading="lazy"
         decoding="async"
@@ -1532,11 +1555,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
-        src="/posts/2024-10-25-the-lords-prayer/feature*_hu_e869b8dda42df275.webp"
+        src="/posts/2024-10-25-the-lords-prayer/feature*_hu_432ae667df2ec82f.webp"
         role="presentation"
         loading="lazy"
         decoding="async"
@@ -1680,11 +1703,11 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
 
 
 <article
-  class="relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
+  class="article-link--related relative min-h-full min-w-full overflow-hidden rounded-lg border border-neutral-300 dark:border-neutral-600">
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
-        src="/posts/2025-12-30-ripples-of-sunshine/Ripples%20of%20Sunshine-cover%2A_hu_495449fa31de56f5.jpg"
+        src="/posts/2025-12-30-ripples-of-sunshine/Ripples%20of%20Sunshine-cover%2A_hu_69979e53597d2255.jpg"
         role="presentation"
         loading="lazy"
         decoding="async"
@@ -1795,23 +1818,6 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
 
 
       </div>
-
-      
-      
-        
-        
-          
-          
-        
-        
-        
-        <script
-          type="text/javascript"
-          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
-          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_posts/2024-11-14-a-mother-and-child-by-the-sea/index.md"
-          data-oid-likes="likes_posts/2024-11-14-a-mother-and-child-by-the-sea/index.md"></script>
-      
     </section>
 
     
@@ -1936,12 +1942,6 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20
       });
     </script>
   
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
-    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
 </footer>

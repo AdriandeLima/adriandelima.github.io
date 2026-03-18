@@ -141,8 +141,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.be83764f4a27bda9ef2f0d343511ea470f34c94894198b414f16802c1cc65a7bceaef5b89bee7dc6126f7e0729f5df58e3f305ea6ef1e56086657b3fd12f39cf.css"
-    integrity="sha512-voN2T0onvanvLw00NRHqRw80yUiUGYtBTxaALBzGWnvOrvW4m&#43;59xhJvfgcp9d9Y4/MF6m7x5WCGZXs/0S85zw==">
+    href="/css/main.bundle.min.f661d883f84c8024c266ae879f529d7c414a4860df13366c64b8c56f10363290a8065368ed52ffec0133bd1cd0c17681a9af30872ac9805f1f30200c8a1dc8ef.css"
+    integrity="sha512-9mHYg/hMgCTCZq6Hn1KdfEFKSGDfEzZsZLjFbxA2MpCoBlNo7VL/7AEzvRzQwXaBqa8whyrJgF8fMCAMih3I7w==">
 
   
   
@@ -174,14 +174,13 @@
   
   
   
-  
     
     <script
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.f9f1b392b5ec57bc56a94efc71307ca4bcc638b86098a8dbd0588f73c9199295101dc0a5c69dfe3c22749eb36604dc02e5224e08bad474cb41809f7b4a7508ef.js"
-      integrity="sha512-&#43;fGzkrXsV7xWqU78cTB8pLzGOLhgmKjb0FiPc8kZkpUQHcClxp3&#43;PCJ0nrNmBNwC5SJOCLrUdMtBgJ97SnUI7w=="
+      src="/js/main.bundle.min.c41769a6d0a0f3c9fae21f229a8ff36dbf91ab46022c5e71ec6600b9be681f5f41e6148129be6881788a258ce35a23cb28fb4b739843d8ffc1efec4081c51313.js"
+      integrity="sha512-xBdpptCg88n64h8imo/zbb&#43;Rq0YCLF5x7GYAub5oH19B5hSBKb5ogXiKJYzjWiPLKPtLc5hD2P/B7&#43;xAgcUTEw=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -189,10 +188,6 @@
   
   
 
-<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
-
-
-
 
 
 
@@ -225,6 +220,11 @@
   
 
   
+
+
+
+
+
 
 
 
@@ -282,9 +282,6 @@
 
   
   
-
-  
-  
 </head>
 
 
@@ -321,23 +318,7 @@
     </div>
     
     
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div
-  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
-  
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
     
     
@@ -349,61 +330,59 @@
               src="/watermark_with_background_white.png"
               width="837"
               height="866"
-              class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
+              class="logo max-h-20 max-w-20 object-scale-down object-left nozoom"
               alt="">
           
         </a>
       </div>
     
-
-  <div class="flex flex-1 items-center justify-between">
-    <nav class="flex space-x-3">
-      
-        <a href="/" class="text-base font-medium">
-          Adrian de Lima
-        </a>
-      
-    </nav>
-    
-  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
-    
-      
-        
-  <a
-  href="/aboutme/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="About me"
-  title="About me">
   
   
-    <p class="text-base font-medium">
-      About me
-    </p>
-  
-</a>
-
-
-
-      
-        
-  <div>
-  <div class="cursor-pointer flex items-center nested-menu">
-    
-    <a
-      
-        href="/categories/"
-        
-      
-      aria-label="My Work"
-      class="text-base font-medium hover:text-primary-600 dark:hover:text-primary-400"
-      title="">
-      <p>
-        My Work
-      </p>
+    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
+      Adrian de Lima
     </a>
-    <span>
-      <span class="relative block icon"><svg
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/aboutme/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="About me"
+      title="About me">
+      
+      
+        <span class="text-base font-medium break-normal">
+          About me
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <div class="nested-menu">
+      <div class="cursor-pointer flex items-center">
+        <a
+          
+            href="/categories/"
+            
+          
+          aria-label="My Work"
+          class="flex items-center text-base font-medium bf-icon-color-hover"
+          title="">
+          
+          <span class="text-bg font-bg break-normal" title="">
+            My Work
+          </span>
+          <span>
+            <span class="relative block icon"><svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 20 20"
   fill="currentColor"
@@ -416,280 +395,286 @@
   />
 </svg>
 </span>
-    </span>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-          <a
-            href="/posts/"
+          </span>
+        </a>
+      </div>
+      <div class="menuhide">
+        <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl bg-neutral/25 dark:bg-neutral-800/25">
+          <div class="flex flex-col space-y-3">
             
-            aria-label="All Articles"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+              <a
+                href="/posts/"
+                
+                aria-label="All Articles"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="All articles">
+                  All Articles
+                </span>
+              </a>
             
-            <p class="text-sm font-sm" title="All articles">
-              All Articles
-            </p>
-          </a>
-        
-          <a
-            href="/categories/compositions/"
+              <a
+                href="/categories/compositions/"
+                
+                aria-label="Compositions"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="">
+                  Compositions
+                </span>
+              </a>
             
-            aria-label="Compositions"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
+              <a
+                href="/categories/music-videos/"
+                
+                aria-label="Music Videos"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="">
+                  Music Videos
+                </span>
+              </a>
             
-            <p class="text-sm font-sm" title="">
-              Compositions
-            </p>
-          </a>
-        
-          <a
-            href="/categories/music-videos/"
+              <a
+                href="/categories/performances/"
+                
+                aria-label="Performances"
+                class="flex items-center bf-icon-color-hover">
+                
+                <span class="text-sm font-sm" title="">
+                  Performances
+                </span>
+              </a>
             
-            aria-label="Music Videos"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              Music Videos
-            </p>
-          </a>
-        
-          <a
-            href="/categories/performances/"
-            
-            aria-label="Performances"
-            class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              Performances
-            </p>
-          </a>
-        
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  
+
+    
+      
+  
+    <a
+      href="/contact/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Contact"
+      title="Contact page">
+      
+      
+        <span class="text-base font-medium break-normal">
+          Contact
+        </span>
+      
+    </a>
+  
+
+    
+  
+
+  
+
+  
+
+  
+    <button
+      id="search-button"
+      aria-label="Search"
+      class="text-base bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+</nav>
+
+
+
+    </div>
+    <div class="flex md:hidden">
+      <div class="flex items-center h-14 gap-4">
+  
+    <button
+      id="search-button-mobile"
+      aria-label="Search"
+      class="flex items-center justify-center bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+
+  
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      role="dialog"
+      aria-modal="true"
+      style="scrollbar-gutter: stable;"
+      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <a
+        href="/aboutme/"
+        aria-label="About me"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="About me" class="text-2xl font-bold tracking-tight">
+          About me
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/categories/"
+        aria-label="My Work"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="" class="text-2xl font-bold tracking-tight">
+          My Work
+        </span>
+        
+          <label
+            for="fullscreen-submenu-my-work"
+            class="ms-auto flex items-center justify-center h-10 w-10 cursor-pointer rounded-lg bf-icon-color-hover border bf-border-color bf-border-color-hover">
+            <span class="relative block icon"><svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+</span>
+          </label>
+        
+      </a>
+
+      
+        <input checked type="checkbox" id="fullscreen-submenu-my-work" autocomplete="off" class="hidden peer/full">
+
+        <div
+          class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 peer-checked/full:grid-rows-[1fr]">
+          <div class="overflow-hidden">
+            <div class="ms-7 mt-4">
+              
+                <a
+                  href="/posts/"
+                  aria-label="All Articles"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="All articles" class="text-lg">
+                    All Articles
+                  </span>
+                </a>
+              
+                <a
+                  href="/categories/compositions/"
+                  aria-label="Compositions"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="" class="text-lg">
+                    Compositions
+                  </span>
+                </a>
+              
+                <a
+                  href="/categories/music-videos/"
+                  aria-label="Music Videos"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="" class="text-lg">
+                    Music Videos
+                  </span>
+                </a>
+              
+                <a
+                  href="/categories/performances/"
+                  aria-label="Performances"
+                  
+                  class="flex items-center gap-3 p-2 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+                  
+                  <span title="" class="text-lg">
+                    Performances
+                  </span>
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/contact/"
+        aria-label="Contact"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+        <span title="Contact page" class="text-2xl font-bold tracking-tight">
+          Contact
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+
+        
+  
+
+        
+  
+
+      </nav>
+    </div>
+  
 </div>
 
 
 
-      
-        
-  <a
-  href="/contact/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="Contact"
-  title="Contact page">
-  
-  
-    <p class="text-base font-medium">
-      Contact
-    </p>
-  
-</a>
 
 
 
-      
-    
 
-    
-
-    
-
-    
-      <button
-        id="search-button"
-        aria-label="Search"
-        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-        title="Search (/)">
-        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-      </button>
-    
-
-    
-  </nav>
-
-    
-  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
-    <span></span>
-
-    
-
-    
-
-    
-      <button
-        id="search-button-mobile"
-        aria-label="Search"
-        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-        title="Search (/)">
-        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
-</span>
-      </button>
-    
-
-    
-  </div>
-
-  </div>
-  
-  <div class="-my-2 md:hidden">
-    <div id="menu-button" class="block">
-      
-        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
-          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
-</span>
-        </div>
-        <div
-          id="menu-wrapper"
-          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
-          <ul
-            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
-            <li id="menu-close-button">
-              <span
-                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
-                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-</span>
-              </span>
-            </li>
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/aboutme/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="About me"
-    title="About me">
-    
-    
-      <p class="text-bg font-bg">
-        About me
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/categories/"
-    aria-label="My Work"
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="">
-      My Work
-    </p>
-    <span>
-      <span class="relative block icon"><svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-</span>
-    </span>
-  </a>
-</li>
-
-  <li class="mt-1">
-    <a
-      href="/posts/"
-      
-      aria-label="All Articles"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="All articles">
-        All Articles
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/categories/compositions/"
-      
-      aria-label="Compositions"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        Compositions
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/categories/music-videos/"
-      
-      aria-label="Music Videos"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        Music Videos
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/categories/performances/"
-      
-      aria-label="Performances"
-      class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        Performances
-      </p>
-    </a>
-  </li>
-
-<li class="mb-2"></li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/contact/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="Contact"
-    title="Contact page">
-    
-    
-      <p class="text-bg font-bg">
-        Contact
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
-
-          </ul>
-          
-        </div>
-      
     </div>
   </div>
-
 </div>
 
 
@@ -697,10 +682,17 @@
 
   <script>
     (function () {
-      var $mainmenu = $(".main-menu");
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
       var path = window.location.pathname;
-      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
-        $(e).children("p").addClass("active");
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
       });
     })();
   </script>
@@ -819,7 +811,7 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card">
       <img
-        src="/posts/2024-12-24-mary-did-you-know/feature*_hu_7c99bb032565c7ee.webp"
+        src="/posts/2024-12-24-mary-did-you-know/feature*_hu_167c6e1cf9f8cffe.webp"
         alt="Mary, Did You Know? Christmas 2024 music video"
         loading="lazy"
         decoding="async"
@@ -988,7 +980,7 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card">
       <img
-        src="/posts/2024-10-25-the-lords-prayer/feature*_hu_e869b8dda42df275.webp"
+        src="/posts/2024-10-25-the-lords-prayer/feature*_hu_432ae667df2ec82f.webp"
         alt="The Lord&#39;s Prayer music video"
         loading="lazy"
         decoding="async"
@@ -1187,12 +1179,6 @@
       });
     </script>
   
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
-    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
   
   
 </footer>
