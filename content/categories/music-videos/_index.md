@@ -1,6 +1,8 @@
 ---
 title: Music Videos
 description: A page for all my music videos
+layout: list
+cardview: true
 showReadingTime: false
 ---
 

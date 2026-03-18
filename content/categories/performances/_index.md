@@ -1,6 +1,8 @@
 ---
 title: Performances
 description: A page for all my performances
+layout: list
+cardview: true
 showReadingTime: false
 ---
 

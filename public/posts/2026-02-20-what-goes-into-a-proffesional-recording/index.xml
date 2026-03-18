@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What goes into a proffesional recording? on Adrian de Lima</title>
+    <link>http://localhost:1313/posts/2026-02-20-what-goes-into-a-proffesional-recording/</link>
+    <description>Recent content in What goes into a proffesional recording? on Adrian de Lima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
+    <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
+    <copyright>&amp;copy; Adrian de Lima 2026</copyright>
+    <lastBuildDate>Fri, 20 Feb 2026 20:05:10 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/2026-02-20-what-goes-into-a-proffesional-recording/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Group recording session</title>
+      <link>http://localhost:1313/posts/2026-02-20-what-goes-into-a-proffesional-recording/group-recording/</link>
+      <pubDate>Fri, 20 Feb 2026 20:05:10 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2026-02-20-what-goes-into-a-proffesional-recording/group-recording/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Solo recording session</title>
+      <link>http://localhost:1313/posts/2026-02-20-what-goes-into-a-proffesional-recording/solo-recording/</link>
+      <pubDate>Fri, 20 Feb 2026 20:05:10 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2026-02-20-what-goes-into-a-proffesional-recording/solo-recording/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
