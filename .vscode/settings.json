@@ -11,5 +11,7 @@
             "other": "off"
         },
         "editor.minimap.enabled": false
-    }
+    },
+    "search.showLineNumbers": true,
+    "notebook.lineNumbers": "on"
 }

@@ -2,8 +2,8 @@
 title: Group recording session
 description: An assessment for my sound recording module of a vocal and piano duet in a concert hall setting
 date: 2026-02-20T20:05:10.180Z
-preview: ""
-draft: true
+preview: group recording pics/preview_ech.jpg
+draft: false
 ---
 
 ## Recording assessments - group
@@ -94,148 +94,107 @@ Les Roses d’Ispahan. The recording session took place in the Elgar Concert Hal
 for reverb, and an A/B pair and spot mic for the vocals. Ultimately, I decided to not use the
 vocal A/B pair, as I thought the stereo pair didn’t fit as well within the frequency spectrum
 of the piano as the spot mic did. The recording was edited in REAPER.
-Edit Locations
+### Edit Locations
 Below is a table for each piece detailing the edit locations.
-Me Llaman la primorosa
-EDIT NUMBER LOCATION IN
-SCORE
-START TIME IN
-AUDIO (WAV)
-START TIME IN
-RECORDING
-1 Bar 1 beat 1 0:00.980 5:06.236
-2 Bar 2 beat 1 0:02.954 0:31.395
-3 Bar 3 beat 2 0:05.425 5:10.770
-4 Bar 6 beat 3 0:10.663 36:31.848
-5 Bar 10 beat
-1.5
-0:17.152 0:45.466
-6 Bar 11 beat
-3.5
-0:20.048 5:25.690
-7 Bar 14 beat 1 0:23.831 36:44.998
-8 Bar 14 beat
-3.5
-0:25.260 5:30.957
-9 Bar 16 beat 1 0:29.602 0:57.613
-10 Bar 23 beat 1 0:49.528 15:14.722
-11 Bar 31 beat
-2.5
-1:01.260 37:21.748
-12 Bar 33 beat 2 1:05.305 15:30.442
-13 Bar 34 beat 1 1:13.647 37:35.434
-14 Bar 38 beat 1 1:21.164 1:48.820
-15 Bar 40 beat 2 1:26.201 37:48.066
-16 Bar 41 beat 3 1:28.874 1:56.486
-17 Bar 42 beat
-1.5
-1:29.954 33:22.424
-18 Bar 46 beat
-1.5
-1:37.024 16:02.496
-19 Bar 47 beat 1 1:38.464 33:30.999
-20 Bar 47 beat 2 1:39.113 16:04.610
-21 Bar 49 beat 1 1:42.207 6:48.284
-22 Bar 50 beat 2 1:45.401 38:06.386
-23 Bar 56 beat
-2.5 (2nd ad-lib
-scale)
-2:05.076 33:56.417
-24 Bar 56 beat
-3.5
-2:10.706 38:32.682
-25 Bar 63 beat 1 2:22.001 16:48.305
-26 Bar 65 beat 1 2:27.999 38:49.745
-27 Bar 79 beat
-1.5
-2:57.272 13:23.830
-28 Bar 81 beat 1 3:00.614 39:22.230
-29 Bar 85 beat 1 3:07.575 12:36.254
-30 Bar 87 beat
-1.5
-3:11.861 35:02.932
-31 Bar 88 beat 1 3:13.356 39:34.652
-32 Bar 89 beat 1 3:15.139 35:06.229
-33 Bar 90 beat
-3.5
-3:18.315 39:39.646
-34 Bar 92 1st ad-
-lib scale (beat
-1)
-3:21.044 35:11.982
-35 Bar 92 2nd ad-
-lib scale
-3:24.926 39:47.103
-36 Bar 92 3rd ad-
-lib scale
-3:28.731 35:19.727
-37 Bar 92 beat
-3.5
-3:38.165 4:07.207
-38 Bar 93 beat 1 3:39.219 8:48.184
+### Me Llaman la primorosa
+
+| Edit # | Location in Score | Start Time (Wav) | Start Time (Source) | Notes                          |
+|--------|------------------|------------------|---------------------|--------------------------------|
+| 1      | Bar 1.1          | 0:00.980         | 5:06.236            |                                |
+| 2      | Bar 2.1          | 0:02.954         | 0:31.395            |                                |
+| 3      | Bar 3.2          | 0:05.425         | 5:10.770            |                                |
+| 4      | Bar 6.3          | 0:10.663         | 36:31.848           |                                |
+| 5      | Bar 10.1.5       | 0:17.152         | 0:45.466            |                                |
+| 6      | Bar 11.3.5       | 0:20.048         | 5:25.690            |                                |
+| 7      | Bar 14.1         | 0:23.831         | 36:44.998           |                                |
+| 8      | Bar 14.3.5       | 0:25.260         | 5:30.957            |                                |
+| 9      | Bar 16.1         | 0:29.602         | 0:57.613            |                                |
+| 10     | Bar 23.1         | 0:49.528         | 15:14.722           |                                |
+| 11     | Bar 31.2.5       | 1:01.260         | 37:21.748           |                                |
+| 12     | Bar 33.2         | 1:05.305         | 15:30.442           |                                |
+| 13     | Bar 34.1         | 1:13.647         | 37:35.434           |                                |
+| 14     | Bar 38.1         | 1:21.164         | 1:48.820            |                                |
+| 15     | Bar 40.2         | 1:26.201         | 37:48.066           |                                |
+| 16     | Bar 41.3         | 1:28.874         | 1:56.486            |                                |
+| 17     | Bar 42.1.5       | 1:29.954         | 33:22.424           |                                |
+| 18     | Bar 46.1.5       | 1:37.024         | 16:02.496           |                                |
+| 19     | Bar 47.1         | 1:38.464         | 33:30.999           |                                |
+| 20     | Bar 47.2         | 1:39.113         | 16:04.610           |                                |
+| 21     | Bar 49.1         | 1:42.207         | 6:48.284            |                                |
+| 22     | Bar 50.2         | 1:45.401         | 38:06.386           |                                |
+| 23     | Bar 56.2.5       | 2:05.076         | 33:56.417           | 2nd ad-lib scale               |
+| 24     | Bar 56.3.5       | 2:10.706         | 38:32.682           |                                |
+| 25     | Bar 63.1         | 2:22.001         | 16:48.305           |                                |
+| 26     | Bar 65.1         | 2:27.999         | 38:49.745           |                                |
+| 27     | Bar 79.1.5       | 2:57.272         | 13:23.830           |                                |
+| 28     | Bar 81.1         | 3:00.614         | 39:22.230           |                                |
+| 29     | Bar 85.1         | 3:07.575         | 12:36.254           |                                |
+| 30     | Bar 87.1.5       | 3:11.861         | 35:02.932           |                                |
+| 31     | Bar 88.1         | 3:13.356         | 39:34.652           |                                |
+| 32     | Bar 89.1         | 3:15.139         | 35:06.229           |                                |
+| 33     | Bar 90.3.5       | 3:18.315         | 39:39.646           |                                |
+| 34     | Bar 92.1         | 3:21.044         | 35:11.982           | 1st ad-lib scale              |
+| 35     | Bar 92           | 3:24.926         | 39:47.103           | 2nd ad-lib scale              |
+| 36     | Bar 92           | 3:28.731         | 35:19.727           | 3rd ad-lib scale              |
+| 37     | Bar 92.3.5       | 3:38.165         | 4:07.207            |                                |
+| 38     | Bar 93.1         | 3:39.219         | 8:48.184            |                                |
+
 Les Roses d’Ispahan
-EDIT NUMBER LOCATION IN
-SCORE
-START TIME IN
-AUDIO (WAV)
-START TIME IN
-RECORDING
-1 Bar 1 beat 1 4:04.451 22:26.119
-2 Bar 7 beat 2.5 4:18.538 19:14.899
-3 Bar 12 beat 1 4:27.447 27:00.163
-4 Bar 19 beat 1.5 4:40.946 19:38.093
-5 Bar 34 beat 2 5:11.677 23:33.963
-6 Bar 36 beat 2 5:15.391 27:46.407
-7 Bar 38 beat 1 5:18.234 23:41.159
-8 Bar 40 beat 1 5:22.161 27:53.095
-9 Bar 43 beat 2 5:28.813 20:26.538
-10 Bar 45 beat 2 5:32.754 23:55.947
-11 Bar 47 beat 1.5 5:36.115 28:06.785
-12 Bar 54 beat 1 5:49.216 29:57.027
-13 Bar 55 beat 1 5:51.060 24:14.929
-14 Bar 57 beat 1 5:54.940 20:53.591
-15 Bar 58 beat 2 5:58.138 24:21.589
-16 Bar 65 beat 1.5 6:11.631 30:18.297
-17 Bar 66 beat 2 6:13.432 24:36.984
-18 Bar 68 beat 1 6:16.280 28:46.014
-19 Bar 71 beat 2 6:22.629 24:46.222
-20 Bar 73 beat 1 6:26.122 30:32.135
-21 Bar 74 beat 1 6:28.068 28:57.173
-22 Bar 75 beat 1 6:30.082 30:36.044
-23 Bar 76 beat 1 6:32.606 29:01.785
-24 Bar 81 beat 1 6:43.209 21:41.675
+| Edit # | Location in Score | Start Time (Wav) | Start Time (Source) | Notes |
+|--------|------------------|------------------|---------------------|-------|
+| 1      | Bar 1.1          | 4:04.451         | 22:26.119           |       |
+| 2      | Bar 7.2.5        | 4:18.538         | 19:14.899           |       |
+| 3      | Bar 12.1         | 4:27.447         | 27:00.163           |       |
+| 4      | Bar 19.1.5       | 4:40.946         | 19:38.093           |       |
+| 5      | Bar 34.2         | 5:11.677         | 23:33.963           |       |
+| 6      | Bar 36.2         | 5:15.391         | 27:46.407           |       |
+| 7      | Bar 38.1         | 5:18.234         | 23:41.159           |       |
+| 8      | Bar 40.1         | 5:22.161         | 27:53.095           |       |
+| 9      | Bar 43.2         | 5:28.813         | 20:26.538           |       |
+| 10     | Bar 45.2         | 5:32.754         | 23:55.947           |       |
+| 11     | Bar 47.1.5       | 5:36.115         | 28:06.785           |       |
+| 12     | Bar 54.1         | 5:49.216         | 29:57.027           |       |
+| 13     | Bar 55.1         | 5:51.060         | 24:14.929           |       |
+| 14     | Bar 57.1         | 5:54.940         | 20:53.591           |       |
+| 15     | Bar 58.2         | 5:58.138         | 24:21.589           |       |
+| 16     | Bar 65.1.5       | 6:11.631         | 30:18.297           |       |
+| 17     | Bar 66.2         | 6:13.432         | 24:36.984           |       |
+| 18     | Bar 68.1         | 6:16.280         | 28:46.014           |       |
+| 19     | Bar 71.2         | 6:22.629         | 24:46.222           |       |
+| 20     | Bar 73.1         | 6:26.122         | 30:32.135           |       |
+| 21     | Bar 74.1         | 6:28.068         | 28:57.173           |       |
+| 22     | Bar 75.1         | 6:30.082         | 30:36.044           |       |
+| 23     | Bar 76.1         | 6:32.606         | 29:01.785           |       |
+| 24     | Bar 81.1         | 6:43.209         | 21:41.675           |       |
 Unfixable errors
 Below are tables for each piece detailing performance issues that weren’t resolved in the
 time that we had for recording.
 Me Llaman la primorosa
 Les Roses d’Ispahan
-ISSUE NUMBER LOCATION IN AUDIO (WAV) ISSUE
-1 00:02.3 All piano takes had
-performance errors, this is
-the best one
-2 00:11.0 Piano key click
-3 00:12.5 Loud breath
-4 01:24.3 Best take, however there’s
-unfixable note wobble (wide
-vibrato)
-5 01:26.2 Out of time entry
-6 01:29.7 Out of time entry
-7 01:37.3 Wrong piano note
-8 01:53.5 Best vocal take, however
-piano has performance
-errors
-9 02:23.3 Mouth noise click
-10 03:20.1 Slight click in the reverb
-ISSUE NUMBER LOCATION IN AUDIO (WAV) ISSUE
-1 04:17.8 Mouth noise click
-2 05:11.6 Pedal noise change,
-followed by mouth noise
-3 05:56.8 Can't get edit to work,
-therefore wobbly note
-4 06:17.9 Very wide vocal vibrato, no
-good take
-5 06:25.7 Breath noise
-6 06:35.4 Wobbly note
+| Issue # | Location in Audio (Wav) | Issue                                                                 |
+|---------|------------------------|------------------------------------------------------------------------|
+| 1       | 00:02.3               | All piano takes had performance errors, this is the best one          |
+| 2       | 00:11.0               | Piano key click                                                       |
+| 3       | 00:12.5               | Loud breath                                                           |
+| 4       | 01:24.3               | Best take, however there’s unfixable note wobble (wide vibrato)       |
+| 5       | 01:26.2               | Out of time entry                                                     |
+| 6       | 01:29.7               | Out of time entry                                                     |
+| 7       | 01:37.3               | Wrong piano note                                                      |
+| 8       | 01:53.5               | Best vocal take, however piano has performance errors                 |
+| 9       | 02:23.3               | Mouth noise click                                                     |
+| 10      | 03:20.1               | Slight click in the reverb                                            |
+
+
+| Issue # | Location in Audio (Wav) | Issue                                                         |
+|---------|------------------------|---------------------------------------------------------------|
+| 1       | 04:17.8               | Mouth noise click                                             |
+| 2       | 05:11.6               | Pedal noise change, followed by mouth noise                  |
+| 3       | 05:56.8               | Can't get edit to work, therefore wobbly note                |
+| 4       | 06:17.9               | Very wide vocal vibrato, no good take                        |
+| 5       | 06:25.7               | Breath noise                                                  |
+| 6       | 06:35.4               | Wobbly note                                                   |
+
+
 Annotated scores
 Below are copies of the scores for each piece, annotated with the respective edit points.
 Me Llaman la primorosa
