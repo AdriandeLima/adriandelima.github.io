@@ -2,8 +2,8 @@
 title: What goes into a professional recording?
 description: Basic theory of recording a classical artist
 date: 2026-02-20T20:05:10.180Z
-preview: ""
-draft: true
+preview: condensor_mic*.jpg
+draft: false
 ---
 
 
@@ -68,7 +68,7 @@ Microphones come in three main types:
 3. Ribbon
 
 
-![](condensor_mic.jpg "A Presonus PX-1 condensor mic")
+![](condensor_mic*.jpg "A Presonus PX-1 condensor mic")
 [Condensors](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-condenser-microphone/) are your most common for recording sessions. These very sensitive microphones, and usually require extra power, called [Phantom Power (48v)](https://en.wikipedia.org/wiki/Phantom_power)
 
 ![](dynamic_mic.jpg "A Shure SM58 dynamic mic")

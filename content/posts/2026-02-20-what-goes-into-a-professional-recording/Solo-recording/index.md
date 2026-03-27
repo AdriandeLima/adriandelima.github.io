@@ -3,11 +3,14 @@ title: Solo violin recording session
 description: An assessment for my sound recording module at UoB, consisting of a solo violin in a studio setting.
 date: 2026-02-20T20:05:10.180Z
 preview: feature*.jpg
-draft: true
+draft: false
 summary: An assessment for my sound recording module consisting of a solo violin recorded in a studio setting
 ---
 
 ## Solo Violin Recording - Bach Loure (BWV 1006:II)
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A2270395886%3Fsecret_token%3Ds-m4i45GqJtw9&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/adrian-de-lima-664572410" title="Adrian de Lima" target="_blank" style="color: #cccccc; text-decoration: none;">Adrian de Lima</a> · <a href="https://soundcloud.com/adrian-de-lima-664572410/j-s-bach-violin-partita-no-3/s-m4i45GqJtw9" title="J.S. Bach Violin Partita no. 3 in E major BWV 1006:II. Loure." target="_blank" style="color: #cccccc; text-decoration: none;">J.S. Bach Violin Partita no. 3 in E major BWV 1006:II. Loure.</a></div>
+
 
 ### Recording Session Information
 The recording session was 1 hour long, including setup/down, with the recording running for 38.24. Noa David, the performer played Bach’s *Violin Partita no. 3 in E major BWV 1006:II.* *Loure.* The session was recorded and edited in [REAPER](https://www.reaper.fm/).
@@ -15,7 +18,7 @@ The recording session was 1 hour long, including setup/down, with the recording 
 
 ![](solo_recording_pics/setup.png "The layout of the recording session")
 Since it was a fairly simple setup and I had extra equipment and channels available I decided to setup two pairs of mics (which was overkill).
-I setup an XY (1) and an AB (2) pair at 1-1.5m away from the performer, but in the end I decided to not use the AB pair, as the XY pair provided the sound quality I required, and the AB pair didn’t add anything further to the mix. I had them positioned above the player, facing down towards the bridge of the violin. I also instructed the performer to avoid moving too much, as this can change the sound of a take in a narrow pickup pattern, making comping harder.
+I setup an **XY (1)** and an **AB (2)** pair at **1-1.5m** away from the performer, but in the end I decided to not use the AB pair, as the XY pair provided the sound quality I required, and the AB pair didn’t add anything further to the mix. I had them positioned above the player, facing down towards the bridge of the violin. I also instructed the performer to avoid moving too much, as this can change the sound of a take in a narrow pickup pattern, making comping harder.
 
 ### Microphones
 The microphones used were setup as follows:
@@ -24,7 +27,7 @@ The microphones used were setup as follows:
 
 The [Neuman KM184](https://www.neumann.com/en-gb/products/microphones/km-184-series-180/) is ideal for XY or ORTF setups because of its small footprint and the ease of aligning its capsule in a pair. They are however, quite pricey.
 
-The [AKG C414 XLS II](https://www.akg.com/microphones/condenser-microphones/C414XLS.html) is also very pricey, but somewhat more versatile because of its alterable pickup pattern, allowing it to be used to many different setups. The capsules are quite hard to align due to the shape of the protective mesh, and its footprint is larger than the Neuman.
+The [AKG C414 XLS II](https://www.akg.com/microphones/condenser-microphones/C414XLS.html) is also very pricey, but somewhat more versatile because of its alterable pickup pattern, allowing it to be used in many different setups. The capsules are quite hard to align due to the shape of the protective mesh, and its footprint is larger than the Neuman.
 
 
 
