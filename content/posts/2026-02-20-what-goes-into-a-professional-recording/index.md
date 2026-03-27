@@ -1,7 +1,7 @@
 ---
 title: What goes into a professional recording?
 description: Basic theory of recording a classical artist
-date: 2026-02-20T20:05:10.180Z
+date: 2026-03-27T17:58:24.440Z
 preview: condensor_mic*.jpg
 draft: false
 ---

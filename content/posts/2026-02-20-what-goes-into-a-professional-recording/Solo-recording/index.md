@@ -1,7 +1,7 @@
 ---
 title: Solo violin recording session
 description: An assessment for my sound recording module at UoB, consisting of a solo violin in a studio setting.
-date: 2026-02-20T20:05:10.180Z
+date: 2026-03-27T17:58:42.563Z
 preview: feature*.jpg
 draft: false
 summary: An assessment for my sound recording module consisting of a solo violin recorded in a studio setting

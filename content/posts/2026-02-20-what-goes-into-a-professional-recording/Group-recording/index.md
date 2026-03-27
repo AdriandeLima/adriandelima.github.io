@@ -1,7 +1,7 @@
 ---
 title: Group recording session
 description: An assessment for my sound recording module of a vocal and piano duet in a concert hall setting
-date: 2026-02-20T20:05:10.180Z
+date: 2026-03-27T17:58:34.931Z
 preview: preview_ech*.jpg
 draft: false
 ---
