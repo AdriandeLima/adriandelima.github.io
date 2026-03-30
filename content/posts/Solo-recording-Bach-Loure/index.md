@@ -5,6 +5,11 @@ date: 2026-03-27T17:58:42.563Z
 preview: feature*.jpg
 draft: false
 summary: An assessment for my sound recording module consisting of a solo violin recorded in a studio setting
+fmContentType: default
+tags:
+  - Recording
+  - Violin
+  - Bach
 ---
 
 ## Solo Violin Recording - Bach Loure (BWV 1006:II)
@@ -366,7 +371,7 @@ I made sure to begin and end the track in silence, fading the beginning and end 
 ![](solo_recording_pics/fades.png "A screenshot of the beginning and end of the piece, showing my slight fade in/out.")
 
 ### Rendering
-I rendered the final piece via the *master mix*, as a **WAV**at **48000** sample rate with **24 bit** bit depth. I made sure to mute the TEMP track, and all of the take tracks, only rendering my EDIT and REVERB tracks. I set my bounds as **Time selection**, making sure to leave a tail at the end of my selection to allow the reverb to decay without being cut off.
+I rendered the final piece via the *master mix*, as a **WAV** at **48000** sample rate with **24 bit** bit depth. I made sure to mute the TEMP track, and all of the take tracks, only rendering my EDIT and REVERB tracks. I set my bounds as **Time selection**, making sure to leave a tail at the end of my selection to allow the reverb to decay without being cut off.
 ![](solo_recording_pics/render.png)
 
 

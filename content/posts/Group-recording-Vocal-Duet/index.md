@@ -2,8 +2,12 @@
 title: Group recording session
 description: An assessment for my sound recording module of a vocal and piano duet in a concert hall setting
 date: 2026-03-27T17:58:34.931Z
-preview: preview_ech*.jpg
+preview: feature*.jpg
 draft: false
+tags:
+  - Duet
+  - Recording
+  - Elgar Concert Hall
 ---
 
 ## Vocal/piano duet recording session
@@ -20,14 +24,14 @@ They performed *Me Llaman la primorosa* from Rossini’s *El Barbero de Sevilla*
 **40:44**. It was recorded on a [Zoom F8](https://zoomcorp.com/en/us/field-recorders/field-recorders/f8/), using an **LCR** mic setup for the piano, a stage **A/B pair**
 for reverb, and an **A/B pair** and **spot mic** for the vocals. 
 
-![](/group_recording_pics/setup.png)
+![](group_recording_pics/setup.png)
 Ultimately, I decided to not use the
 vocal A/B pair, as I thought the stereo pair didn’t fit as well within the frequency spectrum
 of the piano as the spot mic did. The stage A/B pair did an excellent job capturing the natural hall reverb, which is the primary reverb used in this recording session. The recording was edited in [REAPER](https://www.reaper.fm/).
 
 ### Microphones
 The microphones used were as follows:
-![](/group_recording_pics/equipment.png)
+![](group_recording_pics/equipment.png)
 
 The [AKG C414 XLS II](https://www.akg.com/microphones/condenser-microphones/C414XLS.html) capsules are quite hard to align due to the shape of the protective mesh, and its footprint can be quite large, but it makes up for these shortcomings by being very versatile because of its alterable pickup pattern, allowing it to be used in many different setups.
 
@@ -259,7 +263,7 @@ volume of the **PIANO LCR** slightly, to better balance it with the voice.
 ### Edit Session
 Importing the MIX session into the EDIT session as a sub-project renders the MIX session
 down to a single track, which allows much easier editing and keeping track of takes. I make sure to set a unique colour for each different take, so that it was easy to tell where edits are made and which takes I used. 
-![](/group_recording_pics/edit_session.png)
+![](group_recording_pics/edit_session.png)
 Both pieces were edited on their own tracks, with their own REVERB buses to allow both
 pieces to have different reverb settings. 
 
@@ -272,7 +276,7 @@ this edit was working around large vocal phrases, and piano pedal changes that c
 
 The volume levels were left at their default values, because all the mixing had been done in the MIX session. The levels of the REVERB buses are adjusted respectively to mix the artificial reverb with the natural hall reverb.
 
-![](/group_recording_pics/eq3.png)
+![](group_recording_pics/eq3.png)
 For *Me Llaman la primorosa* I used two different EQs, before and after the artificial reverb,
 to adjust the sound of the reverb track. I boosted the lows and cut the highs of the
 reverb both before and after. I decided to use a little bit of artificial reverb to compliment the already exellent hall reverb.
