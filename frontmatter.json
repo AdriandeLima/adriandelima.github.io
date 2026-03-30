@@ -163,7 +163,6 @@
           "name": "invertPagination",
           "type": "boolean"
         },
-
         {
           "title": "Show author badges",
           "name": "showAuthorsBadges",
@@ -198,6 +197,16 @@
           "title": "Enable Zen mode",
           "name": "showZenMode",
           "type": "boolean"
+        },
+        {
+          "title": "summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
         }
       ]
     }

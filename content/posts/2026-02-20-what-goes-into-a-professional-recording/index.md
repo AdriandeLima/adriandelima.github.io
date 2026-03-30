@@ -2,7 +2,7 @@
 title: What goes into a professional recording?
 description: Basic theory of recording a classical artist
 date: 2026-03-27T17:58:24.440Z
-preview: condensor_mic*.jpg
+preview: feature*.jpg
 draft: false
 ---
 
@@ -28,7 +28,7 @@ In the real world decisions are often made based on budget and time constraints,
 
 ### Acoustic environment
 <!--insert image of a recording studio-->
-![](studio.jpg)
+![](/What_goes_into_a_pro_recording_pics/studio.jpg)
 Generally recordings are done in either an acoustically treated studio, or a concert hall. 
 The most important factor to consider when picking a location to record is **"is it quiet?"** This is very important as background noise can ruin a perfectly good take, and even though it is *technically* possible to remove noise in post, it's far from perfect and the ideal is to not need to do it in the first place; noise significanlty and unnecessarily increases the post production workload, and means you have to spend more time on fixing poor audio instead of making good audio great.
 
@@ -56,7 +56,7 @@ A(("Microphone (pair)")) --> B("Pre-amp") --> C{"Interface"} --> D("Recording de
 
 
 This can be simplified, such as using a recording device like a [Zoom F8](https://zoomcorp.com/en/us/field-recorders/field-recorders/f8/) which comes with interface, recording device and pre-amps all bundled in a single box.
-![](zoomf8.jpg)
+![](/What_goes_into_a_pro_recording_pics/zoomf8.jpg)
 
 
 Most popular interfaces, or mixing desks also come with pre-amps aswell, so if you're not looking for the specific sound of a pre-amp (they can quite drastically change the sound of your recording depending on model) your money is more wisely spent on a good interface, than on separate pre-amps.
@@ -68,13 +68,13 @@ Microphones come in three main types:
 3. Ribbon
 
 
-![](condensor_mic*.jpg "A Presonus PX-1 condensor mic")
+![](/What_goes_into_a_pro_recording_pics/condensor_mic.jpg "A Presonus PX-1 condensor mic")
 [Condensors](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-condenser-microphone/) are your most common for recording sessions. These very sensitive microphones, and usually require extra power, called [Phantom Power (48v)](https://en.wikipedia.org/wiki/Phantom_power)
 
-![](dynamic_mic.jpg "A Shure SM58 dynamic mic")
+![](/What_goes_into_a_pro_recording_pics/dynamic_mic.jpg "A Shure SM58 dynamic mic")
 [Dynamic microphones](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-dynamic-microphone/) are used more in live sound settings, as they tend to be more robust than condensors or ribbon microphones, and they don't need extra power, instead needing a lot higher gain (than condensors) to work.
 
-![](ribbon_mic.jpg "A melodium 42Bn Ribbon mic")
+![](/What_goes_into_a_pro_recording_pics/ribbon_mic.jpg "A melodium 42Bn Ribbon mic")
 [Ribbon microphones](https://www.hollyland.com/blog/microphone/ribbon-microphone) are more niche. They're an older technology using an electrified strip of gold foil (the ribbon). They tend to be quite fragile, so are used more for their warm vintage sound.
 
 There's endless equipment recommendation lists online, for equipment I've used check out my recording session examples [here](/posts/2026-02-20-what-goes-into-a-professional-recording/solo-recording/) and [here](/posts/2026-02-20-what-goes-into-a-professional-recording/group-recording/).
@@ -85,7 +85,7 @@ It's important to decide how many microphones you're going to use for each music
 
 Different microphones have different patterns that they pick sound up in, called [polar patterns](https://mynewmicrophone.com/the-complete-guide-to-microphone-polar-patterns/).
 
-![](/polar_patterns.jpg)
+![](/What_goes_into_a_pro_recording_pics/polar_patterns.jpg)
 
 The most commonly used patterns are **cardioid**, which is good for picking up sound directly in front of the microphone and rejecting sound from all other directions, and **omnidirectional**, which is used for picking up sound in all directions equally.
 
@@ -100,7 +100,7 @@ The most commonly used patterns are **cardioid**, which is good for picking up s
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
-    src="cardiod_3d.jpg"
+    src="What_goes_into_a_pro_recording_pics/cardiod_3d.jpg"
     alt="Image of cardiod polar pattern in 3D"
     caption="Nothing in this world is 2D, including polar patterns. Here's what cardiod looks like in 3D."
     >}}
@@ -123,7 +123,7 @@ An **AB pair** consists of two parallel omnidirectional mics facing the same dir
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
-    src="ab_pair.jpg"
+    src="What_goes_into_a_pro_recording_pics/ab_pair.jpg"
     alt="Image of an AB pair"
     caption="An AB mic pair"
     >}}
@@ -145,7 +145,7 @@ An **ORTF pair** is rather complicated. It's again two cardioid mics, but their 
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
-    src="ortf_pair.jpg"
+    src="What_goes_into_a_pro_recording_pics/ortf_pair.jpg"
     alt="Image of an ORTF pair"
     caption="An ORTF mic pair"
     >}}
@@ -158,7 +158,7 @@ It can be good for picking up a balanced stereo image of the entire range of the
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
-    src="lcr_piano.jpg"
+    src="What_goes_into_a_pro_recording_pics/lcr_piano.jpg"
     alt="Image of an LCR pair"
     caption="An LCR setup on a grand piano"
     >}}
@@ -223,7 +223,7 @@ You can produce a comp right from the recording session by re-recording sections
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
-    src="/Solo-recording/solo_recording_pics/Picture3.png"
+    src="What_goes_into_a_pro_recording_pics/full_comp.png"
     alt="A messy comp"
     caption="Comping can get out of hand very quickly"
     >}}
@@ -234,11 +234,11 @@ You can produce a comp right from the recording session by re-recording sections
 Swipe comping is a very popular comping method used with take folders. It's really easy to get a good sounding comp, however things need to be setup right to begin with. Swipe comping works best when the piece is played to a click (things get complicated with tempo changes as not all the takes will line up anymore), and all the takes need to be placed in a take folder (this process varies per DAW used).
 
 <!-- insert gif of swipe comping-->
-![](swipe_comp.gif)
+![](/What_goes_into_a_pro_recording_pics/swipe_comp.gif)
 The other method is manual comping, which works well if you've done a straight through recording, or if there's significant tempo variation between takes. It's a lot more fiddly however, requiring a lot of manual nudging of takes to get things to fit right.
 
 <!-- gif of manual comping-->
-![](manual_comp.gif)
+![](/What_goes_into_a_pro_recording_pics/manual_comp.gif)
 
 A tip for editing in [REAPER](https://www.reaper.fm/) (my preferred DAW for recording) is to use a [sub project](https://www.soundonsound.com/techniques/reaper-subprojects). This will render down your project with all your mic channels and mixing into a single track, and keeps things nice and simple in the editing phase, as you're only working with a single "proxy" audio file. The disadvantages of a method like this are having to wait to render the file each time a change is made in the sub project, and not being able to move any of the audio regions in the sub project without messing up the main project. Things can also get complicated during the clean up stage, as you can't edit the proxy audio directly, and instead have to edit the sub project, which can consist multiple tracks.
 
@@ -255,7 +255,7 @@ For pitch or timing correction use software like Logic Pro's [flex time/pitch](h
 
 <!-- insert image of melodyne-->
 
-![](Screenshot202026-03-1620at2011.42.55.png)
+![](/What_goes_into_a_pro_recording_pics/Screenshot2026-03-16at11.42.55.png "Meloydne let's you edit pitch like you're editing on a piano roll")
 
 I put the clean up stage after the comping stage, because a recording session can be very long, and I don't see the point in cleaning up hours of audio that I'm not actually going to be using.
 
@@ -275,13 +275,13 @@ I go into much more detail here about the post editing, so do check them out.
 
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":""},{"name":"icon","value":""},{"name":"text","value":"Duet (concert hall)"}]} -->
-{{< button href="/posts/2026-02-20-what-goes-into-a-professional-recording/solo-recording/" target="_self" >}}
+{{< button href="content/posts/Solo-recording-Bach-Loure" target="_self" >}}
  Solo (studio)
 {{< /button >}}
 <!-- FM:Snippet:End -->
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":""},{"name":"icon","value":""},{"name":"text","value":"Duet (concert hall)"}]} -->
-{{< button href="/posts/2026-02-20-what-goes-into-a-professional-recording/Group-recording" target="_self" >}}
+{{< button href="content/posts/Group-recording-Vocal-Duet" target="_self" >}}
  Duet (concert hall)
 {{< /button >}}
 <!-- FM:Snippet:End -->

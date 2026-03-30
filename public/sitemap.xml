@@ -4,19 +4,31 @@
 
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-02-20T20:05:10+00:00</lastmod>
+    <lastmod>2026-03-27T17:58:42+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-20T20:05:10+00:00</lastmod>
+    <lastmod>2026-03-27T17:58:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/solo-recording-bach-loure/</loc>
+    <lastmod>2026-03-27T17:58:42+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/group-recording-vocal-duet/</loc>
+    <lastmod>2026-03-27T17:58:34+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/2026-02-20-what-goes-into-a-professional-recording/</loc>
-    <lastmod>2026-02-20T20:05:10+00:00</lastmod>
+    <lastmod>2026-03-27T17:58:24+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
