@@ -21,11 +21,11 @@ If you would like to get in touch with me, you can find me at the following soci
 
 <div class="flex flex-wrap justify-start gap-4">
 
-{{< button href="https://www.instagram.com/adriandelima.music" target="_self" >}}
+{{< button href="https://www.instagram.com/adriandelima.music" target="_blank" >}}
 {{< icon "instagram" >}} Instagram
 {{< /button >}}
 
-{{< button href="https://www.linkedin.com/in/adrian-de-lima" target="_self" >}}
+{{< button href="https://www.linkedin.com/in/adrian-de-lima" target="_blank" >}}
 {{< icon "linkedin" >}} LinkedIn
 {{< /button >}}
 
@@ -35,15 +35,15 @@ My music can be found on the following platforms:
 
 <div class="flex flex-wrap justify-start gap-4">
 
-{{< button href="https://www.youtube.com/@AdriandelimaMusic" target="_self" >}}
+{{< button href="https://www.youtube.com/@AdriandelimaMusic" target="_blank" >}}
 {{< icon "youtube" >}} Youtube
 {{< /button >}}
 
-{{< button href="https://soundcloud.com/adrian-de-lima-664572410" target="_self" >}}
+{{< button href="https://soundcloud.com/adrian-de-lima-664572410" target="_blank" >}}
 {{< icon "soundcloud" >}} Soundcloud
 {{< /button >}}
 
-{{< button href="https://open.spotify.com/user/mylymi5f0ui2dne76683hftib" target="_self" >}}
+{{< button href="https://open.spotify.com/user/mylymi5f0ui2dne76683hftib" target="_blank" >}}
 {{< icon "spotify" >}} Spotify
 {{< /button >}}
 
@@ -53,10 +53,10 @@ Or for business/booking enquiries, email me below:
 
 <div class="flex flex-wrap justify-start gap-4">
 
-{{< button href="mailto:adriandelima.musician@gmail.com" target="_self" >}}
+{{< button href="mailto:adriandelima.musician@gmail.com" target="_blank" >}}
 {{< icon "envelope" >}} Email me
 {{< /button >}}
 
 </div>
-<!-- Add a cool background image, a picture of me, and an email form --!>
+
 
