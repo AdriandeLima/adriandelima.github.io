@@ -281,7 +281,7 @@ I go into much more detail here about the post editing, so do check them out.
 <!-- FM:Snippet:End -->
 
 <!-- FM:Snippet:Start data:{"id":"Button","fields":[{"name":"URL","value":""},{"name":"icon","value":""},{"name":"text","value":"Duet (concert hall)"}]} -->
-{{< button href="/posts/Group-recording-Vocal-Duet/" target="_self" >}}
+{{< button href="/posts/group-recording-vocal-duet/" target="_self" >}}
  Duet (concert hall)
 {{< /button >}}
 <!-- FM:Snippet:End -->
