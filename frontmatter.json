@@ -360,6 +360,20 @@
         "</div>"
       ],
       "fields": []
+    },
+    "Accordion": {
+      "description": "A collapsible accordion for content",
+      "body": [
+        "{{< accordion mode=\"open\" separated=true >}}",
+        "{{< accordionItem title=\"Accordion Title\" open=false >}}",
+        "",
+        "",
+        "",
+        " {{< /accordionItem >}}",
+        "",
+        "{{< /accordion >}}"
+      ],
+      "fields": []
     }
   },
   "frontMatter.website.host": "https://adriandelima.github.io/",

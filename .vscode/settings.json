@@ -10,7 +10,7 @@
             "strings": "off",
             "other": "off"
         },
-        "editor.minimap.enabled": false
+        "editor.minimap.enabled": true
     },
     "search.showLineNumbers": true,
     "notebook.lineNumbers": "on"

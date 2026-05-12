@@ -27,3 +27,4 @@ Temporary Items
 
 # Hugo
 .hugo_build.lock
+.vscode/private-folder-alias.json
