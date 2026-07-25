@@ -150,3 +150,11 @@ There's a great article [here](https://stash.reaper.fm/19995/REWIRE%20Sibelius7%
 
 You're Sibelius instruments should now be routed to the audio of your Kontakt instruments inside REAPER. Note playback and general playback should sync automatically, and you can customize your Kontakt instruments as you see fit. If you want to have separate instances of Kontakt for each instrument that's ok (but more resource intensive), just make sure to assign your MIDI channels correctly in the instrument header. I've written this with Kontakt 8 in mind, but the above steps should work with any sampler, just look for **MIDI Input settings**.
 
+
+## Troubleshooting
+
+1. If your Sibelius is out of time with your REAPER click, try right clicking on your REWIRE track in REAPER **--> Track Performance Options --> Prevent Anticipate FX**
+
+2. If your Sibelius is setup correctly, and there's still no sound, double check that you've got your inputs setup in REAPER correctly (Make sure your instrument track is Record Armed, and set to use your virtual MIDI Input)
+
+3. If you're using a backing track, and play through Sibelius, you're tracks won't line up correctly, because Sibelius has 1 beat of silence built into its playback (So REAPER will start playing instantly, while Sibelius will be 1 beat behind). If you start playback from REAPER, this beat of silence is skipped, so your tracks will be in time.

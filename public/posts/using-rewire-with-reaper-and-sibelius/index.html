@@ -267,7 +267,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1006"
+    "wordCount": "1133"
   }]
   </script>
 
@@ -797,7 +797,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-05-11T14:40:51&#43;00:00">11 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+      <time datetime="2026-05-11T14:40:51&#43;00:00">11 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
     
 
     
@@ -846,6 +846,7 @@
     <li><a href="#software-details">Software Details</a></li>
     <li><a href="#basic-setup">Basic Setup</a></li>
     <li><a href="#advanced-setup">Advanced Setup</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
   </ul>
 </nav>
   </div>
@@ -863,6 +864,7 @@
     <li><a href="#software-details">Software Details</a></li>
     <li><a href="#basic-setup">Basic Setup</a></li>
     <li><a href="#advanced-setup">Advanced Setup</a></li>
+    <li><a href="#troubleshooting">Troubleshooting</a></li>
   </ul>
 </nav>
   </div>
@@ -1469,6 +1471,27 @@ There&rsquo;s a great article <a href="https://stash.reaper.fm/19995/REWIRE%20Si
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/using-rewire-with-reaper-and-sibelius/pics/Kontakt_config.png"></figure>
 <p>You&rsquo;re Sibelius instruments should now be routed to the audio of your Kontakt instruments inside REAPER. Note playback and general playback should sync automatically, and you can customize your Kontakt instruments as you see fit. If you want to have separate instances of Kontakt for each instrument that&rsquo;s ok (but more resource intensive), just make sure to assign your MIDI channels correctly in the instrument header. I&rsquo;ve written this with Kontakt 8 in mind, but the above steps should work with any sampler, just look for <strong>MIDI Input settings</strong>.</p>
+
+<h2 class="relative group">Troubleshooting
+    <div id="troubleshooting" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#troubleshooting" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ol>
+<li>
+<p>If your Sibelius is out of time with your REAPER click, try right clicking on your REWIRE track in REAPER <strong>&ndash;&gt; Track Performance Options &ndash;&gt; Prevent Anticipate FX</strong></p>
+</li>
+<li>
+<p>If your Sibelius is setup correctly, and there&rsquo;s still no sound, double check that you&rsquo;ve got your inputs setup in REAPER correctly (Make sure your instrument track is Record Armed, and set to use your virtual MIDI Input)</p>
+</li>
+<li>
+<p>If you&rsquo;re using a backing track, and play through Sibelius, you&rsquo;re tracks won&rsquo;t line up correctly, because Sibelius has 1 beat of silence built into its playback (So REAPER will start playing instantly, while Sibelius will be 1 beat behind). If you start playback from REAPER, this beat of silence is skipped, so your tracks will be in time.</p>
+</li>
+</ol>
 
           
           
