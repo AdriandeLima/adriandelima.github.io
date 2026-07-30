@@ -9,7 +9,17 @@
     <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
     <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
     <copyright>&amp;copy; Adrian de Lima 2026</copyright>
-    <lastBuildDate>Thu, 04 Jun 2026 16:31:04 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jul 2026 23:14:21 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Compositions</title>
+      <link>http://localhost:1313/categories/compositions/</link>
+      <pubDate>Thu, 30 Jul 2026 23:14:21 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/categories/compositions/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Performances</title>
@@ -17,16 +27,6 @@
       <pubDate>Thu, 04 Jun 2026 16:31:04 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/categories/performances/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Compositions</title>
-      <link>http://localhost:1313/categories/compositions/</link>
-      <pubDate>Wed, 11 Feb 2026 03:00:00 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/categories/compositions/</guid>
       <description></description>
       
     </item>
