@@ -63,9 +63,9 @@ Most popular interfaces, or mixing desks also come with pre-amps aswell, so if y
 
 #### Microphones
 Microphones come in three main types:
-1. Condensor
-2. Dynamic
-3. Ribbon
+1. **Condensor**
+2. **Dynamic**
+3. **Ribbon**
 
 
 ![](/What_goes_into_a_pro_recording_pics/condensor_mic.jpg "A Presonus PX-1 condensor mic")
@@ -114,9 +114,9 @@ One thing to consider is that your microphone is essentially your *listener* or 
 Microphones are usually setup in pairs so as to capture stereo sound (a single microphone is a single mono channel).
 There are three main pairs, arranged with very specific measurements so as to avoid deadzones in the middle of the pair:
 
-AB
-XY
-ORTF
+**AB**
+**XY**
+**ORTF**
 
 
 An **AB pair** consists of two parallel omnidirectional mics facing the same direction, and at the same height, spaced 40-60cm apart. These have a quite a wide *stereo image* (the pickup range), and are very versatile, especially if placed a bit further back from your sound source.
