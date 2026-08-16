@@ -13,5 +13,11 @@
         "editor.minimap.enabled": true
     },
     "search.showLineNumbers": true,
-    "notebook.lineNumbers": "on"
+    "notebook.lineNumbers": "on",
+    "cSpell.words": [
+        "janky"
+    ],
+    "cSpell.ignoreWords": [
+        "Arduino"
+    ]
 }
