@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sibelius on Adrian de Lima</title>
+    <link>http://localhost:1313/tags/sibelius/</link>
+    <description>Recent content in Sibelius on Adrian de Lima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
+    <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
+    <copyright>&amp;copy; Adrian de Lima 2026</copyright>
+    <lastBuildDate>Mon, 11 May 2026 14:40:51 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/sibelius/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using ReWire with REAPER and Sibelius</title>
+      <link>http://localhost:1313/posts/using-rewire-with-reaper-and-sibelius/</link>
+      <pubDate>Mon, 11 May 2026 14:40:51 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/using-rewire-with-reaper-and-sibelius/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/using-rewire-with-reaper-and-sibelius/feature*.png" />
+    </item>
+    
+  </channel>
+</rss>

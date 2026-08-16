@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical on Adrian de Lima</title>
+    <link>http://localhost:1313/tags/technical/</link>
+    <description>Recent content in Technical on Adrian de Lima</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>adriandelima.musician@gmail.com (Adrian de Lima)</managingEditor>
+    <webMaster>adriandelima.musician@gmail.com (Adrian de Lima)</webMaster>
+    <copyright>&amp;copy; Adrian de Lima 2026</copyright>
+    <lastBuildDate>Mon, 30 Mar 2026 00:31:16 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What goes into a professional recording?</title>
+      <link>http://localhost:1313/posts/2026-03-30-what-goes-into-a-professional-recording/</link>
+      <pubDate>Mon, 30 Mar 2026 00:31:16 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/posts/2026-03-30-what-goes-into-a-professional-recording/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2026-03-30-what-goes-into-a-professional-recording/feature*.jpg" />
+    </item>
+    
+  </channel>
+</rss>

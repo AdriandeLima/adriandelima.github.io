@@ -4,7 +4,11 @@ description: Sibelius' default soundset is awful. Here's how you can improve it 
 date: 2026-05-11T14:40:51.647Z
 preview: feature*.png
 draft: false
-
+tags:
+    - Sibelius
+    - Technical
+    - tutorial
+    - Rewire
 ---
 
 

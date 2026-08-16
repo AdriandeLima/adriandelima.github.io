@@ -6,6 +6,11 @@ preview: Spectral Bubbles-cover*.jpg
 draft: false
 categories:
     - Compositions
+tags:
+    - Composition
+    - Experimental Music
+    - Musique Concrete
+    - Sound design
 ---
 <!-- FM:Snippet:Start data:{"id":"Invisible heading","fields":[]} -->
 <div class="toc-only">

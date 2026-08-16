@@ -4,6 +4,9 @@ description: Basic theory of recording a classical artist
 date: 2026-03-30T00:31:16.323Z
 preview: feature*.jpg
 draft: false
+tags:
+    - Technical
+    - theory
 ---
 
 

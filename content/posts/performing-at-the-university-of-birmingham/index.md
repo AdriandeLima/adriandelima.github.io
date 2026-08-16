@@ -5,6 +5,12 @@ date: 2026-06-04T16:31:04.106Z
 preview: feature*.jpg
 categories:
     - Performances
+tags:
+    - Orchestral
+    - Performance
+    - UoB
+    - Violin
+    - University of Birmingham
 ---
 
 Today marks one year from my final recital at the University of Birmingham (UoB), marking the end of my degree, so I decided to write this retrospective on my experience performing there.
