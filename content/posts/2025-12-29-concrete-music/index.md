@@ -26,7 +26,7 @@ tags:
 This album consists of a series of short pieces composed in the style of Pierre Schaeffer's [Musique Concrète](https://en.wikipedia.org/wiki/Musique_concr%C3%A8te). These pieces were written as compositional exercises while studying studio composition at the University of Birmingham. They were composed individually, but I've decided to combine them here as an album, since the thematic material is fairly similar. The title of the album is an obvious play on words on the style the pieces are written in.
 
 ## What is Musique Concrète?
-[Musique Concrète](https://en.wikipedia.org/wiki/Musique_concr%C3%A8te) is a style of music that involves recording everyday sounds, and abstracting their origins, so that the listener can't tell what source the sounds come from. There's a heavy focus on the raw material of sound, and on manipulating sound in inovative ways, less on traditional melodic material.
+[Musique Concrète](https://en.wikipedia.org/wiki/Musique_concr%C3%A8te) is a style of music that involves recording everyday sounds, and abstracting their origins, so that the listener can't tell what source the sounds come from. There's a heavy focus on the raw material of sound, and on manipulating sound in innovative ways, less on traditional melodic material.
 
  Each piece in the album focuses on an everyday object or material, which I recorded in a studio setting and manipulated into the compositions using [REAPER DAW](https://www.reaper.fm/) and various plugins from [GRM](https://grm.tools/en/home-en).
 
@@ -42,7 +42,7 @@ limitations.
 ### Dirk Stromberg [*Rising Tones*](https://www.youtube.com/watch?v=R-bVANDVy2I)
 
 
-Dirk Stromberg’s [*Rising Tones*](https://www.youtube.com/watch?v=R-bVANDVy2I) is a piece composed using source sounds emitted by radio telescopes. Stromberg focuses mainly on rising pectral tonal material throughout the piece, creating a sound that can seemingly rise infinitely. This pitched material acts as a drone which gradually oscillates by varying the rate at which it pans left and right, coming in and out of phase with itself.
+Dirk Stromberg’s [*Rising Tones*](https://www.youtube.com/watch?v=R-bVANDVy2I) is a piece composed using source sounds emitted by radio telescopes. Stromberg focuses mainly on rising spectral tonal material throughout the piece, creating a sound that can seemingly rise infinitely. This pitched material acts as a drone which gradually oscillates by varying the rate at which it pans left and right, coming in and out of phase with itself.
 About halfway through the piece, a bass frequency which behaves like a shepherd tone is introduced, always rising, but never reaching the top. This tone eventually settles, as a new
 textural material of granulized, shimmering bells takes over the rising pitch. The piece gradually fades out at the end, implying that these tones continue to rise
 beyond the scope of human hearing. 

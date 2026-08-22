@@ -25,7 +25,7 @@ I won't be covering advanced mixing and mastering in this article.
 
 So what goes into a professional recording? Capturing a performance might often seem like black magic, but the process is actually quite straight forward once you get the hang of things.
 
-The first thing to understand with recording music, is that there is also a considerable amount of artistry in the recording and post proudction processes themselves. There's all sorts of decisions made both in the recording session and in post production that influence the resulting music. The goal often isn't to directly capture what you've heard exactly, but to create the artist's vision. A recording engineer, an editor, a mix engineer, or a mastering engineer all put their own artistry and interpretations into the recording to make the captured music larger than life. 
+The first thing to understand with recording music, is that there is also a considerable amount of artistry in the recording and post production processes themselves. There's all sorts of decisions made both in the recording session and in post production that influence the resulting music. The goal often isn't to directly capture what you've heard exactly, but to create the artist's vision. A recording engineer, an editor, a mix engineer, or a mastering engineer all put their own artistry and interpretations into the recording to make the captured music larger than life. 
 
 Because of this, it's important to touch base with the project lead (whether that's the musical artist or their producer) to make sure that your vision of the project doesn't eclipse their own.
 
@@ -35,19 +35,19 @@ In the real world decisions are often made based on budget and time constraints,
 <!--insert image of a recording studio-->
 ![](/What_goes_into_a_pro_recording_pics/studio.jpg)
 Generally recordings are done in either an acoustically treated studio, or a concert hall. 
-The most important factor to consider when picking a location to record is **"is it quiet?"** This is very important as background noise can ruin a perfectly good take, and even though it is *technically* possible to remove noise in post, it's far from perfect and the ideal is to not need to do it in the first place; noise significanlty and unnecessarily increases the post production workload, and means you have to spend more time on fixing poor audio instead of making good audio great.
+The most important factor to consider when picking a location to record is **"is it quiet?"** This is very important as background noise can ruin a perfectly good take, and even though it is *technically* possible to remove noise in post, it's far from perfect and the ideal is to not need to do it in the first place; noise significantly and unnecessarily increases the post production workload, and means you have to spend more time on fixing poor audio instead of making good audio great.
 
 Your next decisions for environment are dictated by whether you want real or artificial reverb. If you decide to go the artificial route you'll be recording in a studio, or acoustically treated space, to get as dry a sound as possible (since all the reverb will be added in post, we actually want to minimize room sound). 
 
 Recording in a hall might be your only option if the ensemble is very large. You'll always want to have a pair of room mics when recording in a hall to capture the reverb of the room. 
 
-Both kinds of room have their advantages and challanges to work with. Studio spaces tend to be smaller, and even though using artificial reverb means you have a lot more control over it, sometimes the instrument still sounds strangely dry despite having a considerable amount of reverb. On the flip side you can put your musicians in a much bigger sounding hall than you could ever likely have access to. 
+Both kinds of room have their advantages and challenges to work with. Studio spaces tend to be smaller, and even though using artificial reverb means you have a lot more control over it, sometimes the instrument still sounds strangely dry despite having a considerable amount of reverb. On the flip side you can put your musicians in a much bigger sounding hall than you could ever likely have access to. 
 
 Recording in a hall is often more expensive, and complicated to set up, and while hall reverb is more natural, it's also susceptible to background noise leaking in. When dealing with real reverb you need to be especially careful to make sure the sound has finished decaying between takes, so you don't end up with weird cuts in the reverb while editing.
 
 
 ### Equipment
-The equipment you use depends on what kind of musicician/s and music you're recording. The equipment needed for a vocal quartet is very different to what is needed for a solo violin, or a jazz band.
+The equipment you use depends on what kind of musician/s and music you're recording. The equipment needed for a vocal quartet is very different to what is needed for a solo violin, or a jazz band.
 This is also another rabbit hole when it comes to budget, as microphones become expensive very quickly, so it's important to know exactly what you need. 
 
 If you decide to purchase equipment, remember second hand audio equipment is usually quite a good option (microphones are designed to run for years when handled properly, so even when second hand they should still have a lot of life in them). Renting equipment is also a good option, especially if it's a one off project.
@@ -64,20 +64,20 @@ This can be simplified, such as using a recording device like a [Zoom F8](https:
 ![](/What_goes_into_a_pro_recording_pics/zoomf8.jpg)
 
 
-Most popular interfaces, or mixing desks also come with pre-amps aswell, so if you're not looking for the specific sound of a pre-amp (they can quite drastically change the sound of your recording depending on model) your money is more wisely spent on a good interface, than on separate pre-amps.
+Most popular interfaces, or mixing desks also come with pre-amps as well, so if you're not looking for the specific sound of a pre-amp (they can quite drastically change the sound of your recording depending on model) your money is more wisely spent on a good interface, than on separate pre-amps.
 
 #### Microphones
 Microphones come in three main types:
-1. **Condensor**
+1. **Condenser**
 2. **Dynamic**
 3. **Ribbon**
 
 
-![](/What_goes_into_a_pro_recording_pics/condensor_mic.jpg "A Presonus PX-1 condensor mic")
-[Condensors](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-condenser-microphone/) are your most common for recording sessions. These very sensitive microphones, and usually require extra power, called [Phantom Power (48v)](https://en.wikipedia.org/wiki/Phantom_power)
+![](/What_goes_into_a_pro_recording_pics/condensor_mic.jpg "A Presonus PX-1 condenser mic")
+[condensers](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-condenser-microphone/) are your most common for recording sessions. These very sensitive microphones, and usually require extra power, called [Phantom Power (48v)](https://en.wikipedia.org/wiki/Phantom_power)
 
 ![](/What_goes_into_a_pro_recording_pics/dynamic_mic.jpg "A Shure SM58 dynamic mic")
-[Dynamic microphones](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-dynamic-microphone/) are used more in live sound settings, as they tend to be more robust than condensors or ribbon microphones, and they don't need extra power, instead needing a lot higher gain (than condensors) to work.
+[Dynamic microphones](https://www.neumann.com/en-us/knowledge-base/neumann-im-homestudio/homestudio-academy/what-is-a-dynamic-microphone/) are used more in live sound settings, as they tend to be more robust than condensers or ribbon microphones, and they don't need extra power, instead needing a lot higher gain (than condensers) to work.
 
 ![](/What_goes_into_a_pro_recording_pics/ribbon_mic.jpg "A melodium 42Bn Ribbon mic")
 [Ribbon microphones](https://www.hollyland.com/blog/microphone/ribbon-microphone) are more niche. They're an older technology using an electrified strip of gold foil (the ribbon). They tend to be quite fragile, so are used more for their warm vintage sound.
@@ -106,8 +106,8 @@ The most commonly used patterns are **cardioid**, which is good for picking up s
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
     src="What_goes_into_a_pro_recording_pics/cardiod_3d.jpg"
-    alt="Image of cardiod polar pattern in 3D"
-    caption="Nothing in this world is 2D, including polar patterns. Here's what cardiod looks like in 3D."
+    alt="Image of cardioid polar pattern in 3D"
+    caption="Nothing in this world is 2D, including polar patterns. Here's what cardioid looks like in 3D."
     >}}
 
 
@@ -117,7 +117,7 @@ The next step is to decide where you're going to place your microphones relative
 One thing to consider is that your microphone is essentially your *listener* or audience member, so you're free to experiment putting the listener in places they could never be during a performance, such as right in the middle of an ensemble, or far away, or inside the piano... the possibilities are endless (though some obviously sound better than others, I personally would never recommend putting your audience behind your performers, that will just sound bad).
 
 Microphones are usually setup in pairs so as to capture stereo sound (a single microphone is a single mono channel).
-There are three main pairs, arranged with very specific measurements so as to avoid deadzones in the middle of the pair:
+There are three main pairs, arranged with very specific measurements so as to avoid dead zones in the middle of the pair:
 
 **AB**
 **XY**
@@ -135,7 +135,7 @@ An **AB pair** consists of two parallel omnidirectional mics facing the same dir
 
 
 <!-- FM:Snippet:End -->
-An **XY pair** consists of two cardioid microphones with their tips (capsules) at 90° from eachother, placed on top of eachother. Their stereo image is narrower, which makes them good for close micing, especially on soloists.
+An **XY pair** consists of two cardioid microphones with their tips (capsules) at 90° from each other, placed on top of each other. Their stereo image is narrower, which makes them good for close micing, especially on soloists.
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
@@ -146,7 +146,7 @@ An **XY pair** consists of two cardioid microphones with their tips (capsules) a
 
 
 <!-- FM:Snippet:End -->
-An **ORTF pair** is rather complicated. It's again two cardioid mics, but their capsules are 17cm apart, and at an angle of 110°. As such they usually are setup with a special mic bar that has the measurements already set on it. It's a good middleground between AB and XY, and especially good for piano, if you only have two mics to spair for the piano.
+An **ORTF pair** is rather complicated. It's again two cardioid mics, but their capsules are 17cm apart, and at an angle of 110°. As such they usually are setup with a special mic bar that has the measurements already set on it. It's a good middle ground between AB and XY, and especially good for piano, if you only have two mics to spare for the piano.
 
 <!-- FM:Snippet:Start data:{"id":"Image","fields":[]} -->
 {{< figure
@@ -157,7 +157,7 @@ An **ORTF pair** is rather complicated. It's again two cardioid mics, but their 
 
 
 <!-- FM:Snippet:End -->
-If you have three mics to spair, a better option for a grand piano is a setup called an **LCR,** or **Left Centre Right.**
+If you have three mics to spare, a better option for a grand piano is a setup called an **LCR,** or **Left Centre Right.**
 It can be good for picking up a balanced stereo image of the entire range of the piano, but it's absolutely not necessary, more of a luxury if you have a mic to spare.
 
 
@@ -170,7 +170,7 @@ It can be good for picking up a balanced stereo image of the entire range of the
 
 
 <!-- FM:Snippet:End -->
-When setting up room mics, or stage mics in a hall one usually just places a single microphone at either side of the stage. Since these are just picking up reverb from the room, it doesn't matter if there's a deadzone in the middle of the "pair" due to it being extremely wide.
+When setting up room mics, or stage mics in a hall one usually just places a single microphone at either side of the stage. Since these are just picking up reverb from the room, it doesn't matter if there's a dead zone in the middle of the "pair" due to it being extremely wide.
 
 
 For soloists you generally don't want to position the microphone too close due to what's called the [proximity effect](https://mynewmicrophone.com/proximity-effect/) which makes bass frequencies boomier, but also so far away as to capture too much of the room(100cm-150cm is a good rule of thumb).
@@ -187,7 +187,7 @@ Another effective recording method is to **record the session straight through**
 
 You can **comp during the session** if you're recording straight to a DAW, and you're monitoring from a control room. This isn't always possible (especially with concert halls), but leads to the least amount of post work, and means you can make sure there's a good comp before the musician leaves for the day. The last thing you want to do is to call them back in to re-record a section of music.
 
-If you're not confident comping live during the session another effective method is to **use take folders,** and audition takes afterwards. This is like a hybrid aproach between comping during the session and recording straight through, as all your takes are in the right place, ready to be auditioned and comped after the fact. This is my prefered method personally.
+If you're not confident comping live during the session another effective method is to **use take folders,** and audition takes afterwards. This is like a hybrid approach between comping during the session and recording straight through, as all your takes are in the right place, ready to be auditioned and comped after the fact. This is my preferred method personally.
 <!--insert image of take folder-->
 
 ## During the recording session
@@ -260,12 +260,12 @@ For pitch or timing correction use software like Logic Pro's [flex time/pitch](h
 
 <!-- insert image of melodyne-->
 
-![](/What_goes_into_a_pro_recording_pics/Screenshot2026-03-16at11.42.55.png "Meloydne let's you edit pitch like you're editing on a piano roll")
+![](/What_goes_into_a_pro_recording_pics/Screenshot2026-03-16at11.42.55.png "Melodyne let's you edit pitch like you're editing on a piano roll")
 
 I put the clean up stage after the comping stage, because a recording session can be very long, and I don't see the point in cleaning up hours of audio that I'm not actually going to be using.
 
 
-The next stage is mixing. This involves balancing audio levels, balancing the fequency spectrum (using EQ filters to make sure instruments overlap as little as possible in the frequency spectrum so the sound isn't "muddy"), and compression if you're working pop music. It's at this stage aswell that I'd start using some artificial reverb.
+The next stage is mixing. This involves balancing audio levels, balancing the frequency spectrum (using EQ filters to make sure instruments overlap as little as possible in the frequency spectrum so the sound isn't "muddy"), and compression if you're working pop music. It's at this stage as well that I'd start using some artificial reverb.
 
 I won't be going into much detail about mixing here, but there's some more detail in the examples below. After this stage you should have a completed song that sounds good on your system.
 

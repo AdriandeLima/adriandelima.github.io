@@ -281,7 +281,7 @@ The volume levels were left at their default values, because all the mixing had 
 ![](group_recording_pics/eq3.png)
 For *Me Llaman la primorosa* I used two different EQs, before and after the artificial reverb,
 to adjust the sound of the reverb track. I boosted the lows and cut the highs of the
-reverb both before and after. I decided to use a little bit of artificial reverb to compliment the already exellent hall reverb.
+reverb both before and after. I decided to use a little bit of artificial reverb to compliment the already excellent hall reverb.
 
 ![](group_recording_pics/reverb1.png "The reverb for Me Llaman la primorosa")
 I decided to use a smaller amount of artificial reverb due to the speed of the piece, in

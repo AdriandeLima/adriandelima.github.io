@@ -3,6 +3,7 @@ title: Home
 description: Adrian de Lima is a UK-based violinist and composer, specializing in classical performance, electronic composition, and sound design.
 preview: /assets/house.webp
 showHero: false
+draft: false
 ---
 
 {{< lead >}}

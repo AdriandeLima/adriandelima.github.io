@@ -12,6 +12,7 @@ showHero: true
 heroStyle: background
 layoutBackgroundHeaderSpace: false
 showPagination: false
+draft: false
 ---
 
 Music has been a big part of my life for as long as I can remember. I was fortunate enough to have parents brave enough to sacrifice their time, money (and ears) for me to be heavily involved in music making throughout my childhood, taking violin and piano lessons at a local music school in Mallorca, Spain where we were living at the time. Upon moving to the UK, I continued my studies of music at secondary school, leading pursuit of my passion at the University of Birmingham where I graduated with my bachelor’s in music in 2025, specializing in performance and electronic composition. 

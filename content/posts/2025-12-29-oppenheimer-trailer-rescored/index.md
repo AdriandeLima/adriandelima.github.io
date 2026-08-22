@@ -41,7 +41,7 @@ I began my scoring for the trailer by creating a tempo map. I marked out scene t
 
 <!-- FM:Snippet:End -->
 
-The piece is scored for hybrid-orchestra (or traditional orchestra and synthesizer, with a lot of SFX and synth pads used throughout), reflecting the thematic material of Robert Oppenheimer pushing technology to its limits to bring us into the nuclear age. I used a deep [Pharlight](https://www.native-instruments.com/en/products/komplete/vocal/pharlight/) synth whenever the bomb was onscreen (beginning at [0:37](https://youtu.be/zqx-wakNAq4?si=FJHppG4SSPpX97F4&t=37)) to create an uneasy atmosphere, reflecting the dark history of nuclear weapons. 
+The piece is scored for hybrid-orchestra (or traditional orchestra and synthesizer, with a lot of SFX and synth pads used throughout), reflecting the thematic material of Robert Oppenheimer pushing technology to its limits to bring us into the nuclear age. I used a deep [Pharlight](https://www.native-instruments.com/en/products/komplete/vocal/pharlight/) synth whenever the bomb was on screen (beginning at [0:37](https://youtu.be/zqx-wakNAq4?si=FJHppG4SSPpX97F4&t=37)) to create an uneasy atmosphere, reflecting the dark history of nuclear weapons. 
 
 The second half of the trailer uses a metronomic drumbeat to symbolize the driving force behind technological advancement, and the incessant countdown to the first nuclear test.
 The piece is structured in three distinct sections, building in intensity throughout its duration. It opens with sparce strings, which grow with the addition of basses, and celli. The brass join alongside the lower strings, with a rising melody consisting of long held notes. 

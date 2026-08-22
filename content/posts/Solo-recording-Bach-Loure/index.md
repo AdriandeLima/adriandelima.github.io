@@ -164,12 +164,12 @@ Here is a copy of the score, highlighted with the edit points for the comp:
 
 {{< figure
     src="solo_recording_pics/score_assessment_1_edit.jpg"
-    alt="Anotated score"
+    alt="annotated score"
        >}}
 
 {{< figure
     src="solo_recording_pics/score_assessment_1_edit2.jpg"
-    alt="Anotated score page 2"
+    alt="annotated score page 2"
        >}}
 
 	{{< /accordionItem >}}
