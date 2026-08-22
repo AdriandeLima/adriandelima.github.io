@@ -26,28 +26,28 @@
   parent = "My Work"
   #pageRef = "compositions"
   url = "/categories/compositions/"
-#  weight = 20
+  weight = 21
 
 [[main]]
   name = "Music Videos"
   parent = "My Work"
   #pageRef = "music videos"
   url = "/categories/music-videos/"
-#  weight = 20
+  weight = 22
 
 [[main]]
   name = "Performances"
   parent = "My Work"
   #pageRef = "performances"
   url = "/categories/performances/"
-#  weight = 20
+  weight = 23
 
 [[main]]
   name = "Technical"
   parent = "My Work"
   #pageRef = "technical projects"
   url = "/categories/technical/"
-#  weight = 20
+  weight = 24
 
 [[main]]
   name = "Contact"

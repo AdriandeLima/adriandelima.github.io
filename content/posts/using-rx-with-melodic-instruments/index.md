@@ -8,6 +8,8 @@ tags:
     - Technical
     - Tutorial
     - Theory
+categories:
+    - Technical
 ---
 
 Ideally you'd manage to get a good recording of a soloist during your recording session, but this isn't always possible (especially if you're recording a live event).

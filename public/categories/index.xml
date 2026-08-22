@@ -12,21 +12,21 @@
     <lastBuildDate>Thu, 13 Aug 2026 22:22:54 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Technical</title>
-      <link>http://localhost:1313/categories/technical/</link>
-      <pubDate>Thu, 13 Aug 2026 22:22:54 +0000</pubDate>
-      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/categories/technical/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Compositions</title>
       <link>http://localhost:1313/categories/compositions/</link>
       <pubDate>Thu, 30 Jul 2026 23:14:21 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
       <guid>http://localhost:1313/categories/compositions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Music Videos</title>
+      <link>http://localhost:1313/categories/music-videos/</link>
+      <pubDate>Mon, 29 Dec 2025 18:56:25 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/categories/music-videos/</guid>
       <description></description>
       
     </item>
@@ -42,11 +42,11 @@
     </item>
     
     <item>
-      <title>Music Videos</title>
-      <link>http://localhost:1313/categories/music-videos/</link>
-      <pubDate>Mon, 29 Dec 2025 18:56:25 +0000</pubDate>
+      <title>Technical</title>
+      <link>http://localhost:1313/categories/technical/</link>
+      <pubDate>Thu, 13 Aug 2026 22:22:54 +0000</pubDate>
       <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
-      <guid>http://localhost:1313/categories/music-videos/</guid>
+      <guid>http://localhost:1313/categories/technical/</guid>
       <description></description>
       
     </item>

@@ -5,11 +5,13 @@ date: 2026-08-16T11:42:28.556Z
 preview: ""
 draft: true
 tags:
-    - Frank Bridge
-    - Performance
-    - Romance
-    - University of Birmingham
-    - Bridge
+  - Frank Bridge
+  - Performance
+  - Romance
+  - University of Birmingham
+  - Bridge
+categories:
+  - Music Videos
 ---
 
 Written when?
