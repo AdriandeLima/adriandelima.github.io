@@ -7,6 +7,8 @@ draft: false
 tags:
     - Technical
     - theory
+categories:
+    - Technical
 ---
 
 

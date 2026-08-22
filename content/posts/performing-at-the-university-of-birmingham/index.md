@@ -11,6 +11,7 @@ tags:
     - UoB
     - Violin
     - University of Birmingham
+draft: false
 ---
 
 Today marks one year from my final recital at the University of Birmingham (UoB), marking the end of my degree, so I decided to write this retrospective on my experience performing there.

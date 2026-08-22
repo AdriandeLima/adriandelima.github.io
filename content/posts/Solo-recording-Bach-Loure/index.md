@@ -10,6 +10,8 @@ tags:
   - Recording
   - Violin
   - Bach
+categories:
+  - Technical
 ---
 
 ## Solo Violin Recording - Bach Loure (BWV 1006:II)

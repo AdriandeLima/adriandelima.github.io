@@ -7,6 +7,8 @@ draft: false
 tags:
     - Technical
     - MIDI
+categories:
+    - Technical
 ---
 
 During the pandemic (2020,2021) I was really bored. And I wanted a fader bank to control parts of my DAW. These tend to be expensive, so I decided to make my own and learn some new skills in the process. 

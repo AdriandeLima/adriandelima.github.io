@@ -32,6 +32,16 @@
     </item>
     
     <item>
+      <title>Technical</title>
+      <link>http://localhost:1313/categories/technical/</link>
+      <pubDate>Mon, 11 May 2026 14:40:51 +0000</pubDate>
+      <author>adriandelima.musician@gmail.com (Adrian de Lima)</author>
+      <guid>http://localhost:1313/categories/technical/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Music Videos</title>
       <link>http://localhost:1313/categories/music-videos/</link>
       <pubDate>Mon, 29 Dec 2025 18:56:25 +0000</pubDate>

@@ -8,6 +8,8 @@ tags:
   - Duet
   - Recording
   - Elgar Concert Hall
+categories:
+  - Technical
 ---
 
 ## Vocal/piano duet recording session

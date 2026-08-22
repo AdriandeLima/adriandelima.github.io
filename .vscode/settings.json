@@ -15,9 +15,15 @@
     "search.showLineNumbers": true,
     "notebook.lineNumbers": "on",
     "cSpell.words": [
-        "janky"
+        "bowings",
+        "janky",
+        "Kontakt",
+        "practiced",
+        "Propellerhead",
+        "spiccato"
     ],
     "cSpell.ignoreWords": [
-        "Arduino"
+        "Arduino",
+        "cardview"
     ]
 }

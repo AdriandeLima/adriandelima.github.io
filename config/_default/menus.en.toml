@@ -43,6 +43,13 @@
 #  weight = 20
 
 [[main]]
+  name = "Technical"
+  parent = "My Work"
+  #pageRef = "technical projects"
+  url = "/categories/technical/"
+#  weight = 20
+
+[[main]]
   name = "Contact"
   pageRef = "contact"
 #  weight = 20

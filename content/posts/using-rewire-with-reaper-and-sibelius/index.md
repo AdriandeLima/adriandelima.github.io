@@ -1,6 +1,6 @@
 ---
 title: Using ReWire with REAPER and Sibelius
-description: Sibelius' default soundset is awful. Here's how you can improve it using a DAW.
+description: Sibelius' default sound set is awful. Here's how you can improve it using a DAW.
 date: 2026-05-11T14:40:51.647Z
 preview: feature*.png
 draft: false
@@ -9,12 +9,14 @@ tags:
     - Technical
     - tutorial
     - Rewire
+categories:
+    - Technical
 ---
 
 
-Anyone who's used [Sibelius](https://www.avid.com/sibelius) before has been through the pain of listening to the General Midi sound set. It's frankly embarassing how bad it still is in 2026.
+Anyone who's used [Sibelius](https://www.avid.com/sibelius) before has been through the pain of listening to the General Midi sound set. It's frankly embarrassing how bad it still is in 2026.
 
-Fortunately Sibelius comes with some options to remedy this. You can install the Sibelius Sounds pack (Previously Sibelius 7 Sounds) if you have a legitimate copy of the software (don't worry I won't judge) but these are pretty mid aswell.
+Fortunately Sibelius comes with some options to remedy this. You can install the Sibelius Sounds pack (Previously Sibelius 7 Sounds) if you have a legitimate copy of the software (don't worry I won't judge) but these are pretty mid as well.
 
 [NotePerformer](https://www.noteperformer.com/) is the next best option, and is quite user intuitive, but is very resource intensive, introduces a lot of latency to playback, and is quite pricey ($129 at the time of writing) for what it is, especially if you already own some instrument libraries for use in your DAW.
 
