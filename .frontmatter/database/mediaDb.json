@@ -1,1 +1,70 @@
-{"content":{"posts":{"2017-01-16-francis-poulenc":{"feature*.webp":{"title":"francis poulenc","caption":"","alt":""}},"2026-02-20-what-goes-into-a-professional-recording":{"solo-recording":{"solo_recording_pics":{"screenshot_2026-03-23.png":{"title":"","caption":"","alt":""},"screenshot22026-03-23.png":{"title":"","caption":"","alt":""},"screenshot2026-03-23_3.png":{"title":"","caption":"","alt":""}}},"what_goes_into_a_pro_recording_pics":{"condensor_mic.jpg":{"title":"","caption":"","alt":""}}},"using-rx-with-melodic-instruments":{"selecting_buzz_rx.png":{"title":"","caption":"","alt":""},"buzz_rx.png":{"title":"","caption":"","alt":""}},"frank-bridge-romance":{"feature*.png":{"title":"","caption":"","alt":""}}},"gallery":{},"aboutme":{"gallery":{}},"categories":{"music-videos":{},"performances":{},"compositions":{}}},"assets":{}}
+{
+  "assets": {},
+  "content": {
+    "aboutme": {
+      "gallery": {}
+    },
+    "categories": {
+      "compositions": {},
+      "music-videos": {},
+      "performances": {}
+    },
+    "gallery": {},
+    "posts": {
+      "2017-01-16-francis-poulenc": {
+        "feature*.webp": {
+          "alt": "",
+          "caption": "",
+          "title": "francis poulenc"
+        }
+      },
+      "2026-02-20-what-goes-into-a-professional-recording": {
+        "solo-recording": {
+          "solo_recording_pics": {
+            "screenshot2026-03-23_3.png": {
+              "alt": "",
+              "caption": "",
+              "title": ""
+            },
+            "screenshot22026-03-23.png": {
+              "alt": "",
+              "caption": "",
+              "title": ""
+            },
+            "screenshot_2026-03-23.png": {
+              "alt": "",
+              "caption": "",
+              "title": ""
+            }
+          }
+        },
+        "what_goes_into_a_pro_recording_pics": {
+          "condensor_mic.jpg": {
+            "alt": "",
+            "caption": "",
+            "title": ""
+          }
+        }
+      },
+      "frank-bridge-romance": {
+        "feature*.png": {
+          "alt": "",
+          "caption": "",
+          "title": ""
+        }
+      },
+      "using-rx-with-melodic-instruments": {
+        "buzz_rx.png": {
+          "alt": "",
+          "caption": "",
+          "title": ""
+        },
+        "selecting_buzz_rx.png": {
+          "alt": "",
+          "caption": "",
+          "title": ""
+        }
+      }
+    }
+  }
+}
