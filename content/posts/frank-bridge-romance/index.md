@@ -24,11 +24,11 @@ categories:
 
 ## About Bridge
 
-Born in Brighton in 1845 Frank Bridge was an accomplished violinist, conductor and composer. I've found information on him to be quite scarce, with most him being best remembered from his association as Benjamin Britten's teacher. I think his music is extremely underrated, perhaps because he is so overshadowed by his famous pupil.
+Born in Brighton in 1845 Frank Bridge was an accomplished violinist, conductor and composer. I've found information on him to be quite scarce, with him being best remembered from his association as Benjamin Britten's teacher. I think his music is extremely underrated, perhaps because he is so overshadowed by his famous pupil.
 
 His collection of works for violin and piano as been even harder to find any information on (just finding a score on sale was a challenge). The collection features a series of what I consider pastoral pastiches, with a somewhat melancholic/nostalgic feel to them. It was written in the early part of his career (~1900) for the amateur market of his day (they're not very complicated pieces).  
 
-The *Romanze* is taken from the (confusingly named) second volume of his *11 Pieces for Violin and Piano*. Strangely inside my score is says that though it was written in 1904 it wasn't published, so it must be a later addition to the compilation. I've always heard it as a nostalgic piece, perhaps depicting a long lost or unrequited love.
+The *Romanze* is taken from the (confusingly named) second volume of his *11 Pieces for Violin and Piano*. Strangely inside my score it says that though it was written in 1904 it wasn't published, so it must be a later addition to the compilation. I've always heard it as a nostalgic piece, perhaps depicting a long lost or unrequited love.
 
 Volume 2 contains 7 pieces total, entitled as follows:
 - *Spring Song*
